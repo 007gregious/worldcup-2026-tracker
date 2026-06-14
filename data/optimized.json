@@ -1,0 +1,2418 @@
+{
+  "lastUpdated": "2026-06-14T20:50:59.089Z",
+  "groups": [
+    {
+      "name": "Group A",
+      "teams": [
+        {
+          "name": "Mexico",
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gf": 2,
+          "ga": 0,
+          "points": 3,
+          "gd": 2,
+          "rank": 1
+        },
+        {
+          "name": "South Korea",
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gf": 2,
+          "ga": 1,
+          "points": 3,
+          "gd": 1,
+          "rank": 2
+        },
+        {
+          "name": "Czech Republic",
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gf": 1,
+          "ga": 2,
+          "points": 0,
+          "gd": -1,
+          "rank": 3
+        },
+        {
+          "name": "South Africa",
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gf": 0,
+          "ga": 2,
+          "points": 0,
+          "gd": -2,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group B",
+      "teams": [
+        {
+          "name": "Canada",
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1,
+          "gd": 0,
+          "rank": 1
+        },
+        {
+          "name": "Bosnia & Herzegovina",
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1,
+          "gd": 0,
+          "rank": 2
+        },
+        {
+          "name": "Qatar",
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1,
+          "gd": 0,
+          "rank": 3
+        },
+        {
+          "name": "Switzerland",
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1,
+          "gd": 0,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group C",
+      "teams": [
+        {
+          "name": "Scotland",
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gf": 1,
+          "ga": 0,
+          "points": 3,
+          "gd": 1,
+          "rank": 1
+        },
+        {
+          "name": "Brazil",
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1,
+          "gd": 0,
+          "rank": 2
+        },
+        {
+          "name": "Morocco",
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1,
+          "gd": 0,
+          "rank": 3
+        },
+        {
+          "name": "Haiti",
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gf": 0,
+          "ga": 1,
+          "points": 0,
+          "gd": -1,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group D",
+      "teams": [
+        {
+          "name": "USA",
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gf": 4,
+          "ga": 1,
+          "points": 3,
+          "gd": 3,
+          "rank": 1
+        },
+        {
+          "name": "Australia",
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gf": 2,
+          "ga": 0,
+          "points": 3,
+          "gd": 2,
+          "rank": 2
+        },
+        {
+          "name": "Turkey",
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gf": 0,
+          "ga": 2,
+          "points": 0,
+          "gd": -2,
+          "rank": 3
+        },
+        {
+          "name": "Paraguay",
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gf": 1,
+          "ga": 4,
+          "points": 0,
+          "gd": -3,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group E",
+      "teams": [
+        {
+          "name": "Germany",
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gf": 7,
+          "ga": 1,
+          "points": 3,
+          "gd": 6,
+          "rank": 1
+        },
+        {
+          "name": "Ivory Coast",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 2
+        },
+        {
+          "name": "Ecuador",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 3
+        },
+        {
+          "name": "Curaçao",
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gf": 1,
+          "ga": 7,
+          "points": 0,
+          "gd": -6,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group F",
+      "teams": [
+        {
+          "name": "Netherlands",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 1
+        },
+        {
+          "name": "Japan",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 2
+        },
+        {
+          "name": "Sweden",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 3
+        },
+        {
+          "name": "Tunisia",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group G",
+      "teams": [
+        {
+          "name": "Belgium",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 1
+        },
+        {
+          "name": "Egypt",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 2
+        },
+        {
+          "name": "Iran",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 3
+        },
+        {
+          "name": "New Zealand",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group H",
+      "teams": [
+        {
+          "name": "Spain",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 1
+        },
+        {
+          "name": "Cape Verde",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 2
+        },
+        {
+          "name": "Saudi Arabia",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 3
+        },
+        {
+          "name": "Uruguay",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group I",
+      "teams": [
+        {
+          "name": "France",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 1
+        },
+        {
+          "name": "Senegal",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 2
+        },
+        {
+          "name": "Iraq",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 3
+        },
+        {
+          "name": "Norway",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group J",
+      "teams": [
+        {
+          "name": "Argentina",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 1
+        },
+        {
+          "name": "Algeria",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 2
+        },
+        {
+          "name": "Austria",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 3
+        },
+        {
+          "name": "Jordan",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group K",
+      "teams": [
+        {
+          "name": "Portugal",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 1
+        },
+        {
+          "name": "DR Congo",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 2
+        },
+        {
+          "name": "Uzbekistan",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 3
+        },
+        {
+          "name": "Colombia",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group L",
+      "teams": [
+        {
+          "name": "England",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 1
+        },
+        {
+          "name": "Croatia",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 2
+        },
+        {
+          "name": "Ghana",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 3
+        },
+        {
+          "name": "Panama",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "points": 0,
+          "gd": 0,
+          "rank": 4
+        }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "id": "2026-06-11-Mexico-South Africa",
+      "date": "2026-06-11",
+      "time": "13:00 UTC-6",
+      "status": "finished",
+      "home": {
+        "name": "Mexico",
+        "score": 2
+      },
+      "away": {
+        "name": "South Africa",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "9",
+          "player": "Julián Quiñones",
+          "team": "Mexico"
+        },
+        {
+          "type": "goal",
+          "minute": "67",
+          "player": "Raúl Jiménez",
+          "team": "Mexico"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-11-South Korea-Czech Republic",
+      "date": "2026-06-11",
+      "time": "20:00 UTC-6",
+      "status": "finished",
+      "home": {
+        "name": "South Korea",
+        "score": 2
+      },
+      "away": {
+        "name": "Czech Republic",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "67",
+          "player": "Hwang In-Beom",
+          "team": "South Korea"
+        },
+        {
+          "type": "goal",
+          "minute": "80",
+          "player": "Oh Hyeon-Gyu",
+          "team": "South Korea"
+        },
+        {
+          "type": "goal",
+          "minute": "59",
+          "player": "Ladislav Krejcí",
+          "team": "Czech Republic"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-18-Czech Republic-South Africa",
+      "date": "2026-06-18",
+      "time": "12:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Czech Republic",
+        "score": null
+      },
+      "away": {
+        "name": "South Africa",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-18-Mexico-South Korea",
+      "date": "2026-06-18",
+      "time": "19:00 UTC-6",
+      "status": "scheduled",
+      "home": {
+        "name": "Mexico",
+        "score": null
+      },
+      "away": {
+        "name": "South Korea",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-24-Czech Republic-Mexico",
+      "date": "2026-06-24",
+      "time": "19:00 UTC-6",
+      "status": "scheduled",
+      "home": {
+        "name": "Czech Republic",
+        "score": null
+      },
+      "away": {
+        "name": "Mexico",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-24-South Africa-South Korea",
+      "date": "2026-06-24",
+      "time": "19:00 UTC-6",
+      "status": "scheduled",
+      "home": {
+        "name": "South Africa",
+        "score": null
+      },
+      "away": {
+        "name": "South Korea",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-12-Canada-Bosnia & Herzegovina",
+      "date": "2026-06-12",
+      "time": "15:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Canada",
+        "score": 1
+      },
+      "away": {
+        "name": "Bosnia & Herzegovina",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "78",
+          "player": "Cyle Larin",
+          "team": "Canada"
+        },
+        {
+          "type": "goal",
+          "minute": "21",
+          "player": "Jovo Lukić",
+          "team": "Bosnia & Herzegovina"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-13-Qatar-Switzerland",
+      "date": "2026-06-13",
+      "time": "12:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Qatar",
+        "score": 1
+      },
+      "away": {
+        "name": "Switzerland",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "90+4",
+          "player": "Boualem Khoukhi",
+          "team": "Qatar"
+        },
+        {
+          "type": "goal",
+          "minute": "17",
+          "player": "Breel Embolo",
+          "team": "Switzerland"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-18-Switzerland-Bosnia & Herzegovina",
+      "date": "2026-06-18",
+      "time": "12:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "Switzerland",
+        "score": null
+      },
+      "away": {
+        "name": "Bosnia & Herzegovina",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-18-Canada-Qatar",
+      "date": "2026-06-18",
+      "time": "15:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "Canada",
+        "score": null
+      },
+      "away": {
+        "name": "Qatar",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-24-Switzerland-Canada",
+      "date": "2026-06-24",
+      "time": "12:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "Switzerland",
+        "score": null
+      },
+      "away": {
+        "name": "Canada",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-24-Bosnia & Herzegovina-Qatar",
+      "date": "2026-06-24",
+      "time": "12:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "Bosnia & Herzegovina",
+        "score": null
+      },
+      "away": {
+        "name": "Qatar",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-13-Brazil-Morocco",
+      "date": "2026-06-13",
+      "time": "18:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Brazil",
+        "score": 1
+      },
+      "away": {
+        "name": "Morocco",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "32",
+          "player": "Vinícius Júnior",
+          "team": "Brazil"
+        },
+        {
+          "type": "goal",
+          "minute": "21",
+          "player": "Ismael Saibari",
+          "team": "Morocco"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-13-Haiti-Scotland",
+      "date": "2026-06-13",
+      "time": "21:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Haiti",
+        "score": 0
+      },
+      "away": {
+        "name": "Scotland",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "28",
+          "player": "John McGinn",
+          "team": "Scotland"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-19-Scotland-Morocco",
+      "date": "2026-06-19",
+      "time": "18:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Scotland",
+        "score": null
+      },
+      "away": {
+        "name": "Morocco",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-19-Brazil-Haiti",
+      "date": "2026-06-19",
+      "time": "20:30 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Brazil",
+        "score": null
+      },
+      "away": {
+        "name": "Haiti",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-24-Scotland-Brazil",
+      "date": "2026-06-24",
+      "time": "18:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Scotland",
+        "score": null
+      },
+      "away": {
+        "name": "Brazil",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-24-Morocco-Haiti",
+      "date": "2026-06-24",
+      "time": "18:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Morocco",
+        "score": null
+      },
+      "away": {
+        "name": "Haiti",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-12-USA-Paraguay",
+      "date": "2026-06-12",
+      "time": "18:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "USA",
+        "score": 4
+      },
+      "away": {
+        "name": "Paraguay",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "7",
+          "player": "Damian Bobadilla",
+          "team": "USA"
+        },
+        {
+          "type": "goal",
+          "minute": "31",
+          "player": "Folarin Balogun",
+          "team": "USA"
+        },
+        {
+          "type": "goal",
+          "minute": "45+5",
+          "player": "Folarin Balogun",
+          "team": "USA"
+        },
+        {
+          "type": "goal",
+          "minute": "90+8",
+          "player": "Giovanni Reyna",
+          "team": "USA"
+        },
+        {
+          "type": "goal",
+          "minute": "73",
+          "player": "Mauricio",
+          "team": "Paraguay"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-13-Australia-Turkey",
+      "date": "2026-06-13",
+      "time": "21:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Australia",
+        "score": 2
+      },
+      "away": {
+        "name": "Turkey",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "27",
+          "player": "Nestory Irankunda",
+          "team": "Australia"
+        },
+        {
+          "type": "goal",
+          "minute": "75",
+          "player": "Connor Metcalfe",
+          "team": "Australia"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-19-USA-Australia",
+      "date": "2026-06-19",
+      "time": "12:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "USA",
+        "score": null
+      },
+      "away": {
+        "name": "Australia",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-19-Turkey-Paraguay",
+      "date": "2026-06-19",
+      "time": "20:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "Turkey",
+        "score": null
+      },
+      "away": {
+        "name": "Paraguay",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-25-Turkey-USA",
+      "date": "2026-06-25",
+      "time": "19:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "Turkey",
+        "score": null
+      },
+      "away": {
+        "name": "USA",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-25-Paraguay-Australia",
+      "date": "2026-06-25",
+      "time": "19:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "Paraguay",
+        "score": null
+      },
+      "away": {
+        "name": "Australia",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-14-Germany-Curaçao",
+      "date": "2026-06-14",
+      "time": "12:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Germany",
+        "score": 7
+      },
+      "away": {
+        "name": "Curaçao",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "6",
+          "player": "Felix Nmecha",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "38",
+          "player": "Nico Schlotterbeck",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "45+5",
+          "player": "Kai Havertz",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "88",
+          "player": "Kai Havertz",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "47",
+          "player": "Jamal Musiala",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "68",
+          "player": "Nathaniel Brown",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "78",
+          "player": "Deniz Undav",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "21",
+          "player": "Livano Comenencia",
+          "team": "Curaçao"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-14-Ivory Coast-Ecuador",
+      "date": "2026-06-14",
+      "time": "19:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Ivory Coast",
+        "score": null
+      },
+      "away": {
+        "name": "Ecuador",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-20-Germany-Ivory Coast",
+      "date": "2026-06-20",
+      "time": "16:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Germany",
+        "score": null
+      },
+      "away": {
+        "name": "Ivory Coast",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-20-Ecuador-Curaçao",
+      "date": "2026-06-20",
+      "time": "19:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "Ecuador",
+        "score": null
+      },
+      "away": {
+        "name": "Curaçao",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-25-Curaçao-Ivory Coast",
+      "date": "2026-06-25",
+      "time": "16:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Curaçao",
+        "score": null
+      },
+      "away": {
+        "name": "Ivory Coast",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-25-Ecuador-Germany",
+      "date": "2026-06-25",
+      "time": "16:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Ecuador",
+        "score": null
+      },
+      "away": {
+        "name": "Germany",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-14-Netherlands-Japan",
+      "date": "2026-06-14",
+      "time": "15:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "Netherlands",
+        "score": null
+      },
+      "away": {
+        "name": "Japan",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-14-Sweden-Tunisia",
+      "date": "2026-06-14",
+      "time": "20:00 UTC-6",
+      "status": "scheduled",
+      "home": {
+        "name": "Sweden",
+        "score": null
+      },
+      "away": {
+        "name": "Tunisia",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-20-Netherlands-Sweden",
+      "date": "2026-06-20",
+      "time": "12:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "Netherlands",
+        "score": null
+      },
+      "away": {
+        "name": "Sweden",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-20-Tunisia-Japan",
+      "date": "2026-06-20",
+      "time": "22:00 UTC-6",
+      "status": "scheduled",
+      "home": {
+        "name": "Tunisia",
+        "score": null
+      },
+      "away": {
+        "name": "Japan",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-25-Japan-Sweden",
+      "date": "2026-06-25",
+      "time": "18:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "Japan",
+        "score": null
+      },
+      "away": {
+        "name": "Sweden",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-25-Tunisia-Netherlands",
+      "date": "2026-06-25",
+      "time": "18:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "Tunisia",
+        "score": null
+      },
+      "away": {
+        "name": "Netherlands",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-15-Belgium-Egypt",
+      "date": "2026-06-15",
+      "time": "12:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "Belgium",
+        "score": null
+      },
+      "away": {
+        "name": "Egypt",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-15-Iran-New Zealand",
+      "date": "2026-06-15",
+      "time": "18:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "Iran",
+        "score": null
+      },
+      "away": {
+        "name": "New Zealand",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-21-Belgium-Iran",
+      "date": "2026-06-21",
+      "time": "12:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "Belgium",
+        "score": null
+      },
+      "away": {
+        "name": "Iran",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-21-New Zealand-Egypt",
+      "date": "2026-06-21",
+      "time": "18:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "New Zealand",
+        "score": null
+      },
+      "away": {
+        "name": "Egypt",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-26-Egypt-Iran",
+      "date": "2026-06-26",
+      "time": "20:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "Egypt",
+        "score": null
+      },
+      "away": {
+        "name": "Iran",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-26-New Zealand-Belgium",
+      "date": "2026-06-26",
+      "time": "20:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "New Zealand",
+        "score": null
+      },
+      "away": {
+        "name": "Belgium",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-15-Spain-Cape Verde",
+      "date": "2026-06-15",
+      "time": "12:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Spain",
+        "score": null
+      },
+      "away": {
+        "name": "Cape Verde",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-15-Saudi Arabia-Uruguay",
+      "date": "2026-06-15",
+      "time": "18:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Saudi Arabia",
+        "score": null
+      },
+      "away": {
+        "name": "Uruguay",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-21-Spain-Saudi Arabia",
+      "date": "2026-06-21",
+      "time": "12:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Spain",
+        "score": null
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-21-Uruguay-Cape Verde",
+      "date": "2026-06-21",
+      "time": "18:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Uruguay",
+        "score": null
+      },
+      "away": {
+        "name": "Cape Verde",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-26-Cape Verde-Saudi Arabia",
+      "date": "2026-06-26",
+      "time": "19:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "Cape Verde",
+        "score": null
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-26-Uruguay-Spain",
+      "date": "2026-06-26",
+      "time": "18:00 UTC-6",
+      "status": "scheduled",
+      "home": {
+        "name": "Uruguay",
+        "score": null
+      },
+      "away": {
+        "name": "Spain",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-16-France-Senegal",
+      "date": "2026-06-16",
+      "time": "15:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "France",
+        "score": null
+      },
+      "away": {
+        "name": "Senegal",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-16-Iraq-Norway",
+      "date": "2026-06-16",
+      "time": "18:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Iraq",
+        "score": null
+      },
+      "away": {
+        "name": "Norway",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-22-France-Iraq",
+      "date": "2026-06-22",
+      "time": "17:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "France",
+        "score": null
+      },
+      "away": {
+        "name": "Iraq",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-22-Norway-Senegal",
+      "date": "2026-06-22",
+      "time": "20:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Norway",
+        "score": null
+      },
+      "away": {
+        "name": "Senegal",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-26-Norway-France",
+      "date": "2026-06-26",
+      "time": "15:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Norway",
+        "score": null
+      },
+      "away": {
+        "name": "France",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-26-Senegal-Iraq",
+      "date": "2026-06-26",
+      "time": "15:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Senegal",
+        "score": null
+      },
+      "away": {
+        "name": "Iraq",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-16-Argentina-Algeria",
+      "date": "2026-06-16",
+      "time": "20:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "Argentina",
+        "score": null
+      },
+      "away": {
+        "name": "Algeria",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-16-Austria-Jordan",
+      "date": "2026-06-16",
+      "time": "21:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "Austria",
+        "score": null
+      },
+      "away": {
+        "name": "Jordan",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-22-Argentina-Austria",
+      "date": "2026-06-22",
+      "time": "12:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "Argentina",
+        "score": null
+      },
+      "away": {
+        "name": "Austria",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-22-Jordan-Algeria",
+      "date": "2026-06-22",
+      "time": "20:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "Jordan",
+        "score": null
+      },
+      "away": {
+        "name": "Algeria",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-27-Algeria-Austria",
+      "date": "2026-06-27",
+      "time": "21:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "Algeria",
+        "score": null
+      },
+      "away": {
+        "name": "Austria",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-27-Jordan-Argentina",
+      "date": "2026-06-27",
+      "time": "21:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "Jordan",
+        "score": null
+      },
+      "away": {
+        "name": "Argentina",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-17-Portugal-DR Congo",
+      "date": "2026-06-17",
+      "time": "12:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "Portugal",
+        "score": null
+      },
+      "away": {
+        "name": "DR Congo",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-17-Uzbekistan-Colombia",
+      "date": "2026-06-17",
+      "time": "20:00 UTC-6",
+      "status": "scheduled",
+      "home": {
+        "name": "Uzbekistan",
+        "score": null
+      },
+      "away": {
+        "name": "Colombia",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-23-Portugal-Uzbekistan",
+      "date": "2026-06-23",
+      "time": "12:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "Portugal",
+        "score": null
+      },
+      "away": {
+        "name": "Uzbekistan",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-23-Colombia-DR Congo",
+      "date": "2026-06-23",
+      "time": "20:00 UTC-6",
+      "status": "scheduled",
+      "home": {
+        "name": "Colombia",
+        "score": null
+      },
+      "away": {
+        "name": "DR Congo",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-27-Colombia-Portugal",
+      "date": "2026-06-27",
+      "time": "19:30 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Colombia",
+        "score": null
+      },
+      "away": {
+        "name": "Portugal",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-27-DR Congo-Uzbekistan",
+      "date": "2026-06-27",
+      "time": "19:30 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "DR Congo",
+        "score": null
+      },
+      "away": {
+        "name": "Uzbekistan",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-17-England-Croatia",
+      "date": "2026-06-17",
+      "time": "15:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "England",
+        "score": null
+      },
+      "away": {
+        "name": "Croatia",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-17-Ghana-Panama",
+      "date": "2026-06-17",
+      "time": "19:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Ghana",
+        "score": null
+      },
+      "away": {
+        "name": "Panama",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-23-England-Ghana",
+      "date": "2026-06-23",
+      "time": "16:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "England",
+        "score": null
+      },
+      "away": {
+        "name": "Ghana",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-23-Panama-Croatia",
+      "date": "2026-06-23",
+      "time": "19:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Panama",
+        "score": null
+      },
+      "away": {
+        "name": "Croatia",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-27-Panama-England",
+      "date": "2026-06-27",
+      "time": "17:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Panama",
+        "score": null
+      },
+      "away": {
+        "name": "England",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-27-Croatia-Ghana",
+      "date": "2026-06-27",
+      "time": "17:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "Croatia",
+        "score": null
+      },
+      "away": {
+        "name": "Ghana",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-28-2A-2B",
+      "date": "2026-06-28",
+      "time": "12:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "2A",
+        "score": null
+      },
+      "away": {
+        "name": "2B",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-29-1E-3A/B/C/D/F",
+      "date": "2026-06-29",
+      "time": "16:30 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "1E",
+        "score": null
+      },
+      "away": {
+        "name": "3A/B/C/D/F",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-29-1F-2C",
+      "date": "2026-06-29",
+      "time": "19:00 UTC-6",
+      "status": "scheduled",
+      "home": {
+        "name": "1F",
+        "score": null
+      },
+      "away": {
+        "name": "2C",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-29-1C-2F",
+      "date": "2026-06-29",
+      "time": "12:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "1C",
+        "score": null
+      },
+      "away": {
+        "name": "2F",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-30-1I-3C/D/F/G/H",
+      "date": "2026-06-30",
+      "time": "17:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "1I",
+        "score": null
+      },
+      "away": {
+        "name": "3C/D/F/G/H",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-30-2E-2I",
+      "date": "2026-06-30",
+      "time": "12:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "2E",
+        "score": null
+      },
+      "away": {
+        "name": "2I",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-30-1A-3C/E/F/H/I",
+      "date": "2026-06-30",
+      "time": "19:00 UTC-6",
+      "status": "scheduled",
+      "home": {
+        "name": "1A",
+        "score": null
+      },
+      "away": {
+        "name": "3C/E/F/H/I",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-01-1L-3E/H/I/J/K",
+      "date": "2026-07-01",
+      "time": "12:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "1L",
+        "score": null
+      },
+      "away": {
+        "name": "3E/H/I/J/K",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-01-1D-3B/E/F/I/J",
+      "date": "2026-07-01",
+      "time": "17:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "1D",
+        "score": null
+      },
+      "away": {
+        "name": "3B/E/F/I/J",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-01-1G-3A/E/H/I/J",
+      "date": "2026-07-01",
+      "time": "13:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "1G",
+        "score": null
+      },
+      "away": {
+        "name": "3A/E/H/I/J",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-02-2K-2L",
+      "date": "2026-07-02",
+      "time": "19:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "2K",
+        "score": null
+      },
+      "away": {
+        "name": "2L",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-02-1H-2J",
+      "date": "2026-07-02",
+      "time": "12:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "1H",
+        "score": null
+      },
+      "away": {
+        "name": "2J",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-02-1B-3E/F/G/I/J",
+      "date": "2026-07-02",
+      "time": "20:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "1B",
+        "score": null
+      },
+      "away": {
+        "name": "3E/F/G/I/J",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-03-1J-2H",
+      "date": "2026-07-03",
+      "time": "18:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "1J",
+        "score": null
+      },
+      "away": {
+        "name": "2H",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-03-1K-3D/E/I/J/L",
+      "date": "2026-07-03",
+      "time": "20:30 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "1K",
+        "score": null
+      },
+      "away": {
+        "name": "3D/E/I/J/L",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-03-2D-2G",
+      "date": "2026-07-03",
+      "time": "13:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "2D",
+        "score": null
+      },
+      "away": {
+        "name": "2G",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-04-W74-W77",
+      "date": "2026-07-04",
+      "time": "17:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "W74",
+        "score": null
+      },
+      "away": {
+        "name": "W77",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-04-W73-W75",
+      "date": "2026-07-04",
+      "time": "12:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "W73",
+        "score": null
+      },
+      "away": {
+        "name": "W75",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-05-W76-W78",
+      "date": "2026-07-05",
+      "time": "16:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "W76",
+        "score": null
+      },
+      "away": {
+        "name": "W78",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-05-W79-W80",
+      "date": "2026-07-05",
+      "time": "18:00 UTC-6",
+      "status": "scheduled",
+      "home": {
+        "name": "W79",
+        "score": null
+      },
+      "away": {
+        "name": "W80",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-06-W83-W84",
+      "date": "2026-07-06",
+      "time": "14:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "W83",
+        "score": null
+      },
+      "away": {
+        "name": "W84",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-06-W81-W82",
+      "date": "2026-07-06",
+      "time": "17:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "W81",
+        "score": null
+      },
+      "away": {
+        "name": "W82",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-07-W86-W88",
+      "date": "2026-07-07",
+      "time": "12:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "W86",
+        "score": null
+      },
+      "away": {
+        "name": "W88",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-07-W85-W87",
+      "date": "2026-07-07",
+      "time": "13:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "W85",
+        "score": null
+      },
+      "away": {
+        "name": "W87",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-09-W89-W90",
+      "date": "2026-07-09",
+      "time": "16:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "W89",
+        "score": null
+      },
+      "away": {
+        "name": "W90",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-10-W93-W94",
+      "date": "2026-07-10",
+      "time": "12:00 UTC-7",
+      "status": "scheduled",
+      "home": {
+        "name": "W93",
+        "score": null
+      },
+      "away": {
+        "name": "W94",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-11-W91-W92",
+      "date": "2026-07-11",
+      "time": "17:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "W91",
+        "score": null
+      },
+      "away": {
+        "name": "W92",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-11-W95-W96",
+      "date": "2026-07-11",
+      "time": "20:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "W95",
+        "score": null
+      },
+      "away": {
+        "name": "W96",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-14-W97-W98",
+      "date": "2026-07-14",
+      "time": "14:00 UTC-5",
+      "status": "scheduled",
+      "home": {
+        "name": "W97",
+        "score": null
+      },
+      "away": {
+        "name": "W98",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-15-W99-W100",
+      "date": "2026-07-15",
+      "time": "15:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "W99",
+        "score": null
+      },
+      "away": {
+        "name": "W100",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-18-L101-L102",
+      "date": "2026-07-18",
+      "time": "17:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "L101",
+        "score": null
+      },
+      "away": {
+        "name": "L102",
+        "score": null
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-19-W101-W102",
+      "date": "2026-07-19",
+      "time": "15:00 UTC-4",
+      "status": "scheduled",
+      "home": {
+        "name": "W101",
+        "score": null
+      },
+      "away": {
+        "name": "W102",
+        "score": null
+      },
+      "events": []
+    }
+  ],
+  "topScorers": [
+    {
+      "name": "Folarin Balogun",
+      "goals": 2
+    },
+    {
+      "name": "Kai Havertz",
+      "goals": 2
+    },
+    {
+      "name": "Julián Quiñones",
+      "goals": 1
+    },
+    {
+      "name": "Raúl Jiménez",
+      "goals": 1
+    },
+    {
+      "name": "Hwang In-Beom",
+      "goals": 1
+    },
+    {
+      "name": "Oh Hyeon-Gyu",
+      "goals": 1
+    },
+    {
+      "name": "Ladislav Krejcí",
+      "goals": 1
+    },
+    {
+      "name": "Cyle Larin",
+      "goals": 1
+    },
+    {
+      "name": "Jovo Lukić",
+      "goals": 1
+    },
+    {
+      "name": "Boualem Khoukhi",
+      "goals": 1
+    }
+  ],
+  "topAssists": [],
+  "mostCards": []
+}
