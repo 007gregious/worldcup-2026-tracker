@@ -3,196 +3,155 @@ const path = require('path');
 
 const RAW_URL = 'https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.json';
 
-async function fetchJSON(url) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return res.json();
-}
+// ---------- Helper: compute group standings from matches ----------
+function computeStandings(matches) {
+  const groups = {};
 
-// ---------- Tie‑breaker helpers (FIFA rules) ----------
-function getHeadToHeadStats(teams, groupMatches) {
-  // returns Map: teamId -> { pts, gd, gf } among the tied subset
-  const stats = new Map();
-  teams.forEach(t => stats.set(t.id, { pts: 0, gd: 0, gf: 0 }));
-  groupMatches.forEach(m => {
-    const { team1, team2, score1, score2 } = m;
-    if (!teams.some(t => t.id === team1.id) || !teams.some(t => t.id === team2.id)) return;
-    const pts1 = score1 > score2 ? 3 : (score1 === score2 ? 1 : 0);
-    const pts2 = score2 > score1 ? 3 : (score1 === score2 ? 1 : 0);
-    stats.get(team1.id).pts += pts1;
-    stats.get(team2.id).pts += pts2;
-    stats.get(team1.id).gd += (score1 - score2);
-    stats.get(team2.id).gd += (score2 - score1);
-    stats.get(team1.id).gf += score1;
-    stats.get(team2.id).gf += score2;
-  });
-  return stats;
-}
+  matches.forEach(m => {
+    const groupName = m.group;
+    if (!groupName) return;
+    if (!groups[groupName]) groups[groupName] = {};
 
-function getFairPlayPoints(teamId, allEvents) {
-  // yellow = -1, second yellow = -3 (counts as red), direct red = -4
-  let points = 0;
-  allEvents.forEach(ev => {
-    if (ev.type === 'yellow' && ev.player.team_id === teamId) points -= 1;
-    if (ev.type === 'second_yellow' && ev.player.team_id === teamId) points -= 3;
-    if (ev.type === 'red' && ev.player.team_id === teamId) points -= 4;
-  });
-  return points;
-}
+    const t1 = m.team1;
+    const t2 = m.team2;
+    const score1 = m.score?.ft?.[0];
+    const score2 = m.score?.ft?.[1];
+    const isFinished = (score1 !== undefined && score2 !== undefined);
 
-function sortGroupTeams(teams, groupMatches, allEvents) {
-  // 1) points, 2) GD, 3) GF, 4) head‑to‑head, 5) fair play
-  const sorted = [...teams];
-  sorted.sort((a, b) => {
-    if (a.points !== b.points) return b.points - a.points;
-    if (a.gd !== b.gd) return b.gd - a.gd;
-    if (a.gf !== b.gf) return b.gf - a.gf;
-
-    // head‑to‑head among tied teams (only if exactly those two are tied? Actually we need full subset)
-    const tiedTeams = sorted.filter(t => t.points === a.points && t.gd === a.gd && t.gf === a.gf);
-    if (tiedTeams.length > 1) {
-      const h2h = getHeadToHeadStats(tiedTeams, groupMatches);
-      const h2hA = h2h.get(a.id);
-      const h2hB = h2h.get(b.id);
-      if (h2hA.pts !== h2hB.pts) return h2hB.pts - h2hA.pts;
-      if (h2hA.gd !== h2hB.gd) return h2hB.gd - h2hA.gd;
-      if (h2hA.gf !== h2hB.gf) return h2hB.gf - h2hA.gf;
+    if (!groups[groupName][t1]) {
+      groups[groupName][t1] = { played:0, wins:0, draws:0, losses:0, gf:0, ga:0, points:0 };
+    }
+    if (!groups[groupName][t2]) {
+      groups[groupName][t2] = { played:0, wins:0, draws:0, losses:0, gf:0, ga:0, points:0 };
     }
 
-    // fair play points
-    const fpA = getFairPlayPoints(a.id, allEvents);
-    const fpB = getFairPlayPoints(b.id, allEvents);
-    if (fpA !== fpB) return fpB - fpA;
+    if (isFinished) {
+      groups[groupName][t1].played++;
+      groups[groupName][t2].played++;
+      groups[groupName][t1].gf += score1;
+      groups[groupName][t1].ga += score2;
+      groups[groupName][t2].gf += score2;
+      groups[groupName][t2].ga += score1;
 
-    // drawing of lots – keep original order
-    return 0;
+      if (score1 > score2) {
+        groups[groupName][t1].wins++;
+        groups[groupName][t1].points += 3;
+        groups[groupName][t2].losses++;
+      } else if (score1 < score2) {
+        groups[groupName][t2].wins++;
+        groups[groupName][t2].points += 3;
+        groups[groupName][t1].losses++;
+      } else {
+        groups[groupName][t1].draws++;
+        groups[groupName][t1].points += 1;
+        groups[groupName][t2].draws++;
+        groups[groupName][t2].points += 1;
+      }
+    }
   });
-  return sorted;
+
+  // Convert to array and sort
+  const result = [];
+  for (const [groupName, teams] of Object.entries(groups)) {
+    const teamArray = Object.entries(teams).map(([teamName, stats]) => ({
+      name: teamName,
+      ...stats,
+      gd: stats.gf - stats.ga
+    }));
+    teamArray.sort((a,b) => b.points - a.points || b.gd - a.gd || b.gf - a.gf);
+    result.push({
+      name: groupName,
+      teams: teamArray.map((t, idx) => ({ ...t, rank: idx+1 }))
+    });
+  }
+  return result;
 }
 
-// ---------- Player stats ----------
-function extractPlayerStats(matches) {
-  const players = new Map(); // key: playerId+name
+// ---------- Extract top scorers ----------
+function getTopScorers(matches) {
+  const scorers = {};
   matches.forEach(m => {
-    (m.events || []).forEach(ev => {
-      if (ev.type === 'goal') {
-        const scorer = ev.player;
-        const key = `${scorer.id}-${scorer.name}`;
-        if (!players.has(key)) players.set(key, { ...scorer, goals: 0, assists: 0, yellows: 0 });
-        players.get(key).goals++;
-        if (ev.assist) {
-          const assistKey = `${ev.assist.id}-${ev.assist.name}`;
-          if (!players.has(assistKey)) players.set(assistKey, { ...ev.assist, goals: 0, assists: 0, yellows: 0 });
-          players.get(assistKey).assists++;
-        }
-      }
-      if (ev.type === 'yellow' || ev.type === 'second_yellow') {
-        const key = `${ev.player.id}-${ev.player.name}`;
-        if (!players.has(key)) players.set(key, { ...ev.player, goals: 0, assists: 0, yellows: 0 });
-        players.get(key).yellows++;
-      }
+    (m.goals1 || []).forEach(g => {
+      const name = g.name;
+      scorers[name] = (scorers[name] || 0) + 1;
+    });
+    (m.goals2 || []).forEach(g => {
+      const name = g.name;
+      scorers[name] = (scorers[name] || 0) + 1;
     });
   });
-  return Array.from(players.values());
+  return Object.entries(scorers)
+    .map(([name, goals]) => ({ name, goals }))
+    .sort((a,b) => b.goals - a.goals)
+    .slice(0,10);
+}
+
+// ---------- Extract yellow/red cards (if available) ----------
+function getCardLeaders(matches) {
+  const cards = {};
+  matches.forEach(m => {
+    (m.cards1 || []).forEach(c => {
+      const name = c.name;
+      cards[name] = (cards[name] || 0) + 1;
+    });
+    (m.cards2 || []).forEach(c => {
+      const name = c.name;
+      cards[name] = (cards[name] || 0) + 1;
+    });
+  });
+  return Object.entries(cards)
+    .map(([name, yellows]) => ({ name, yellows }))
+    .sort((a,b) => b.yellows - a.yellows)
+    .slice(0,10);
 }
 
 // ---------- Main ----------
 async function main() {
-  console.log('Fetching raw data...');
-  const raw = await fetchJSON(RAW_URL);
-  const groups = raw.groups || [];
-  const allMatches = [];
-  const computedGroups = [];
+  console.log('Fetching live World Cup 2026 data...');
+  const res = await fetch(RAW_URL);
+  if (!res.ok) throw new Error(`HTTP ${res.status} – ${res.statusText}`);
+  const raw = await res.json();
 
-  // Collect all events from all matches
-  const allEvents = [];
-  groups.forEach(group => {
-    (group.matches || []).forEach(m => {
-      allMatches.push(m);
-      (m.events || []).forEach(ev => allEvents.push(ev));
-    });
-  });
+  const matches = raw.matches || [];
+  console.log(`Fetched ${matches.length} matches.`);
 
-  // Process each group
-  for (const group of groups) {
-    const groupMatches = group.matches || [];
-    const teams = group.teams.map(t => ({
-      id: t.id,
-      name: t.name,
-      code: t.code,
-      flag: t.flag || `https://flagcdn.com/w40/${t.code?.toLowerCase()}.png`,
-      played: 0,
-      wins: 0, draws: 0, losses: 0,
-      gf: 0, ga: 0, gd: 0, points: 0
-    }));
+  const groups = computeStandings(matches);
+  const topScorers = getTopScorers(matches);
+  const mostCards = getCardLeaders(matches);
 
-    // Calculate stats from matches
-    groupMatches.forEach(m => {
-      const t1 = teams.find(t => t.id === m.team1.id);
-      const t2 = teams.find(t => t.id === m.team2.id);
-      if (!t1 || !t2) return;
-      t1.played++; t2.played++;
-      t1.gf += m.score1; t1.ga += m.score2;
-      t2.gf += m.score2; t2.ga += m.score1;
-      if (m.score1 > m.score2) {
-        t1.wins++; t2.losses++;
-        t1.points += 3;
-      } else if (m.score1 < m.score2) {
-        t2.wins++; t1.losses++;
-        t2.points += 3;
-      } else {
-        t1.draws++; t2.draws++;
-        t1.points += 1; t2.points += 1;
-      }
-      t1.gd = t1.gf - t1.ga;
-      t2.gd = t2.gf - t2.ga;
-    });
-
-    // Apply tie‑breakers
-    const sortedTeams = sortGroupTeams(teams, groupMatches, allEvents);
-    computedGroups.push({
-      name: group.name,
-      teams: sortedTeams.map((t, idx) => ({ ...t, rank: idx + 1 }))
-    });
-  }
-
-  // Prepare match list (with status, scores, datetime)
-  const matches = allMatches.map(m => ({
-    id: m.id,
+  // Prepare matches for frontend
+  const formattedMatches = matches.map(m => ({
+    id: `${m.date}-${m.team1}-${m.team2}`,
     date: m.date,
-    time: m.time,
-    status: m.status || (m.score1 !== undefined ? 'finished' : 'scheduled'),
-    home: { name: m.team1.name, code: m.team1.code, score: m.score1 },
-    away: { name: m.team2.name, code: m.team2.code, score: m.score2 },
-    events: (m.events || []).map(ev => ({
-      type: ev.type,
-      minute: ev.minute,
-      player: ev.player.name,
-      team: ev.player.team_code || ev.player.team_name
-    }))
+    time: m.time || 'TBD',
+    status: m.score?.ft ? 'finished' : 'scheduled',
+    home: { name: m.team1, score: m.score?.ft?.[0] ?? null },
+    away: { name: m.team2, score: m.score?.ft?.[1] ?? null },
+    events: [
+      ...(m.goals1 || []).map(g => ({ type: 'goal', minute: g.minute, player: g.name, team: m.team1 })),
+      ...(m.goals2 || []).map(g => ({ type: 'goal', minute: g.minute, player: g.name, team: m.team2 })),
+      ...(m.cards1 || []).map(c => ({ type: 'yellow', minute: c.minute, player: c.name, team: m.team1 })),
+      ...(m.cards2 || []).map(c => ({ type: 'yellow', minute: c.minute, player: c.name, team: m.team2 }))
+    ]
   }));
-
-  const playerStats = extractPlayerStats(allMatches);
-  const topScorers = [...playerStats].sort((a,b) => b.goals - a.goals).slice(0, 10);
-  const topAssists = [...playerStats].sort((a,b) => b.assists - a.assists).slice(0, 10);
-  const mostCards = [...playerStats].sort((a,b) => b.yellows - a.yellows).slice(0, 10);
 
   const optimized = {
     lastUpdated: new Date().toISOString(),
-    groups: computedGroups,
-    matches,
+    groups,
+    matches: formattedMatches,
     topScorers,
-    topAssists,
+    topAssists: [],   // OpenFootball may not provide assists – can be added later
     mostCards
   };
 
   const outPath = path.join(__dirname, '..', 'data', 'optimized.json');
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
-  fs.writeFileSync(outPath, JSON.stringify(optimized, null, 0));
-  console.log('✅ Data written to', outPath);
+  fs.writeFileSync(outPath, JSON.stringify(optimized, null, 2));
+  console.log(`✅ Data written to ${outPath}`);
+  console.log(`   Groups: ${groups.length}, Matches: ${matches.length}, Top scorers: ${topScorers.length}`);
 }
 
 main().catch(err => {
-  console.error(err);
+  console.error('❌ Fatal error:', err);
   process.exit(1);
 });
