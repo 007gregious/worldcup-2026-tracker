@@ -1,0 +1,26 @@
+name: Update World Cup Data
+
+on:
+  schedule:
+    # Every 30 minutes from 08:00 to 23:59 UTC (adjust for match days)
+    - cron: '*/30 8-23 * * *'
+  workflow_dispatch:   # allows manual trigger from GitHub UI
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: node scripts/fetch-data.js
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update live WC2026 data"
+          file_pattern: data/optimized.json

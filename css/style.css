@@ -1,0 +1,17 @@
+/* Only essential overrides – Tailwind does the heavy lifting */
+.tab-btn.active {
+  border-bottom-width: 2px;
+  border-color: #15803d; /* green-700 */
+  color: #15803d;
+}
+.group-table th, .group-table td {
+  @apply px-2 py-1 text-left text-sm;
+}
+@media (max-width: 640px) {
+  .group-table th, .group-table td {
+    @apply px-1 py-0.5 text-xs;
+  }
+}
+.match-card {
+  transition: all 0.2s;
+}

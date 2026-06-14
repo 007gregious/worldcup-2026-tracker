@@ -1,0 +1,9 @@
+{
+  "name": "wc2026-tracker",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "fetch": "node scripts/fetch-data.js"
+  },
+  "engines": { "node": ">=20" }
+}
