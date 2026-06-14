@@ -71,18 +71,71 @@ function renderStandings() {
 function renderMatches() {
   const container = document.getElementById('matches-view');
   if (!container) return;
+  
   const matches = currentData.matches || [];
-  container.innerHTML = `<div class="space-y-4">${matches.map(m => `
-    <div class="match-card bg-white rounded-lg shadow p-4">
-      <div class="text-xs text-gray-500 mb-1">${m.date} ${m.time || ''} · ${m.status}</div>
-      <div class="flex justify-between items-center text-lg font-semibold">
-        <span class="flex-1 text-right">${m.home.name}</span>
-        <span class="mx-4 text-xl font-mono">${m.home.score ?? '?'} - ${m.away.score ?? '?'}</span>
-        <span class="flex-1 text-left">${m.away.name}</span>
-      </div>
-      ${m.events && m.events.length ? `<div class="mt-2 text-xs text-gray-600 border-t pt-2">${m.events.map(e => `${e.minute}' ${e.type === 'goal' ? '⚽' : '🟨'} ${e.player} (${e.team})`).join(' · ')}</div>` : ''}
-    </div>
-  `).join('')}</div>`;
+  
+  // Helper to determine if a match is finished
+  const isFinished = (m) => m.status === 'finished' || (m.home.score !== null && m.away.score !== null);
+  
+  // Sort: finished first, then scheduled; within each, by date ascending
+  const sortedMatches = [...matches].sort((a, b) => {
+    const aFinished = isFinished(a);
+    const bFinished = isFinished(b);
+    if (aFinished !== bFinished) return aFinished ? -1 : 1;
+    // same status, compare dates (ascending)
+    return new Date(a.date) - new Date(b.date);
+  });
+  
+  // Group by date for better UX
+  const grouped = {};
+  sortedMatches.forEach(m => {
+    const dateKey = m.date;
+    if (!grouped[dateKey]) grouped[dateKey] = [];
+    grouped[dateKey].push(m);
+  });
+  
+  // Build HTML
+  let html = '';
+  for (const [date, matchesOnDate] of Object.entries(grouped)) {
+    // Format date nicely (e.g., "Monday, June 14, 2026")
+    const formattedDate = new Date(date).toLocaleDateString(undefined, {
+      weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+    });
+    html += `<div class="mb-6">`;
+    html += `<h3 class="text-lg font-bold text-gray-700 border-b pb-1 mb-3">${formattedDate}</h3>`;
+    html += `<div class="space-y-3">`;
+    matchesOnDate.forEach(m => {
+      const scoreDisplay = (m.home.score !== null && m.away.score !== null) 
+        ? `${m.home.score} - ${m.away.score}` 
+        : 'vs';
+      const statusClass = isFinished(m) ? 'text-green-600' : 'text-yellow-600';
+      html += `
+        <div class="match-card bg-white rounded-lg shadow p-4 hover:shadow-md transition">
+          <div class="flex justify-between items-center flex-wrap gap-2">
+            <div class="text-sm text-gray-500">${m.time || 'TBD'}</div>
+            <div class="text-xs font-semibold ${statusClass}">${isFinished(m) ? '✓ Finished' : '⌛ Upcoming'}</div>
+          </div>
+          <div class="flex justify-between items-center mt-2">
+            <span class="flex-1 text-right font-medium">${m.home.name}</span>
+            <span class="mx-4 text-xl font-mono font-bold">${scoreDisplay}</span>
+            <span class="flex-1 text-left font-medium">${m.away.name}</span>
+          </div>
+          ${m.events && m.events.length ? `
+            <div class="mt-2 text-xs text-gray-600 border-t pt-2">
+              ${m.events.map(e => `${e.minute}' ${e.type === 'goal' ? '⚽' : '🟨'} ${e.player} (${e.team})`).join(' · ')}
+            </div>
+          ` : ''}
+        </div>
+      `;
+    });
+    html += `</div></div>`;
+  }
+  
+  if (sortedMatches.length === 0) {
+    html = '<div class="text-center text-gray-500 py-8">No matches available.</div>';
+  }
+  
+  container.innerHTML = html;
 }
 
 function renderStats() {
