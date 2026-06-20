@@ -55,7 +55,7 @@ function renderStandings() {
             ${group.teams.map(t => `
               <tr class="border-b">
                 <td class="font-medium">${t.rank}</td>
-                <td class="flex items-center gap-2"><img src="${t.flag || ''}" class="w-5 h-4 object-cover" onerror="this.style.display='none'"> ${t.name}</td>
+                <td class="flex items-center gap-2">${t.name}</td>
                 <td>${t.played}</td><td>${t.wins}</td><td>${t.draws}</td><td>${t.losses}</td>
                 <td>${t.gf}</td><td>${t.ga}</td><td>${t.gd}</td><td class="font-bold">${t.points}</td>
               </tr>
@@ -74,19 +74,15 @@ function renderMatches() {
   
   const matches = currentData.matches || [];
   
-  // Helper to determine if a match is finished
   const isFinished = (m) => m.status === 'finished' || (m.home.score !== null && m.away.score !== null);
   
-  // Sort: finished first, then scheduled; within each, by date ascending
   const sortedMatches = [...matches].sort((a, b) => {
     const aFinished = isFinished(a);
     const bFinished = isFinished(b);
     if (aFinished !== bFinished) return aFinished ? -1 : 1;
-    // same status, compare dates (ascending)
     return new Date(a.date) - new Date(b.date);
   });
   
-  // Group by date for better UX
   const grouped = {};
   sortedMatches.forEach(m => {
     const dateKey = m.date;
@@ -94,10 +90,8 @@ function renderMatches() {
     grouped[dateKey].push(m);
   });
   
-  // Build HTML
   let html = '';
   for (const [date, matchesOnDate] of Object.entries(grouped)) {
-    // Format date nicely (e.g., "Monday, June 14, 2026")
     const formattedDate = new Date(date).toLocaleDateString(undefined, {
       weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
     });
@@ -142,9 +136,24 @@ function renderStats() {
   const scorerEl = document.getElementById('top-scorers');
   const assistEl = document.getElementById('top-assists');
   const cardEl = document.getElementById('most-cards');
-  if (scorerEl) scorerEl.innerHTML = currentData.topScorers.map(p => `<li class="flex justify-between"><span>${p.name}</span><span class="font-bold">${p.goals} ⚽</span></li>`).join('');
-  if (assistEl) assistEl.innerHTML = currentData.topAssists.map(p => `<li class="flex justify-between"><span>${p.name}</span><span class="font-bold">${p.assists} 🎯</span></li>`).join('');
-  if (cardEl) cardEl.innerHTML = currentData.mostCards.map(p => `<li class="flex justify-between"><span>${p.name}</span><span class="font-bold">${p.yellows} 🟨</span></li>`).join('');
+  
+  if (scorerEl) {
+    scorerEl.innerHTML = currentData.topScorers.map(p => 
+      `<li class="flex justify-between"><span>${p.name}</span><span class="font-bold">${p.goals} ⚽</span></li>`
+    ).join('');
+  }
+  
+  if (assistEl) {
+    assistEl.innerHTML = currentData.topAssists.map(p => 
+      `<li class="flex justify-between"><span>${p.name}</span><span class="font-bold">${p.assists} 🎯</span></li>`
+    ).join('');
+  }
+  
+  if (cardEl) {
+    cardEl.innerHTML = currentData.mostCards.map(p => 
+      `<li class="flex justify-between"><span>${p.name}</span><span class="font-bold">${p.yellows} 🟨</span></li>`
+    ).join('');
+  }
 }
 
 // Tabs handling
