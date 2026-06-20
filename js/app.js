@@ -15,7 +15,7 @@ async function fetchData(force = false) {
   }
 
   try {
-    const res = await fetch('/data/optimized.json');
+    const res = await fetch('./data/optimized.json');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     localStorage.setItem(CACHE_KEY, JSON.stringify(data));
