@@ -1,54 +1,54 @@
 {
-  "lastUpdated": "2026-06-14T20:50:59.089Z",
+  "lastUpdated": "2026-06-20T14:32:04.651Z",
   "groups": [
     {
       "name": "Group A",
       "teams": [
         {
           "name": "Mexico",
-          "played": 1,
-          "wins": 1,
+          "played": 2,
+          "wins": 2,
           "draws": 0,
           "losses": 0,
-          "gf": 2,
+          "gf": 3,
           "ga": 0,
-          "points": 3,
-          "gd": 2,
+          "points": 6,
+          "gd": 3,
           "rank": 1
         },
         {
           "name": "South Korea",
-          "played": 1,
+          "played": 2,
           "wins": 1,
           "draws": 0,
-          "losses": 0,
+          "losses": 1,
           "gf": 2,
-          "ga": 1,
+          "ga": 2,
           "points": 3,
-          "gd": 1,
+          "gd": 0,
           "rank": 2
         },
         {
           "name": "Czech Republic",
-          "played": 1,
+          "played": 2,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 1,
-          "gf": 1,
-          "ga": 2,
-          "points": 0,
+          "gf": 2,
+          "ga": 3,
+          "points": 1,
           "gd": -1,
           "rank": 3
         },
         {
           "name": "South Africa",
-          "played": 1,
+          "played": 2,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 1,
-          "gf": 0,
-          "ga": 2,
-          "points": 0,
+          "gf": 1,
+          "ga": 3,
+          "points": 1,
           "gd": -2,
           "rank": 4
         }
@@ -59,50 +59,50 @@
       "teams": [
         {
           "name": "Canada",
-          "played": 1,
-          "wins": 0,
+          "played": 2,
+          "wins": 1,
           "draws": 1,
           "losses": 0,
-          "gf": 1,
+          "gf": 7,
           "ga": 1,
-          "points": 1,
-          "gd": 0,
+          "points": 4,
+          "gd": 6,
           "rank": 1
         },
         {
-          "name": "Bosnia & Herzegovina",
-          "played": 1,
-          "wins": 0,
+          "name": "Switzerland",
+          "played": 2,
+          "wins": 1,
           "draws": 1,
           "losses": 0,
-          "gf": 1,
-          "ga": 1,
-          "points": 1,
-          "gd": 0,
+          "gf": 5,
+          "ga": 2,
+          "points": 4,
+          "gd": 3,
           "rank": 2
         },
         {
-          "name": "Qatar",
-          "played": 1,
+          "name": "Bosnia & Herzegovina",
+          "played": 2,
           "wins": 0,
           "draws": 1,
-          "losses": 0,
-          "gf": 1,
-          "ga": 1,
+          "losses": 1,
+          "gf": 2,
+          "ga": 5,
           "points": 1,
-          "gd": 0,
+          "gd": -3,
           "rank": 3
         },
         {
-          "name": "Switzerland",
-          "played": 1,
+          "name": "Qatar",
+          "played": 2,
           "wins": 0,
           "draws": 1,
-          "losses": 0,
+          "losses": 1,
           "gf": 1,
-          "ga": 1,
+          "ga": 7,
           "points": 1,
-          "gd": 0,
+          "gd": -6,
           "rank": 4
         }
       ]
@@ -111,51 +111,51 @@
       "name": "Group C",
       "teams": [
         {
-          "name": "Scotland",
-          "played": 1,
+          "name": "Brazil",
+          "played": 2,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "gf": 1,
-          "ga": 0,
-          "points": 3,
-          "gd": 1,
+          "gf": 4,
+          "ga": 1,
+          "points": 4,
+          "gd": 3,
           "rank": 1
         },
         {
-          "name": "Brazil",
-          "played": 1,
-          "wins": 0,
+          "name": "Morocco",
+          "played": 2,
+          "wins": 1,
           "draws": 1,
           "losses": 0,
-          "gf": 1,
+          "gf": 2,
           "ga": 1,
-          "points": 1,
-          "gd": 0,
+          "points": 4,
+          "gd": 1,
           "rank": 2
         },
         {
-          "name": "Morocco",
-          "played": 1,
-          "wins": 0,
-          "draws": 1,
-          "losses": 0,
+          "name": "Scotland",
+          "played": 2,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
           "gf": 1,
           "ga": 1,
-          "points": 1,
+          "points": 3,
           "gd": 0,
           "rank": 3
         },
         {
           "name": "Haiti",
-          "played": 1,
+          "played": 2,
           "wins": 0,
           "draws": 0,
-          "losses": 1,
+          "losses": 2,
           "gf": 0,
-          "ga": 1,
+          "ga": 4,
           "points": 0,
-          "gd": -1,
+          "gd": -4,
           "rank": 4
         }
       ]
@@ -165,48 +165,48 @@
       "teams": [
         {
           "name": "USA",
-          "played": 1,
-          "wins": 1,
+          "played": 2,
+          "wins": 2,
           "draws": 0,
           "losses": 0,
-          "gf": 4,
+          "gf": 6,
           "ga": 1,
-          "points": 3,
-          "gd": 3,
+          "points": 6,
+          "gd": 5,
           "rank": 1
         },
         {
           "name": "Australia",
-          "played": 1,
+          "played": 2,
           "wins": 1,
           "draws": 0,
-          "losses": 0,
+          "losses": 1,
           "gf": 2,
-          "ga": 0,
+          "ga": 2,
           "points": 3,
-          "gd": 2,
+          "gd": 0,
           "rank": 2
         },
         {
-          "name": "Turkey",
-          "played": 1,
-          "wins": 0,
+          "name": "Paraguay",
+          "played": 2,
+          "wins": 1,
           "draws": 0,
           "losses": 1,
-          "gf": 0,
-          "ga": 2,
-          "points": 0,
+          "gf": 2,
+          "ga": 4,
+          "points": 3,
           "gd": -2,
           "rank": 3
         },
         {
-          "name": "Paraguay",
-          "played": 1,
+          "name": "Turkey",
+          "played": 2,
           "wins": 0,
           "draws": 0,
-          "losses": 1,
-          "gf": 1,
-          "ga": 4,
+          "losses": 2,
+          "gf": 0,
+          "ga": 3,
           "points": 0,
           "gd": -3,
           "rank": 4
@@ -230,26 +230,26 @@
         },
         {
           "name": "Ivory Coast",
-          "played": 0,
-          "wins": 0,
+          "played": 1,
+          "wins": 1,
           "draws": 0,
           "losses": 0,
-          "gf": 0,
+          "gf": 1,
           "ga": 0,
-          "points": 0,
-          "gd": 0,
+          "points": 3,
+          "gd": 1,
           "rank": 2
         },
         {
           "name": "Ecuador",
-          "played": 0,
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
+          "losses": 1,
           "gf": 0,
-          "ga": 0,
+          "ga": 1,
           "points": 0,
-          "gd": 0,
+          "gd": -1,
           "rank": 3
         },
         {
@@ -270,51 +270,51 @@
       "name": "Group F",
       "teams": [
         {
-          "name": "Netherlands",
-          "played": 0,
-          "wins": 0,
+          "name": "Sweden",
+          "played": 1,
+          "wins": 1,
           "draws": 0,
           "losses": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0,
-          "gd": 0,
+          "gf": 5,
+          "ga": 1,
+          "points": 3,
+          "gd": 4,
           "rank": 1
         },
         {
-          "name": "Japan",
-          "played": 0,
+          "name": "Netherlands",
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0,
+          "gf": 2,
+          "ga": 2,
+          "points": 1,
           "gd": 0,
           "rank": 2
         },
         {
-          "name": "Sweden",
-          "played": 0,
+          "name": "Japan",
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0,
+          "gf": 2,
+          "ga": 2,
+          "points": 1,
           "gd": 0,
           "rank": 3
         },
         {
           "name": "Tunisia",
-          "played": 0,
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "gf": 0,
-          "ga": 0,
+          "losses": 1,
+          "gf": 1,
+          "ga": 5,
           "points": 0,
-          "gd": 0,
+          "gd": -4,
           "rank": 4
         }
       ]
@@ -323,50 +323,50 @@
       "name": "Group G",
       "teams": [
         {
-          "name": "Belgium",
-          "played": 0,
+          "name": "Iran",
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0,
+          "gf": 2,
+          "ga": 2,
+          "points": 1,
           "gd": 0,
           "rank": 1
         },
         {
-          "name": "Egypt",
-          "played": 0,
+          "name": "New Zealand",
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0,
+          "gf": 2,
+          "ga": 2,
+          "points": 1,
           "gd": 0,
           "rank": 2
         },
         {
-          "name": "Iran",
-          "played": 0,
+          "name": "Belgium",
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1,
           "gd": 0,
           "rank": 3
         },
         {
-          "name": "New Zealand",
-          "played": 0,
+          "name": "Egypt",
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1,
           "gd": 0,
           "rank": 4
         }
@@ -376,50 +376,50 @@
       "name": "Group H",
       "teams": [
         {
-          "name": "Spain",
-          "played": 0,
+          "name": "Saudi Arabia",
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1,
           "gd": 0,
           "rank": 1
         },
         {
-          "name": "Cape Verde",
-          "played": 0,
+          "name": "Uruguay",
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1,
           "gd": 0,
           "rank": 2
         },
         {
-          "name": "Saudi Arabia",
-          "played": 0,
+          "name": "Spain",
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "gf": 0,
           "ga": 0,
-          "points": 0,
+          "points": 1,
           "gd": 0,
           "rank": 3
         },
         {
-          "name": "Uruguay",
-          "played": 0,
+          "name": "Cape Verde",
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "gf": 0,
           "ga": 0,
-          "points": 0,
+          "points": 1,
           "gd": 0,
           "rank": 4
         }
@@ -429,51 +429,51 @@
       "name": "Group I",
       "teams": [
         {
-          "name": "France",
-          "played": 0,
-          "wins": 0,
+          "name": "Norway",
+          "played": 1,
+          "wins": 1,
           "draws": 0,
           "losses": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0,
-          "gd": 0,
+          "gf": 4,
+          "ga": 1,
+          "points": 3,
+          "gd": 3,
           "rank": 1
         },
         {
-          "name": "Senegal",
-          "played": 0,
-          "wins": 0,
+          "name": "France",
+          "played": 1,
+          "wins": 1,
           "draws": 0,
           "losses": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0,
-          "gd": 0,
+          "gf": 3,
+          "ga": 1,
+          "points": 3,
+          "gd": 2,
           "rank": 2
         },
         {
-          "name": "Iraq",
-          "played": 0,
+          "name": "Senegal",
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "gf": 0,
-          "ga": 0,
+          "losses": 1,
+          "gf": 1,
+          "ga": 3,
           "points": 0,
-          "gd": 0,
+          "gd": -2,
           "rank": 3
         },
         {
-          "name": "Norway",
-          "played": 0,
+          "name": "Iraq",
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "gf": 0,
-          "ga": 0,
+          "losses": 1,
+          "gf": 1,
+          "ga": 4,
           "points": 0,
-          "gd": 0,
+          "gd": -3,
           "rank": 4
         }
       ]
@@ -483,50 +483,50 @@
       "teams": [
         {
           "name": "Argentina",
-          "played": 0,
-          "wins": 0,
+          "played": 1,
+          "wins": 1,
           "draws": 0,
           "losses": 0,
-          "gf": 0,
+          "gf": 3,
           "ga": 0,
-          "points": 0,
-          "gd": 0,
+          "points": 3,
+          "gd": 3,
           "rank": 1
         },
         {
-          "name": "Algeria",
-          "played": 0,
-          "wins": 0,
+          "name": "Austria",
+          "played": 1,
+          "wins": 1,
           "draws": 0,
           "losses": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0,
-          "gd": 0,
+          "gf": 3,
+          "ga": 1,
+          "points": 3,
+          "gd": 2,
           "rank": 2
         },
         {
-          "name": "Austria",
-          "played": 0,
+          "name": "Jordan",
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "gf": 0,
-          "ga": 0,
+          "losses": 1,
+          "gf": 1,
+          "ga": 3,
           "points": 0,
-          "gd": 0,
+          "gd": -2,
           "rank": 3
         },
         {
-          "name": "Jordan",
-          "played": 0,
+          "name": "Algeria",
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
+          "losses": 1,
           "gf": 0,
-          "ga": 0,
+          "ga": 3,
           "points": 0,
-          "gd": 0,
+          "gd": -3,
           "rank": 4
         }
       ]
@@ -535,51 +535,51 @@
       "name": "Group K",
       "teams": [
         {
-          "name": "Portugal",
-          "played": 0,
-          "wins": 0,
+          "name": "Colombia",
+          "played": 1,
+          "wins": 1,
           "draws": 0,
           "losses": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0,
-          "gd": 0,
+          "gf": 3,
+          "ga": 1,
+          "points": 3,
+          "gd": 2,
           "rank": 1
         },
         {
-          "name": "DR Congo",
-          "played": 0,
+          "name": "Portugal",
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1,
           "gd": 0,
           "rank": 2
         },
         {
-          "name": "Uzbekistan",
-          "played": 0,
+          "name": "DR Congo",
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1,
           "gd": 0,
           "rank": 3
         },
         {
-          "name": "Colombia",
-          "played": 0,
+          "name": "Uzbekistan",
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "gf": 0,
-          "ga": 0,
+          "losses": 1,
+          "gf": 1,
+          "ga": 3,
           "points": 0,
-          "gd": 0,
+          "gd": -2,
           "rank": 4
         }
       ]
@@ -589,50 +589,50 @@
       "teams": [
         {
           "name": "England",
-          "played": 0,
-          "wins": 0,
+          "played": 1,
+          "wins": 1,
           "draws": 0,
           "losses": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0,
-          "gd": 0,
+          "gf": 4,
+          "ga": 2,
+          "points": 3,
+          "gd": 2,
           "rank": 1
         },
         {
-          "name": "Croatia",
-          "played": 0,
-          "wins": 0,
+          "name": "Ghana",
+          "played": 1,
+          "wins": 1,
           "draws": 0,
           "losses": 0,
-          "gf": 0,
+          "gf": 1,
           "ga": 0,
-          "points": 0,
-          "gd": 0,
+          "points": 3,
+          "gd": 1,
           "rank": 2
         },
         {
-          "name": "Ghana",
-          "played": 0,
+          "name": "Panama",
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
+          "losses": 1,
           "gf": 0,
-          "ga": 0,
+          "ga": 1,
           "points": 0,
-          "gd": 0,
+          "gd": -1,
           "rank": 3
         },
         {
-          "name": "Panama",
-          "played": 0,
+          "name": "Croatia",
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "gf": 0,
-          "ga": 0,
+          "losses": 1,
+          "gf": 2,
+          "ga": 4,
           "points": 0,
-          "gd": 0,
+          "gd": -2,
           "rank": 4
         }
       ]
@@ -705,31 +705,51 @@
       "id": "2026-06-18-Czech Republic-South Africa",
       "date": "2026-06-18",
       "time": "12:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Czech Republic",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "South Africa",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "6",
+          "player": "Michal Sadílek",
+          "team": "Czech Republic"
+        },
+        {
+          "type": "goal",
+          "minute": "83",
+          "player": "Teboho Mokoena",
+          "team": "South Africa"
+        }
+      ]
     },
     {
       "id": "2026-06-18-Mexico-South Korea",
       "date": "2026-06-18",
       "time": "19:00 UTC-6",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Mexico",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "South Korea",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "50",
+          "player": "Luis Romo",
+          "team": "Mexico"
+        }
+      ]
     },
     {
       "id": "2026-06-24-Czech Republic-Mexico",
@@ -806,7 +826,7 @@
         {
           "type": "goal",
           "minute": "90+4",
-          "player": "Boualem Khoukhi",
+          "player": "Miro Muheim",
           "team": "Qatar"
         },
         {
@@ -821,31 +841,99 @@
       "id": "2026-06-18-Switzerland-Bosnia & Herzegovina",
       "date": "2026-06-18",
       "time": "12:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Switzerland",
-        "score": null
+        "score": 4
       },
       "away": {
         "name": "Bosnia & Herzegovina",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "74",
+          "player": "Johan Manzambi",
+          "team": "Switzerland"
+        },
+        {
+          "type": "goal",
+          "minute": "84",
+          "player": "Rubén Vargas",
+          "team": "Switzerland"
+        },
+        {
+          "type": "goal",
+          "minute": "90",
+          "player": "Johan Manzambi",
+          "team": "Switzerland"
+        },
+        {
+          "type": "goal",
+          "minute": "90+7",
+          "player": "Granit Xhaka",
+          "team": "Switzerland"
+        },
+        {
+          "type": "goal",
+          "minute": "90+3",
+          "player": "Ermin Mahmic",
+          "team": "Bosnia & Herzegovina"
+        }
+      ]
     },
     {
       "id": "2026-06-18-Canada-Qatar",
       "date": "2026-06-18",
       "time": "15:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Canada",
-        "score": null
+        "score": 6
       },
       "away": {
         "name": "Qatar",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "16",
+          "player": "Cyle Larin",
+          "team": "Canada"
+        },
+        {
+          "type": "goal",
+          "minute": "29",
+          "player": "Jonathan David",
+          "team": "Canada"
+        },
+        {
+          "type": "goal",
+          "minute": "45+3",
+          "player": "Jonathan David",
+          "team": "Canada"
+        },
+        {
+          "type": "goal",
+          "minute": "64",
+          "player": "Nathan Saliba",
+          "team": "Canada"
+        },
+        {
+          "type": "goal",
+          "minute": "75",
+          "player": "Mohamed Manai",
+          "team": "Canada"
+        },
+        {
+          "type": "goal",
+          "minute": "90+2",
+          "player": "Jonathan David",
+          "team": "Canada"
+        }
+      ]
     },
     {
       "id": "2026-06-24-Switzerland-Canada",
@@ -931,31 +1019,57 @@
       "id": "2026-06-19-Scotland-Morocco",
       "date": "2026-06-19",
       "time": "18:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Scotland",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Morocco",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "2",
+          "player": "Ismael Saibari",
+          "team": "Morocco"
+        }
+      ]
     },
     {
       "id": "2026-06-19-Brazil-Haiti",
       "date": "2026-06-19",
       "time": "20:30 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Brazil",
-        "score": null
+        "score": 3
       },
       "away": {
         "name": "Haiti",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "23",
+          "player": "Matheus Cunha",
+          "team": "Brazil"
+        },
+        {
+          "type": "goal",
+          "minute": "36",
+          "player": "Matheus Cunha",
+          "team": "Brazil"
+        },
+        {
+          "type": "goal",
+          "minute": "45+3",
+          "player": "Vinícius Júnior",
+          "team": "Brazil"
+        }
+      ]
     },
     {
       "id": "2026-06-24-Scotland-Brazil",
@@ -1065,31 +1179,51 @@
       "id": "2026-06-19-USA-Australia",
       "date": "2026-06-19",
       "time": "12:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "USA",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "Australia",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "11",
+          "player": "Cameron Burgess",
+          "team": "USA"
+        },
+        {
+          "type": "goal",
+          "minute": "43",
+          "player": "Alex Freeman",
+          "team": "USA"
+        }
+      ]
     },
     {
       "id": "2026-06-19-Turkey-Paraguay",
       "date": "2026-06-19",
       "time": "20:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Turkey",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Paraguay",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "2",
+          "player": "Matías Galarza",
+          "team": "Paraguay"
+        }
+      ]
     },
     {
       "id": "2026-06-25-Turkey-USA",
@@ -1189,16 +1323,23 @@
       "id": "2026-06-14-Ivory Coast-Ecuador",
       "date": "2026-06-14",
       "time": "19:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Ivory Coast",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Ecuador",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "90",
+          "player": "Amad Diallo",
+          "team": "Ivory Coast"
+        }
+      ]
     },
     {
       "id": "2026-06-20-Germany-Ivory Coast",
@@ -1264,31 +1405,93 @@
       "id": "2026-06-14-Netherlands-Japan",
       "date": "2026-06-14",
       "time": "15:00 UTC-5",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Netherlands",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "Japan",
-        "score": null
+        "score": 2
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "51",
+          "player": "Virgil van Dijk",
+          "team": "Netherlands"
+        },
+        {
+          "type": "goal",
+          "minute": "64",
+          "player": "Crysencio Summerville",
+          "team": "Netherlands"
+        },
+        {
+          "type": "goal",
+          "minute": "57",
+          "player": "Keito Nakamura",
+          "team": "Japan"
+        },
+        {
+          "type": "goal",
+          "minute": "88",
+          "player": "Daichi Kamada",
+          "team": "Japan"
+        }
+      ]
     },
     {
       "id": "2026-06-14-Sweden-Tunisia",
       "date": "2026-06-14",
       "time": "20:00 UTC-6",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Sweden",
-        "score": null
+        "score": 5
       },
       "away": {
         "name": "Tunisia",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "7",
+          "player": "Yasin Ayari",
+          "team": "Sweden"
+        },
+        {
+          "type": "goal",
+          "minute": "30",
+          "player": "Alexander Isak",
+          "team": "Sweden"
+        },
+        {
+          "type": "goal",
+          "minute": "59",
+          "player": "Viktor Gyökeres",
+          "team": "Sweden"
+        },
+        {
+          "type": "goal",
+          "minute": "84",
+          "player": "Mattias Svanberg",
+          "team": "Sweden"
+        },
+        {
+          "type": "goal",
+          "minute": "90+6",
+          "player": "Yasin Ayari",
+          "team": "Sweden"
+        },
+        {
+          "type": "goal",
+          "minute": "43",
+          "player": "Omar Rekik",
+          "team": "Tunisia"
+        }
+      ]
     },
     {
       "id": "2026-06-20-Netherlands-Sweden",
@@ -1354,31 +1557,69 @@
       "id": "2026-06-15-Belgium-Egypt",
       "date": "2026-06-15",
       "time": "12:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Belgium",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Egypt",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "66",
+          "player": "Mohamed Hany",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "19",
+          "player": "Emam Ashour",
+          "team": "Egypt"
+        }
+      ]
     },
     {
       "id": "2026-06-15-Iran-New Zealand",
       "date": "2026-06-15",
       "time": "18:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Iran",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "New Zealand",
-        "score": null
+        "score": 2
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "32",
+          "player": "Ramin Rezaeian",
+          "team": "Iran"
+        },
+        {
+          "type": "goal",
+          "minute": "64",
+          "player": "Mohammad Mohebbi",
+          "team": "Iran"
+        },
+        {
+          "type": "goal",
+          "minute": "7",
+          "player": "Elijah Just",
+          "team": "New Zealand"
+        },
+        {
+          "type": "goal",
+          "minute": "54",
+          "player": "Elijah Just",
+          "team": "New Zealand"
+        }
+      ]
     },
     {
       "id": "2026-06-21-Belgium-Iran",
@@ -1444,14 +1685,14 @@
       "id": "2026-06-15-Spain-Cape Verde",
       "date": "2026-06-15",
       "time": "12:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Spain",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Cape Verde",
-        "score": null
+        "score": 0
       },
       "events": []
     },
@@ -1459,16 +1700,29 @@
       "id": "2026-06-15-Saudi Arabia-Uruguay",
       "date": "2026-06-15",
       "time": "18:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Saudi Arabia",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Uruguay",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "41",
+          "player": "Abdulelah Al-Amri",
+          "team": "Saudi Arabia"
+        },
+        {
+          "type": "goal",
+          "minute": "80",
+          "player": "Maxi Araújo",
+          "team": "Uruguay"
+        }
+      ]
     },
     {
       "id": "2026-06-21-Spain-Saudi Arabia",
@@ -1534,31 +1788,87 @@
       "id": "2026-06-16-France-Senegal",
       "date": "2026-06-16",
       "time": "15:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "France",
-        "score": null
+        "score": 3
       },
       "away": {
         "name": "Senegal",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "66",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "82",
+          "player": "Bradley Barcola",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "90+6",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "90+5",
+          "player": "Ibrahim Mbaye",
+          "team": "Senegal"
+        }
+      ]
     },
     {
       "id": "2026-06-16-Iraq-Norway",
       "date": "2026-06-16",
       "time": "18:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Iraq",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Norway",
-        "score": null
+        "score": 4
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "39",
+          "player": "Aymen Hussein",
+          "team": "Iraq"
+        },
+        {
+          "type": "goal",
+          "minute": "29",
+          "player": "Erling Haaland",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "43",
+          "player": "Erling Haaland",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "76",
+          "player": "Leo Østigard",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "90+6",
+          "player": "Aymen Hussein",
+          "team": "Norway"
+        }
+      ]
     },
     {
       "id": "2026-06-22-France-Iraq",
@@ -1624,31 +1934,75 @@
       "id": "2026-06-16-Argentina-Algeria",
       "date": "2026-06-16",
       "time": "20:00 UTC-5",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Argentina",
-        "score": null
+        "score": 3
       },
       "away": {
         "name": "Algeria",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "17",
+          "player": "Lionel Messi",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "60",
+          "player": "Lionel Messi",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "76",
+          "player": "Lionel Messi",
+          "team": "Argentina"
+        }
+      ]
     },
     {
       "id": "2026-06-16-Austria-Jordan",
       "date": "2026-06-16",
       "time": "21:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Austria",
-        "score": null
+        "score": 3
       },
       "away": {
         "name": "Jordan",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "21",
+          "player": "Romano Schmid",
+          "team": "Austria"
+        },
+        {
+          "type": "goal",
+          "minute": "76",
+          "player": "Yazan Al-Arab",
+          "team": "Austria"
+        },
+        {
+          "type": "goal",
+          "minute": "90+12",
+          "player": "Marko Arnautovic",
+          "team": "Austria"
+        },
+        {
+          "type": "goal",
+          "minute": "50",
+          "player": "Ali Olwan",
+          "team": "Jordan"
+        }
+      ]
     },
     {
       "id": "2026-06-22-Argentina-Austria",
@@ -1714,31 +2068,69 @@
       "id": "2026-06-17-Portugal-DR Congo",
       "date": "2026-06-17",
       "time": "12:00 UTC-5",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Portugal",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "DR Congo",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "6",
+          "player": "João Neves",
+          "team": "Portugal"
+        },
+        {
+          "type": "goal",
+          "minute": "45+5",
+          "player": "Yoane Wissa",
+          "team": "DR Congo"
+        }
+      ]
     },
     {
       "id": "2026-06-17-Uzbekistan-Colombia",
       "date": "2026-06-17",
       "time": "20:00 UTC-6",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Uzbekistan",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Colombia",
-        "score": null
+        "score": 3
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "60",
+          "player": "Abbosbek Fayzullaev",
+          "team": "Uzbekistan"
+        },
+        {
+          "type": "goal",
+          "minute": "40",
+          "player": "Daniel Muñoz",
+          "team": "Colombia"
+        },
+        {
+          "type": "goal",
+          "minute": "65",
+          "player": "Luis Díaz",
+          "team": "Colombia"
+        },
+        {
+          "type": "goal",
+          "minute": "90+9",
+          "player": "Jáminton Campaz",
+          "team": "Colombia"
+        }
+      ]
     },
     {
       "id": "2026-06-23-Portugal-Uzbekistan",
@@ -1804,31 +2196,75 @@
       "id": "2026-06-17-England-Croatia",
       "date": "2026-06-17",
       "time": "15:00 UTC-5",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "England",
-        "score": null
+        "score": 4
       },
       "away": {
         "name": "Croatia",
-        "score": null
+        "score": 2
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "12",
+          "player": "Harry Kane",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "42",
+          "player": "Harry Kane",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "47",
+          "player": "Jude Bellingham",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "85",
+          "player": "Marcus Rashford",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "36",
+          "player": "Martin Baturina",
+          "team": "Croatia"
+        },
+        {
+          "type": "goal",
+          "minute": "45+5",
+          "player": "Petar Musa",
+          "team": "Croatia"
+        }
+      ]
     },
     {
       "id": "2026-06-17-Ghana-Panama",
       "date": "2026-06-17",
       "time": "19:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Ghana",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Panama",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "90+5",
+          "player": "Caleb Yirenkyi",
+          "team": "Ghana"
+        }
+      ]
     },
     {
       "id": "2026-06-23-England-Ghana",
@@ -2373,6 +2809,34 @@
   ],
   "topScorers": [
     {
+      "name": "Jonathan David",
+      "goals": 3
+    },
+    {
+      "name": "Lionel Messi",
+      "goals": 3
+    },
+    {
+      "name": "Cyle Larin",
+      "goals": 2
+    },
+    {
+      "name": "Johan Manzambi",
+      "goals": 2
+    },
+    {
+      "name": "Vinícius Júnior",
+      "goals": 2
+    },
+    {
+      "name": "Ismael Saibari",
+      "goals": 2
+    },
+    {
+      "name": "Matheus Cunha",
+      "goals": 2
+    },
+    {
       "name": "Folarin Balogun",
       "goals": 2
     },
@@ -2381,36 +2845,8 @@
       "goals": 2
     },
     {
-      "name": "Julián Quiñones",
-      "goals": 1
-    },
-    {
-      "name": "Raúl Jiménez",
-      "goals": 1
-    },
-    {
-      "name": "Hwang In-Beom",
-      "goals": 1
-    },
-    {
-      "name": "Oh Hyeon-Gyu",
-      "goals": 1
-    },
-    {
-      "name": "Ladislav Krejcí",
-      "goals": 1
-    },
-    {
-      "name": "Cyle Larin",
-      "goals": 1
-    },
-    {
-      "name": "Jovo Lukić",
-      "goals": 1
-    },
-    {
-      "name": "Boualem Khoukhi",
-      "goals": 1
+      "name": "Yasin Ayari",
+      "goals": 2
     }
   ],
   "topAssists": [],
