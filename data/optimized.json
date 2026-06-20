@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T20:50:35.722Z",
+  "lastUpdated": "2026-06-20T22:06:18.619Z",
   "groups": [
     {
       "name": "Group A",
@@ -218,26 +218,26 @@
       "teams": [
         {
           "name": "Germany",
-          "played": 1,
-          "wins": 1,
+          "played": 2,
+          "wins": 2,
           "draws": 0,
           "losses": 0,
-          "gf": 7,
-          "ga": 1,
-          "points": 3,
-          "gd": 6,
+          "gf": 9,
+          "ga": 2,
+          "points": 6,
+          "gd": 7,
           "rank": 1
         },
         {
           "name": "Ivory Coast",
-          "played": 1,
+          "played": 2,
           "wins": 1,
           "draws": 0,
-          "losses": 0,
-          "gf": 1,
-          "ga": 0,
+          "losses": 1,
+          "gf": 2,
+          "ga": 2,
           "points": 3,
-          "gd": 1,
+          "gd": 0,
           "rank": 2
         },
         {
@@ -1345,16 +1345,35 @@
       "id": "2026-06-20-Germany-Ivory Coast",
       "date": "2026-06-20",
       "time": "16:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Germany",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "Ivory Coast",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "68",
+          "player": "Deniz Undav",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "90+4",
+          "player": "Deniz Undav",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "30",
+          "player": "Franck Kessié",
+          "team": "Ivory Coast"
+        }
+      ]
     },
     {
       "id": "2026-06-20-Ecuador-Curaçao",
@@ -2850,6 +2869,10 @@
       "goals": 3
     },
     {
+      "name": "Deniz Undav",
+      "goals": 3
+    },
+    {
       "name": "Lionel Messi",
       "goals": 3
     },
@@ -2879,10 +2902,6 @@
     },
     {
       "name": "Kai Havertz",
-      "goals": 2
-    },
-    {
-      "name": "Crysencio Summerville",
       "goals": 2
     }
   ],
