@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T20:43:51.872Z",
+  "lastUpdated": "2026-06-21T22:14:45.842Z",
   "groups": [
     {
       "name": "Group A",
@@ -324,15 +324,27 @@
       "teams": [
         {
           "name": "Iran",
-          "played": 1,
+          "played": 2,
           "wins": 0,
-          "draws": 1,
+          "draws": 2,
           "losses": 0,
           "gf": 2,
           "ga": 2,
-          "points": 1,
+          "points": 2,
           "gd": 0,
           "rank": 1
+        },
+        {
+          "name": "Belgium",
+          "played": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 2,
+          "gd": 0,
+          "rank": 2
         },
         {
           "name": "New Zealand",
@@ -342,18 +354,6 @@
           "losses": 0,
           "gf": 2,
           "ga": 2,
-          "points": 1,
-          "gd": 0,
-          "rank": 2
-        },
-        {
-          "name": "Belgium",
-          "played": 1,
-          "wins": 0,
-          "draws": 1,
-          "losses": 0,
-          "gf": 1,
-          "ga": 1,
           "points": 1,
           "gd": 0,
           "rank": 3
@@ -1706,14 +1706,14 @@
       "id": "2026-06-21-Belgium-Iran",
       "date": "2026-06-21",
       "time": "12:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Belgium",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Iran",
-        "score": null
+        "score": 0
       },
       "events": []
     },
