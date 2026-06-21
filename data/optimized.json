@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T17:05:12.111Z",
+  "lastUpdated": "2026-06-21T18:59:41.808Z",
   "groups": [
     {
       "name": "Group A",
@@ -376,15 +376,15 @@
       "name": "Group H",
       "teams": [
         {
-          "name": "Saudi Arabia",
-          "played": 1,
-          "wins": 0,
+          "name": "Spain",
+          "played": 2,
+          "wins": 1,
           "draws": 1,
           "losses": 0,
-          "gf": 1,
-          "ga": 1,
-          "points": 1,
-          "gd": 0,
+          "gf": 4,
+          "ga": 0,
+          "points": 4,
+          "gd": 4,
           "rank": 1
         },
         {
@@ -400,7 +400,7 @@
           "rank": 2
         },
         {
-          "name": "Spain",
+          "name": "Cape Verde",
           "played": 1,
           "wins": 0,
           "draws": 1,
@@ -412,15 +412,15 @@
           "rank": 3
         },
         {
-          "name": "Cape Verde",
-          "played": 1,
+          "name": "Saudi Arabia",
+          "played": 2,
           "wins": 0,
           "draws": 1,
-          "losses": 0,
-          "gf": 0,
-          "ga": 0,
+          "losses": 1,
+          "gf": 1,
+          "ga": 5,
           "points": 1,
-          "gd": 0,
+          "gd": -4,
           "rank": 4
         }
       ]
@@ -1809,16 +1809,41 @@
       "id": "2026-06-21-Spain-Saudi Arabia",
       "date": "2026-06-21",
       "time": "12:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Spain",
-        "score": null
+        "score": 4
       },
       "away": {
         "name": "Saudi Arabia",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "10",
+          "player": "Lamine Yamal",
+          "team": "Spain"
+        },
+        {
+          "type": "goal",
+          "minute": "21",
+          "player": "Mikel Oyarzabal",
+          "team": "Spain"
+        },
+        {
+          "type": "goal",
+          "minute": "24",
+          "player": "Mikel Oyarzabal",
+          "team": "Spain"
+        },
+        {
+          "type": "goal",
+          "minute": "49",
+          "player": "Hassan Al-Tambakti",
+          "team": "Spain"
+        }
+      ]
     },
     {
       "id": "2026-06-21-Uruguay-Cape Verde",
