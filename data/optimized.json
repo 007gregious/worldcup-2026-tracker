@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T23:50:54.486Z",
+  "lastUpdated": "2026-06-22T13:34:58.386Z",
   "groups": [
     {
       "name": "Group A",
@@ -323,6 +323,18 @@
       "name": "Group G",
       "teams": [
         {
+          "name": "Egypt",
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "gf": 4,
+          "ga": 2,
+          "points": 4,
+          "gd": 2,
+          "rank": 1
+        },
+        {
           "name": "Iran",
           "played": 2,
           "wins": 0,
@@ -332,7 +344,7 @@
           "ga": 2,
           "points": 2,
           "gd": 0,
-          "rank": 1
+          "rank": 2
         },
         {
           "name": "Belgium",
@@ -344,30 +356,18 @@
           "ga": 1,
           "points": 2,
           "gd": 0,
-          "rank": 2
-        },
-        {
-          "name": "New Zealand",
-          "played": 1,
-          "wins": 0,
-          "draws": 1,
-          "losses": 0,
-          "gf": 2,
-          "ga": 2,
-          "points": 1,
-          "gd": 0,
           "rank": 3
         },
         {
-          "name": "Egypt",
-          "played": 1,
+          "name": "New Zealand",
+          "played": 2,
           "wins": 0,
           "draws": 1,
-          "losses": 0,
-          "gf": 1,
-          "ga": 1,
+          "losses": 1,
+          "gf": 3,
+          "ga": 5,
           "points": 1,
-          "gd": 0,
+          "gd": -2,
           "rank": 4
         }
       ]
@@ -389,25 +389,25 @@
         },
         {
           "name": "Uruguay",
-          "played": 1,
+          "played": 2,
           "wins": 0,
-          "draws": 1,
+          "draws": 2,
           "losses": 0,
-          "gf": 1,
-          "ga": 1,
-          "points": 1,
+          "gf": 3,
+          "ga": 3,
+          "points": 2,
           "gd": 0,
           "rank": 2
         },
         {
           "name": "Cape Verde",
-          "played": 1,
+          "played": 2,
           "wins": 0,
-          "draws": 1,
+          "draws": 2,
           "losses": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 1,
+          "gf": 2,
+          "ga": 2,
+          "points": 2,
           "gd": 0,
           "rank": 3
         },
@@ -1721,16 +1721,41 @@
       "id": "2026-06-21-New Zealand-Egypt",
       "date": "2026-06-21",
       "time": "18:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "New Zealand",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Egypt",
-        "score": null
+        "score": 3
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "15",
+          "player": "Finn Surman",
+          "team": "New Zealand"
+        },
+        {
+          "type": "goal",
+          "minute": "58",
+          "player": "Mostafa Zico",
+          "team": "Egypt"
+        },
+        {
+          "type": "goal",
+          "minute": "67",
+          "player": "Mohamed Salah",
+          "team": "Egypt"
+        },
+        {
+          "type": "goal",
+          "minute": "82",
+          "player": "Trézéguet",
+          "team": "Egypt"
+        }
+      ]
     },
     {
       "id": "2026-06-26-Egypt-Iran",
@@ -1849,16 +1874,41 @@
       "id": "2026-06-21-Uruguay-Cape Verde",
       "date": "2026-06-21",
       "time": "18:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Uruguay",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "Cape Verde",
-        "score": null
+        "score": 2
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "44",
+          "player": "Maxi Araújo",
+          "team": "Uruguay"
+        },
+        {
+          "type": "goal",
+          "minute": "45+6",
+          "player": "Agustín Cano",
+          "team": "Uruguay"
+        },
+        {
+          "type": "goal",
+          "minute": "21",
+          "player": "Kevin Pina",
+          "team": "Cape Verde"
+        },
+        {
+          "type": "goal",
+          "minute": "61",
+          "player": "Hélio Varela",
+          "team": "Cape Verde"
+        }
+      ]
     },
     {
       "id": "2026-06-26-Cape Verde-Saudi Arabia",
@@ -2448,12 +2498,12 @@
       "events": []
     },
     {
-      "id": "2026-06-29-1E-3A/B/C/D/F",
+      "id": "2026-06-29-Germany-3A/B/C/D/F",
       "date": "2026-06-29",
       "time": "16:30 UTC-4",
       "status": "scheduled",
       "home": {
-        "name": "1E",
+        "name": "Germany",
         "score": null
       },
       "away": {
@@ -2523,12 +2573,12 @@
       "events": []
     },
     {
-      "id": "2026-06-30-1A-3C/E/F/H/I",
+      "id": "2026-06-30-Mexico-3C/E/F/H/I",
       "date": "2026-06-30",
       "time": "19:00 UTC-6",
       "status": "scheduled",
       "home": {
-        "name": "1A",
+        "name": "Mexico",
         "score": null
       },
       "away": {
@@ -2553,12 +2603,12 @@
       "events": []
     },
     {
-      "id": "2026-07-01-1D-3B/E/F/I/J",
+      "id": "2026-07-01-USA-3B/E/F/I/J",
       "date": "2026-07-01",
       "time": "17:00 UTC-7",
       "status": "scheduled",
       "home": {
-        "name": "1D",
+        "name": "USA",
         "score": null
       },
       "away": {
