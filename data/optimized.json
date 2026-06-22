@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T18:12:36.703Z",
+  "lastUpdated": "2026-06-22T21:20:15.628Z",
   "groups": [
     {
       "name": "Group A",
@@ -483,26 +483,26 @@
       "teams": [
         {
           "name": "Argentina",
-          "played": 1,
-          "wins": 1,
+          "played": 2,
+          "wins": 2,
           "draws": 0,
           "losses": 0,
-          "gf": 3,
+          "gf": 5,
           "ga": 0,
-          "points": 3,
-          "gd": 3,
+          "points": 6,
+          "gd": 5,
           "rank": 1
         },
         {
           "name": "Austria",
-          "played": 1,
+          "played": 2,
           "wins": 1,
           "draws": 0,
-          "losses": 0,
+          "losses": 1,
           "gf": 3,
-          "ga": 1,
+          "ga": 3,
           "points": 3,
-          "gd": 2,
+          "gd": 0,
           "rank": 2
         },
         {
@@ -2164,16 +2164,29 @@
       "id": "2026-06-22-Argentina-Austria",
       "date": "2026-06-22",
       "time": "12:00 UTC-5",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Argentina",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "Austria",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "38",
+          "player": "Lionel Messi",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "90+5",
+          "player": "Lionel Messi",
+          "team": "Argentina"
+        }
+      ]
     },
     {
       "id": "2026-06-22-Jordan-Algeria",
@@ -2965,15 +2978,15 @@
   ],
   "topScorers": [
     {
+      "name": "Lionel Messi",
+      "goals": 5
+    },
+    {
       "name": "Jonathan David",
       "goals": 3
     },
     {
       "name": "Deniz Undav",
-      "goals": 3
-    },
-    {
-      "name": "Lionel Messi",
       "goals": 3
     },
     {
