@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T21:17:12.053Z",
+  "lastUpdated": "2026-06-23T22:46:32.172Z",
   "groups": [
     {
       "name": "Group A",
@@ -589,25 +589,25 @@
       "teams": [
         {
           "name": "England",
-          "played": 1,
+          "played": 2,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "gf": 4,
           "ga": 2,
-          "points": 3,
+          "points": 4,
           "gd": 2,
           "rank": 1
         },
         {
           "name": "Ghana",
-          "played": 1,
+          "played": 2,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "gf": 1,
           "ga": 0,
-          "points": 3,
+          "points": 4,
           "gd": 1,
           "rank": 2
         },
@@ -2539,14 +2539,14 @@
       "id": "2026-06-23-England-Ghana",
       "date": "2026-06-23",
       "time": "16:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "England",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Ghana",
-        "score": null
+        "score": 0
       },
       "events": []
     },
