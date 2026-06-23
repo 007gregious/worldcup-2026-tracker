@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T01:30:16.796Z",
+  "lastUpdated": "2026-06-23T11:16:13.732Z",
   "groups": [
     {
       "name": "Group A",
@@ -429,51 +429,51 @@
       "name": "Group I",
       "teams": [
         {
-          "name": "Norway",
-          "played": 1,
-          "wins": 1,
+          "name": "France",
+          "played": 2,
+          "wins": 2,
           "draws": 0,
           "losses": 0,
-          "gf": 4,
+          "gf": 6,
           "ga": 1,
-          "points": 3,
-          "gd": 3,
+          "points": 6,
+          "gd": 5,
           "rank": 1
         },
         {
-          "name": "France",
-          "played": 1,
-          "wins": 1,
+          "name": "Norway",
+          "played": 2,
+          "wins": 2,
           "draws": 0,
           "losses": 0,
-          "gf": 3,
-          "ga": 1,
-          "points": 3,
-          "gd": 2,
+          "gf": 7,
+          "ga": 3,
+          "points": 6,
+          "gd": 4,
           "rank": 2
         },
         {
           "name": "Senegal",
-          "played": 1,
+          "played": 2,
           "wins": 0,
           "draws": 0,
-          "losses": 1,
-          "gf": 1,
-          "ga": 3,
+          "losses": 2,
+          "gf": 3,
+          "ga": 6,
           "points": 0,
-          "gd": -2,
+          "gd": -3,
           "rank": 3
         },
         {
           "name": "Iraq",
-          "played": 1,
+          "played": 2,
           "wins": 0,
           "draws": 0,
-          "losses": 1,
+          "losses": 2,
           "gf": 1,
-          "ga": 4,
+          "ga": 7,
           "points": 0,
-          "gd": -3,
+          "gd": -6,
           "rank": 4
         }
       ]
@@ -506,25 +506,25 @@
           "rank": 2
         },
         {
-          "name": "Jordan",
-          "played": 1,
-          "wins": 0,
+          "name": "Algeria",
+          "played": 2,
+          "wins": 1,
           "draws": 0,
           "losses": 1,
-          "gf": 1,
-          "ga": 3,
-          "points": 0,
+          "gf": 2,
+          "ga": 4,
+          "points": 3,
           "gd": -2,
           "rank": 3
         },
         {
-          "name": "Algeria",
-          "played": 1,
+          "name": "Jordan",
+          "played": 2,
           "wins": 0,
           "draws": 0,
-          "losses": 1,
-          "gf": 0,
-          "ga": 3,
+          "losses": 2,
+          "gf": 2,
+          "ga": 5,
           "points": 0,
           "gd": -3,
           "rank": 4
@@ -2030,31 +2030,81 @@
       "id": "2026-06-22-France-Iraq",
       "date": "2026-06-22",
       "time": "17:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "France",
-        "score": null
+        "score": 3
       },
       "away": {
         "name": "Iraq",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "14",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "54",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "66",
+          "player": "Ousmane Dembélé",
+          "team": "France"
+        }
+      ]
     },
     {
       "id": "2026-06-22-Norway-Senegal",
       "date": "2026-06-22",
       "time": "20:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Norway",
-        "score": null
+        "score": 3
       },
       "away": {
         "name": "Senegal",
-        "score": null
+        "score": 2
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "43",
+          "player": "Marcus Holmgren Pedersen",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "48",
+          "player": "Erling Haaland",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "58",
+          "player": "Erling Haaland",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "53",
+          "player": "Ismaïla Sarr",
+          "team": "Senegal"
+        },
+        {
+          "type": "goal",
+          "minute": "90+3",
+          "player": "Ismaïla Sarr",
+          "team": "Senegal"
+        }
+      ]
     },
     {
       "id": "2026-06-26-Norway-France",
@@ -2192,16 +2242,35 @@
       "id": "2026-06-22-Jordan-Algeria",
       "date": "2026-06-22",
       "time": "20:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Jordan",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Algeria",
-        "score": null
+        "score": 2
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "36",
+          "player": "Nizar Al-Rashdan",
+          "team": "Jordan"
+        },
+        {
+          "type": "goal",
+          "minute": "69",
+          "player": "Nadhir Benbouali",
+          "team": "Algeria"
+        },
+        {
+          "type": "goal",
+          "minute": "82",
+          "player": "Amine Gouiri",
+          "team": "Algeria"
+        }
+      ]
     },
     {
       "id": "2026-06-27-Algeria-Austria",
@@ -2982,6 +3051,14 @@
       "goals": 5
     },
     {
+      "name": "Kylian Mbappé",
+      "goals": 4
+    },
+    {
+      "name": "Erling Haaland",
+      "goals": 4
+    },
+    {
       "name": "Jonathan David",
       "goals": 3
     },
@@ -3007,14 +3084,6 @@
     },
     {
       "name": "Matheus Cunha",
-      "goals": 2
-    },
-    {
-      "name": "Folarin Balogun",
-      "goals": 2
-    },
-    {
-      "name": "Kai Havertz",
       "goals": 2
     }
   ],
