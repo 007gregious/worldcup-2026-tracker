@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T19:45:18.708Z",
+  "lastUpdated": "2026-06-24T21:22:06.559Z",
   "groups": [
     {
       "name": "Group A",
@@ -58,51 +58,51 @@
       "name": "Group B",
       "teams": [
         {
-          "name": "Canada",
-          "played": 2,
-          "wins": 1,
+          "name": "Switzerland",
+          "played": 3,
+          "wins": 2,
           "draws": 1,
           "losses": 0,
           "gf": 7,
-          "ga": 1,
-          "points": 4,
-          "gd": 6,
+          "ga": 3,
+          "points": 7,
+          "gd": 4,
           "rank": 1
         },
         {
-          "name": "Switzerland",
-          "played": 2,
+          "name": "Canada",
+          "played": 3,
           "wins": 1,
           "draws": 1,
-          "losses": 0,
-          "gf": 5,
-          "ga": 2,
+          "losses": 1,
+          "gf": 8,
+          "ga": 3,
           "points": 4,
-          "gd": 3,
+          "gd": 5,
           "rank": 2
         },
         {
           "name": "Bosnia & Herzegovina",
-          "played": 2,
-          "wins": 0,
+          "played": 3,
+          "wins": 1,
           "draws": 1,
           "losses": 1,
-          "gf": 2,
-          "ga": 5,
-          "points": 1,
-          "gd": -3,
+          "gf": 5,
+          "ga": 6,
+          "points": 4,
+          "gd": -1,
           "rank": 3
         },
         {
           "name": "Qatar",
-          "played": 2,
+          "played": 3,
           "wins": 0,
           "draws": 1,
-          "losses": 1,
-          "gf": 1,
-          "ga": 7,
+          "losses": 2,
+          "gf": 2,
+          "ga": 10,
           "points": 1,
-          "gd": -6,
+          "gd": -8,
           "rank": 4
         }
       ]
@@ -939,31 +939,75 @@
       "id": "2026-06-24-Switzerland-Canada",
       "date": "2026-06-24",
       "time": "12:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Switzerland",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "Canada",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "46",
+          "player": "Rubén Vargas",
+          "team": "Switzerland"
+        },
+        {
+          "type": "goal",
+          "minute": "57",
+          "player": "Johan Manzambi",
+          "team": "Switzerland"
+        },
+        {
+          "type": "goal",
+          "minute": "76",
+          "player": "Promise David",
+          "team": "Canada"
+        }
+      ]
     },
     {
       "id": "2026-06-24-Bosnia & Herzegovina-Qatar",
       "date": "2026-06-24",
       "time": "12:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Bosnia & Herzegovina",
-        "score": null
+        "score": 3
       },
       "away": {
         "name": "Qatar",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "29",
+          "player": "Kerim Alajbegovic",
+          "team": "Bosnia & Herzegovina"
+        },
+        {
+          "type": "goal",
+          "minute": "34",
+          "player": "Mahmoud Abunada",
+          "team": "Bosnia & Herzegovina"
+        },
+        {
+          "type": "goal",
+          "minute": "80",
+          "player": "Ermin Mahmic",
+          "team": "Bosnia & Herzegovina"
+        },
+        {
+          "type": "goal",
+          "minute": "42",
+          "player": "Hassan Al-Haydos",
+          "team": "Qatar"
+        }
+      ]
     },
     {
       "id": "2026-06-13-Brazil-Morocco",
@@ -3104,6 +3148,10 @@
       "goals": 4
     },
     {
+      "name": "Johan Manzambi",
+      "goals": 3
+    },
+    {
       "name": "Jonathan David",
       "goals": 3
     },
@@ -3116,19 +3164,15 @@
       "goals": 2
     },
     {
-      "name": "Johan Manzambi",
+      "name": "Rubén Vargas",
+      "goals": 2
+    },
+    {
+      "name": "Ermin Mahmic",
       "goals": 2
     },
     {
       "name": "Vinícius Júnior",
-      "goals": 2
-    },
-    {
-      "name": "Ismael Saibari",
-      "goals": 2
-    },
-    {
-      "name": "Matheus Cunha",
       "goals": 2
     }
   ],
