@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T23:56:51.649Z",
+  "lastUpdated": "2026-06-24T10:49:54.187Z",
   "groups": [
     {
       "name": "Group A",
@@ -535,6 +535,18 @@
       "name": "Group K",
       "teams": [
         {
+          "name": "Colombia",
+          "played": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "gf": 4,
+          "ga": 1,
+          "points": 6,
+          "gd": 3,
+          "rank": 1
+        },
+        {
           "name": "Portugal",
           "played": 2,
           "wins": 1,
@@ -544,30 +556,18 @@
           "ga": 1,
           "points": 4,
           "gd": 5,
-          "rank": 1
-        },
-        {
-          "name": "Colombia",
-          "played": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "gf": 3,
-          "ga": 1,
-          "points": 3,
-          "gd": 2,
           "rank": 2
         },
         {
           "name": "DR Congo",
-          "played": 1,
+          "played": 2,
           "wins": 0,
           "draws": 1,
-          "losses": 0,
+          "losses": 1,
           "gf": 1,
-          "ga": 1,
+          "ga": 2,
           "points": 1,
-          "gd": 0,
+          "gd": -1,
           "rank": 3
         },
         {
@@ -612,25 +612,25 @@
           "rank": 2
         },
         {
-          "name": "Panama",
-          "played": 1,
-          "wins": 0,
+          "name": "Croatia",
+          "played": 2,
+          "wins": 1,
           "draws": 0,
           "losses": 1,
-          "gf": 0,
-          "ga": 1,
-          "points": 0,
+          "gf": 3,
+          "ga": 4,
+          "points": 3,
           "gd": -1,
           "rank": 3
         },
         {
-          "name": "Croatia",
-          "played": 1,
+          "name": "Panama",
+          "played": 2,
           "wins": 0,
           "draws": 0,
-          "losses": 1,
-          "gf": 2,
-          "ga": 4,
+          "losses": 2,
+          "gf": 0,
+          "ga": 2,
           "points": 0,
           "gd": -2,
           "rank": 4
@@ -2420,16 +2420,23 @@
       "id": "2026-06-23-Colombia-DR Congo",
       "date": "2026-06-23",
       "time": "20:00 UTC-6",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Colombia",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "DR Congo",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "76",
+          "player": "Daniel Muñoz",
+          "team": "Colombia"
+        }
+      ]
     },
     {
       "id": "2026-06-27-Colombia-Portugal",
@@ -2554,16 +2561,23 @@
       "id": "2026-06-23-Panama-Croatia",
       "date": "2026-06-23",
       "time": "19:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Panama",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Croatia",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "54",
+          "player": "Ante Budimir",
+          "team": "Croatia"
+        }
+      ]
     },
     {
       "id": "2026-06-27-Panama-England",
