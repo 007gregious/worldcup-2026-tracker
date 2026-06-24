@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T13:22:08.223Z",
+  "lastUpdated": "2026-06-24T15:41:32.895Z",
   "groups": [
     {
       "name": "Group A",
@@ -859,14 +859,14 @@
         },
         {
           "type": "goal",
-          "minute": "84",
-          "player": "Rubén Vargas",
+          "minute": "90",
+          "player": "Johan Manzambi",
           "team": "Switzerland"
         },
         {
           "type": "goal",
-          "minute": "90",
-          "player": "Johan Manzambi",
+          "minute": "84",
+          "player": "Rubén Vargas",
           "team": "Switzerland"
         },
         {
@@ -1482,6 +1482,12 @@
         },
         {
           "type": "goal",
+          "minute": "90+6",
+          "player": "Yasin Ayari",
+          "team": "Sweden"
+        },
+        {
+          "type": "goal",
           "minute": "30",
           "player": "Alexander Isak",
           "team": "Sweden"
@@ -1496,12 +1502,6 @@
           "type": "goal",
           "minute": "84",
           "player": "Mattias Svanberg",
-          "team": "Sweden"
-        },
-        {
-          "type": "goal",
-          "minute": "90+6",
-          "player": "Yasin Ayari",
           "team": "Sweden"
         },
         {
@@ -1592,14 +1592,14 @@
         },
         {
           "type": "goal",
-          "minute": "69",
-          "player": "Junya Ito",
+          "minute": "83",
+          "player": "Ayase Ueda",
           "team": "Japan"
         },
         {
           "type": "goal",
-          "minute": "83",
-          "player": "Ayase Ueda",
+          "minute": "69",
+          "player": "Junya Ito",
           "team": "Japan"
         }
       ]
@@ -1962,14 +1962,14 @@
         },
         {
           "type": "goal",
-          "minute": "82",
-          "player": "Bradley Barcola",
+          "minute": "90+6",
+          "player": "Kylian Mbappé",
           "team": "France"
         },
         {
           "type": "goal",
-          "minute": "90+6",
-          "player": "Kylian Mbappé",
+          "minute": "82",
+          "player": "Bradley Barcola",
           "team": "France"
         },
         {
@@ -2392,14 +2392,14 @@
         },
         {
           "type": "goal",
-          "minute": "17",
-          "player": "Nuno Mendes",
+          "minute": "39",
+          "player": "Cristiano Ronaldo",
           "team": "Portugal"
         },
         {
           "type": "goal",
-          "minute": "39",
-          "player": "Cristiano Ronaldo",
+          "minute": "17",
+          "player": "Nuno Mendes",
           "team": "Portugal"
         },
         {
