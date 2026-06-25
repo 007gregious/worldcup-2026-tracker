@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T22:47:25.317Z",
+  "lastUpdated": "2026-06-25T00:13:07.284Z",
   "groups": [
     {
       "name": "Group A",
@@ -112,50 +112,50 @@
       "teams": [
         {
           "name": "Brazil",
-          "played": 2,
-          "wins": 1,
+          "played": 3,
+          "wins": 2,
           "draws": 1,
           "losses": 0,
-          "gf": 4,
+          "gf": 7,
           "ga": 1,
-          "points": 4,
-          "gd": 3,
+          "points": 7,
+          "gd": 6,
           "rank": 1
         },
         {
           "name": "Morocco",
-          "played": 2,
-          "wins": 1,
+          "played": 3,
+          "wins": 2,
           "draws": 1,
           "losses": 0,
-          "gf": 2,
-          "ga": 1,
-          "points": 4,
-          "gd": 1,
+          "gf": 6,
+          "ga": 3,
+          "points": 7,
+          "gd": 3,
           "rank": 2
         },
         {
           "name": "Scotland",
-          "played": 2,
+          "played": 3,
           "wins": 1,
           "draws": 0,
-          "losses": 1,
+          "losses": 2,
           "gf": 1,
-          "ga": 1,
+          "ga": 4,
           "points": 3,
-          "gd": 0,
+          "gd": -3,
           "rank": 3
         },
         {
           "name": "Haiti",
-          "played": 2,
+          "played": 3,
           "wins": 0,
           "draws": 0,
-          "losses": 2,
-          "gf": 0,
-          "ga": 4,
+          "losses": 3,
+          "gf": 2,
+          "ga": 8,
           "points": 0,
-          "gd": -4,
+          "gd": -6,
           "rank": 4
         }
       ]
@@ -1119,31 +1119,87 @@
       "id": "2026-06-24-Scotland-Brazil",
       "date": "2026-06-24",
       "time": "18:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Scotland",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Brazil",
-        "score": null
+        "score": 3
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "7",
+          "player": "Vinícius Júnior",
+          "team": "Brazil"
+        },
+        {
+          "type": "goal",
+          "minute": "45+3",
+          "player": "Vinícius Júnior",
+          "team": "Brazil"
+        },
+        {
+          "type": "goal",
+          "minute": "60",
+          "player": "Matheus Cunha",
+          "team": "Brazil"
+        }
+      ]
     },
     {
       "id": "2026-06-24-Morocco-Haiti",
       "date": "2026-06-24",
       "time": "18:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Morocco",
-        "score": null
+        "score": 4
       },
       "away": {
         "name": "Haiti",
-        "score": null
+        "score": 2
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "39",
+          "player": "Achraf Hakimi",
+          "team": "Morocco"
+        },
+        {
+          "type": "goal",
+          "minute": "45+1",
+          "player": "Ismael Saibari",
+          "team": "Morocco"
+        },
+        {
+          "type": "goal",
+          "minute": "78",
+          "player": "Soufiane Rahimi",
+          "team": "Morocco"
+        },
+        {
+          "type": "goal",
+          "minute": "89",
+          "player": "Gessime Yassine",
+          "team": "Morocco"
+        },
+        {
+          "type": "goal",
+          "minute": "10",
+          "player": "Yassine Bounou",
+          "team": "Haiti"
+        },
+        {
+          "type": "goal",
+          "minute": "43",
+          "player": "Wilson Isidor",
+          "team": "Haiti"
+        }
+      ]
     },
     {
       "id": "2026-06-12-USA-Paraguay",
@@ -3140,6 +3196,10 @@
       "goals": 5
     },
     {
+      "name": "Vinícius Júnior",
+      "goals": 4
+    },
+    {
       "name": "Kylian Mbappé",
       "goals": 4
     },
@@ -3156,23 +3216,19 @@
       "goals": 3
     },
     {
+      "name": "Ismael Saibari",
+      "goals": 3
+    },
+    {
+      "name": "Matheus Cunha",
+      "goals": 3
+    },
+    {
       "name": "Deniz Undav",
       "goals": 3
     },
     {
       "name": "Cyle Larin",
-      "goals": 2
-    },
-    {
-      "name": "Rubén Vargas",
-      "goals": 2
-    },
-    {
-      "name": "Ermin Mahmic",
-      "goals": 2
-    },
-    {
-      "name": "Vinícius Júnior",
       "goals": 2
     }
   ],
