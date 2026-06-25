@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T13:16:39.990Z",
+  "lastUpdated": "2026-06-25T16:01:19.659Z",
   "groups": [
     {
       "name": "Group A",
@@ -2736,16 +2736,16 @@
       "events": []
     },
     {
-      "id": "2026-06-28-2A-2B",
+      "id": "2026-06-28-South Africa-Canada",
       "date": "2026-06-28",
       "time": "12:00 UTC-7",
       "status": "scheduled",
       "home": {
-        "name": "2A",
+        "name": "South Africa",
         "score": null
       },
       "away": {
-        "name": "2B",
+        "name": "Canada",
         "score": null
       },
       "events": []
@@ -2766,7 +2766,7 @@
       "events": []
     },
     {
-      "id": "2026-06-29-1F-2C",
+      "id": "2026-06-29-1F-Morocco",
       "date": "2026-06-29",
       "time": "19:00 UTC-6",
       "status": "scheduled",
@@ -2775,18 +2775,18 @@
         "score": null
       },
       "away": {
-        "name": "2C",
+        "name": "Morocco",
         "score": null
       },
       "events": []
     },
     {
-      "id": "2026-06-29-1C-2F",
+      "id": "2026-06-29-Brazil-2F",
       "date": "2026-06-29",
       "time": "12:00 UTC-5",
       "status": "scheduled",
       "home": {
-        "name": "1C",
+        "name": "Brazil",
         "score": null
       },
       "away": {
@@ -2916,12 +2916,12 @@
       "events": []
     },
     {
-      "id": "2026-07-02-1B-3E/F/G/I/J",
+      "id": "2026-07-02-Switzerland-3E/F/G/I/J",
       "date": "2026-07-02",
       "time": "20:00 UTC-7",
       "status": "scheduled",
       "home": {
-        "name": "1B",
+        "name": "Switzerland",
         "score": null
       },
       "away": {
