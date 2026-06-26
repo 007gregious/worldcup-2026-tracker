@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T10:50:51.956Z",
+  "lastUpdated": "2026-06-26T13:11:11.639Z",
   "groups": [
     {
       "name": "Group A",
@@ -2867,12 +2867,12 @@
       "events": []
     },
     {
-      "id": "2026-06-29-1F-Morocco",
+      "id": "2026-06-29-Netherlands-Morocco",
       "date": "2026-06-29",
       "time": "19:00 UTC-6",
       "status": "scheduled",
       "home": {
-        "name": "1F",
+        "name": "Netherlands",
         "score": null
       },
       "away": {
@@ -2882,7 +2882,7 @@
       "events": []
     },
     {
-      "id": "2026-06-29-Brazil-2F",
+      "id": "2026-06-29-Brazil-Japan",
       "date": "2026-06-29",
       "time": "12:00 UTC-5",
       "status": "scheduled",
@@ -2891,7 +2891,7 @@
         "score": null
       },
       "away": {
-        "name": "2F",
+        "name": "Japan",
         "score": null
       },
       "events": []
@@ -2912,12 +2912,12 @@
       "events": []
     },
     {
-      "id": "2026-06-30-2E-2I",
+      "id": "2026-06-30-Ivory Coast-2I",
       "date": "2026-06-30",
       "time": "12:00 UTC-5",
       "status": "scheduled",
       "home": {
-        "name": "2E",
+        "name": "Ivory Coast",
         "score": null
       },
       "away": {
@@ -3062,12 +3062,12 @@
       "events": []
     },
     {
-      "id": "2026-07-03-2D-2G",
+      "id": "2026-07-03-Australia-2G",
       "date": "2026-07-03",
       "time": "13:00 UTC-5",
       "status": "scheduled",
       "home": {
-        "name": "2D",
+        "name": "Australia",
         "score": null
       },
       "away": {
