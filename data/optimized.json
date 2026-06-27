@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T00:06:22.027Z",
+  "lastUpdated": "2026-06-27T10:08:22.764Z",
   "groups": [
     {
       "name": "Group A",
@@ -323,51 +323,51 @@
       "name": "Group G",
       "teams": [
         {
-          "name": "Egypt",
-          "played": 2,
+          "name": "Belgium",
+          "played": 3,
           "wins": 1,
-          "draws": 1,
+          "draws": 2,
           "losses": 0,
-          "gf": 4,
+          "gf": 6,
           "ga": 2,
-          "points": 4,
-          "gd": 2,
+          "points": 5,
+          "gd": 4,
           "rank": 1
         },
         {
-          "name": "Iran",
-          "played": 2,
-          "wins": 0,
+          "name": "Egypt",
+          "played": 3,
+          "wins": 1,
           "draws": 2,
           "losses": 0,
-          "gf": 2,
-          "ga": 2,
-          "points": 2,
-          "gd": 0,
+          "gf": 5,
+          "ga": 3,
+          "points": 5,
+          "gd": 2,
           "rank": 2
         },
         {
-          "name": "Belgium",
-          "played": 2,
+          "name": "Iran",
+          "played": 3,
           "wins": 0,
-          "draws": 2,
+          "draws": 3,
           "losses": 0,
-          "gf": 1,
-          "ga": 1,
-          "points": 2,
+          "gf": 3,
+          "ga": 3,
+          "points": 3,
           "gd": 0,
           "rank": 3
         },
         {
           "name": "New Zealand",
-          "played": 2,
+          "played": 3,
           "wins": 0,
           "draws": 1,
-          "losses": 1,
-          "gf": 3,
-          "ga": 5,
+          "losses": 2,
+          "gf": 4,
+          "ga": 10,
           "points": 1,
-          "gd": -2,
+          "gd": -6,
           "rank": 4
         }
       ]
@@ -377,49 +377,49 @@
       "teams": [
         {
           "name": "Spain",
-          "played": 2,
-          "wins": 1,
+          "played": 3,
+          "wins": 2,
           "draws": 1,
           "losses": 0,
-          "gf": 4,
+          "gf": 5,
           "ga": 0,
-          "points": 4,
-          "gd": 4,
+          "points": 7,
+          "gd": 5,
           "rank": 1
         },
         {
-          "name": "Uruguay",
-          "played": 2,
+          "name": "Cape Verde",
+          "played": 3,
           "wins": 0,
-          "draws": 2,
+          "draws": 3,
           "losses": 0,
-          "gf": 3,
-          "ga": 3,
-          "points": 2,
+          "gf": 2,
+          "ga": 2,
+          "points": 3,
           "gd": 0,
           "rank": 2
         },
         {
-          "name": "Cape Verde",
-          "played": 2,
+          "name": "Uruguay",
+          "played": 3,
           "wins": 0,
           "draws": 2,
-          "losses": 0,
-          "gf": 2,
-          "ga": 2,
+          "losses": 1,
+          "gf": 3,
+          "ga": 4,
           "points": 2,
-          "gd": 0,
+          "gd": -1,
           "rank": 3
         },
         {
           "name": "Saudi Arabia",
-          "played": 2,
+          "played": 3,
           "wins": 0,
-          "draws": 1,
+          "draws": 2,
           "losses": 1,
           "gf": 1,
           "ga": 5,
-          "points": 1,
+          "points": 2,
           "gd": -4,
           "rank": 4
         }
@@ -1988,31 +1988,81 @@
       "id": "2026-06-26-Egypt-Iran",
       "date": "2026-06-26",
       "time": "20:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Egypt",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Iran",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "5",
+          "player": "Mahmoud Saber",
+          "team": "Egypt"
+        },
+        {
+          "type": "goal",
+          "minute": "14",
+          "player": "Ramin Rezaeian",
+          "team": "Iran"
+        }
+      ]
     },
     {
       "id": "2026-06-26-New Zealand-Belgium",
       "date": "2026-06-26",
       "time": "20:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "New Zealand",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Belgium",
-        "score": null
+        "score": 5
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "84",
+          "player": "Elijah Just",
+          "team": "New Zealand"
+        },
+        {
+          "type": "goal",
+          "minute": "28",
+          "player": "Leandro Trossard",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "50",
+          "player": "Leandro Trossard",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "66",
+          "player": "Kevin De Bruyne",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "86",
+          "player": "Romelu Lukaku",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "90+4",
+          "player": "Alexis Saelemaekers",
+          "team": "Belgium"
+        }
+      ]
     },
     {
       "id": "2026-06-15-Spain-Cape Verde",
@@ -2141,14 +2191,14 @@
       "id": "2026-06-26-Cape Verde-Saudi Arabia",
       "date": "2026-06-26",
       "time": "19:00 UTC-5",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Cape Verde",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Saudi Arabia",
-        "score": null
+        "score": 0
       },
       "events": []
     },
@@ -2156,16 +2206,23 @@
       "id": "2026-06-26-Uruguay-Spain",
       "date": "2026-06-26",
       "time": "18:00 UTC-6",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Uruguay",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Spain",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "42",
+          "player": "Álex Baena",
+          "team": "Spain"
+        }
+      ]
     },
     {
       "id": "2026-06-16-France-Senegal",
