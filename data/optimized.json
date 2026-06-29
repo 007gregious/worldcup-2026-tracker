@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T19:04:07.831Z",
+  "lastUpdated": "2026-06-29T21:08:13.225Z",
   "groups": [
     {
       "name": "Group A",
@@ -3130,16 +3130,35 @@
       "id": "2026-06-29-Brazil-Japan",
       "date": "2026-06-29",
       "time": "12:00 UTC-5",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Brazil",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "Japan",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "56",
+          "player": "Casemiro",
+          "team": "Brazil"
+        },
+        {
+          "type": "goal",
+          "minute": "90+5",
+          "player": "Gabriel Martinelli",
+          "team": "Brazil"
+        },
+        {
+          "type": "goal",
+          "minute": "29",
+          "player": "Kaishu Sano",
+          "team": "Japan"
+        }
+      ]
     },
     {
       "id": "2026-06-30-France-Sweden",
