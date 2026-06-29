@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T12:33:39.873Z",
+  "lastUpdated": "2026-06-29T16:38:20.237Z",
   "groups": [
     {
       "name": "Group A",
@@ -3337,12 +3337,12 @@
       "events": []
     },
     {
-      "id": "2026-07-04-W73-W75",
+      "id": "2026-07-04-Canada-W75",
       "date": "2026-07-04",
       "time": "12:00 UTC-5",
       "status": "scheduled",
       "home": {
-        "name": "W73",
+        "name": "Canada",
         "score": null
       },
       "away": {
