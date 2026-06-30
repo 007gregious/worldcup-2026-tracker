@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T00:03:51.815Z",
+  "lastUpdated": "2026-06-30T10:56:45.368Z",
   "groups": [
     {
       "name": "Group A",
@@ -3128,16 +3128,29 @@
       "id": "2026-06-29-Netherlands-Morocco",
       "date": "2026-06-29",
       "time": "19:00 UTC-6",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Netherlands",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Morocco",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "72",
+          "player": "Cody Gakpo",
+          "team": "Netherlands"
+        },
+        {
+          "type": "goal",
+          "minute": "90+1",
+          "player": "Issa Diop",
+          "team": "Morocco"
+        }
+      ]
     },
     {
       "id": "2026-06-29-Brazil-Japan",
