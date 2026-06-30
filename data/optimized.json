@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T22:36:17.141Z",
+  "lastUpdated": "2026-06-30T00:03:51.815Z",
   "groups": [
     {
       "name": "Group A",
@@ -3100,16 +3100,29 @@
       "id": "2026-06-29-Germany-Paraguay",
       "date": "2026-06-29",
       "time": "16:30 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Germany",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Paraguay",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "54",
+          "player": "Kai Havertz",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "42",
+          "player": "Julio Enciso",
+          "team": "Paraguay"
+        }
+      ]
     },
     {
       "id": "2026-06-29-Netherlands-Morocco",
@@ -3619,7 +3632,7 @@
       "goals": 3
     },
     {
-      "name": "Deniz Undav",
+      "name": "Kai Havertz",
       "goals": 3
     }
   ],
