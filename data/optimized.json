@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T18:22:26.002Z",
+  "lastUpdated": "2026-06-30T20:29:35.932Z",
   "groups": [
     {
       "name": "Group A",
@@ -3205,16 +3205,35 @@
       "id": "2026-06-30-Ivory Coast-Norway",
       "date": "2026-06-30",
       "time": "12:00 UTC-5",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Ivory Coast",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Norway",
-        "score": null
+        "score": 2
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "74",
+          "player": "Amad Diallo",
+          "team": "Ivory Coast"
+        },
+        {
+          "type": "goal",
+          "minute": "39",
+          "player": "Antonio Nusa",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "86",
+          "player": "Erling Haaland",
+          "team": "Norway"
+        }
+      ]
     },
     {
       "id": "2026-06-30-Mexico-Ecuador",
@@ -3613,15 +3632,15 @@
       "goals": 6
     },
     {
+      "name": "Erling Haaland",
+      "goals": 5
+    },
+    {
       "name": "Vinícius Júnior",
       "goals": 4
     },
     {
       "name": "Kylian Mbappé",
-      "goals": 4
-    },
-    {
-      "name": "Erling Haaland",
       "goals": 4
     },
     {
