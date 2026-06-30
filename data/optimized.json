@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T22:00:14.789Z",
+  "lastUpdated": "2026-06-30T23:44:19.409Z",
   "groups": [
     {
       "name": "Group A",
@@ -3190,16 +3190,35 @@
       "id": "2026-06-30-France-Sweden",
       "date": "2026-06-30",
       "time": "17:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "France",
-        "score": null
+        "score": 3
       },
       "away": {
         "name": "Sweden",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "45",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "53",
+          "player": "Bradley Barcola",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "74",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        }
+      ]
     },
     {
       "id": "2026-06-30-Ivory Coast-Norway",
@@ -3628,6 +3647,10 @@
   ],
   "topScorers": [
     {
+      "name": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
       "name": "Lionel Messi",
       "goals": 6
     },
@@ -3637,10 +3660,6 @@
     },
     {
       "name": "Vinícius Júnior",
-      "goals": 4
-    },
-    {
-      "name": "Kylian Mbappé",
       "goals": 4
     },
     {
