@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T16:26:29.120Z",
+  "lastUpdated": "2026-07-01T18:25:52.109Z",
   "groups": [
     {
       "name": "Group A",
@@ -3286,16 +3286,35 @@
       "id": "2026-07-01-England-DR Congo",
       "date": "2026-07-01",
       "time": "12:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "England",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "DR Congo",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "75",
+          "player": "Harry Kane",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "86",
+          "player": "Harry Kane",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "7",
+          "player": "Brian Cipenga",
+          "team": "DR Congo"
+        }
+      ]
     },
     {
       "id": "2026-07-01-USA-Bosnia & Herzegovina",
@@ -3672,6 +3691,10 @@
       "goals": 5
     },
     {
+      "name": "Harry Kane",
+      "goals": 5
+    },
+    {
       "name": "Vinícius Júnior",
       "goals": 4
     },
@@ -3693,10 +3716,6 @@
     },
     {
       "name": "Ismael Saibari",
-      "goals": 3
-    },
-    {
-      "name": "Matheus Cunha",
       "goals": 3
     }
   ],
