@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T11:22:55.367Z",
+  "lastUpdated": "2026-07-01T13:51:36.557Z",
   "groups": [
     {
       "name": "Group A",
@@ -3463,12 +3463,12 @@
       "events": []
     },
     {
-      "id": "2026-07-05-W79-W80",
+      "id": "2026-07-05-Mexico-W80",
       "date": "2026-07-05",
       "time": "18:00 UTC-6",
       "status": "scheduled",
       "home": {
-        "name": "W79",
+        "name": "Mexico",
         "score": null
       },
       "away": {
