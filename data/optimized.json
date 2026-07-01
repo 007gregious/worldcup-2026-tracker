@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T23:44:19.409Z",
+  "lastUpdated": "2026-07-01T11:22:55.367Z",
   "groups": [
     {
       "name": "Group A",
@@ -3258,16 +3258,29 @@
       "id": "2026-06-30-Mexico-Ecuador",
       "date": "2026-06-30",
       "time": "19:00 UTC-6",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Mexico",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "Ecuador",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "31",
+          "player": "Julián Quiñones",
+          "team": "Mexico"
+        },
+        {
+          "type": "goal",
+          "minute": "45+1",
+          "player": "Raúl Jiménez",
+          "team": "Mexico"
+        }
+      ]
     },
     {
       "id": "2026-07-01-England-DR Congo",
@@ -3405,22 +3418,22 @@
       "events": []
     },
     {
-      "id": "2026-07-04-W74-W77",
+      "id": "2026-07-04-Paraguay-France",
       "date": "2026-07-04",
       "time": "17:00 UTC-4",
       "status": "scheduled",
       "home": {
-        "name": "W74",
+        "name": "Paraguay",
         "score": null
       },
       "away": {
-        "name": "W77",
+        "name": "France",
         "score": null
       },
       "events": []
     },
     {
-      "id": "2026-07-04-Canada-W75",
+      "id": "2026-07-04-Canada-Morocco",
       "date": "2026-07-04",
       "time": "12:00 UTC-5",
       "status": "scheduled",
@@ -3429,22 +3442,22 @@
         "score": null
       },
       "away": {
-        "name": "W75",
+        "name": "Morocco",
         "score": null
       },
       "events": []
     },
     {
-      "id": "2026-07-05-W76-W78",
+      "id": "2026-07-05-Brazil-Norway",
       "date": "2026-07-05",
       "time": "16:00 UTC-4",
       "status": "scheduled",
       "home": {
-        "name": "W76",
+        "name": "Brazil",
         "score": null
       },
       "away": {
-        "name": "W78",
+        "name": "Norway",
         "score": null
       },
       "events": []
@@ -3667,6 +3680,10 @@
       "goals": 4
     },
     {
+      "name": "Julián Quiñones",
+      "goals": 3
+    },
+    {
       "name": "Johan Manzambi",
       "goals": 3
     },
@@ -3680,10 +3697,6 @@
     },
     {
       "name": "Matheus Cunha",
-      "goals": 3
-    },
-    {
-      "name": "Kai Havertz",
       "goals": 3
     }
   ],
