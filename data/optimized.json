@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T22:01:07.601Z",
+  "lastUpdated": "2026-07-01T23:51:22.974Z",
   "groups": [
     {
       "name": "Group A",
@@ -3335,16 +3335,47 @@
       "id": "2026-07-01-Belgium-Senegal",
       "date": "2026-07-01",
       "time": "13:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Belgium",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "Senegal",
-        "score": null
+        "score": 2
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "86",
+          "player": "Romelu Lukaku",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "89",
+          "player": "Youri Tielemans",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "120+5",
+          "player": "Youri Tielemans",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "25",
+          "player": "Habib Diarra",
+          "team": "Senegal"
+        },
+        {
+          "type": "goal",
+          "minute": "51",
+          "player": "Ismaïla Sarr",
+          "team": "Senegal"
+        }
+      ]
     },
     {
       "id": "2026-07-02-Portugal-Croatia",
@@ -3703,6 +3734,10 @@
       "goals": 4
     },
     {
+      "name": "Ismaïla Sarr",
+      "goals": 4
+    },
+    {
       "name": "Julián Quiñones",
       "goals": 3
     },
@@ -3712,10 +3747,6 @@
     },
     {
       "name": "Jonathan David",
-      "goals": 3
-    },
-    {
-      "name": "Ismael Saibari",
       "goals": 3
     }
   ],
