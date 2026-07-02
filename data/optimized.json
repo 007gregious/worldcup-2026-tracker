@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T20:22:19.911Z",
+  "lastUpdated": "2026-07-02T21:44:19.691Z",
   "groups": [
     {
       "name": "Group A",
@@ -3409,16 +3409,35 @@
       "id": "2026-07-02-Spain-Austria",
       "date": "2026-07-02",
       "time": "12:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Spain",
-        "score": null
+        "score": 3
       },
       "away": {
         "name": "Austria",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "36",
+          "player": "Mikel Oyarzabal",
+          "team": "Spain"
+        },
+        {
+          "type": "goal",
+          "minute": "66",
+          "player": "Pedro Porro",
+          "team": "Spain"
+        },
+        {
+          "type": "goal",
+          "minute": "89",
+          "player": "Mikel Oyarzabal",
+          "team": "Spain"
+        }
+      ]
     },
     {
       "id": "2026-07-02-Switzerland-Algeria",
@@ -3743,6 +3762,10 @@
       "goals": 4
     },
     {
+      "name": "Mikel Oyarzabal",
+      "goals": 4
+    },
+    {
       "name": "Ousmane Dembélé",
       "goals": 4
     },
@@ -3756,10 +3779,6 @@
     },
     {
       "name": "Johan Manzambi",
-      "goals": 3
-    },
-    {
-      "name": "Jonathan David",
       "goals": 3
     }
   ],
