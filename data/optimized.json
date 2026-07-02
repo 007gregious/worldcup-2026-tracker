@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T23:51:22.974Z",
+  "lastUpdated": "2026-07-02T10:39:26.284Z",
   "groups": [
     {
       "name": "Group A",
@@ -3320,16 +3320,29 @@
       "id": "2026-07-01-USA-Bosnia & Herzegovina",
       "date": "2026-07-01",
       "time": "17:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "USA",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "Bosnia & Herzegovina",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "45",
+          "player": "Folarin Balogun",
+          "team": "USA"
+        },
+        {
+          "type": "goal",
+          "minute": "82",
+          "player": "Malik Tillman",
+          "team": "USA"
+        }
+      ]
     },
     {
       "id": "2026-07-01-Belgium-Senegal",
@@ -3513,7 +3526,7 @@
       "events": []
     },
     {
-      "id": "2026-07-05-Mexico-W80",
+      "id": "2026-07-05-Mexico-England",
       "date": "2026-07-05",
       "time": "18:00 UTC-6",
       "status": "scheduled",
@@ -3522,7 +3535,7 @@
         "score": null
       },
       "away": {
-        "name": "W80",
+        "name": "England",
         "score": null
       },
       "events": []
@@ -3543,16 +3556,16 @@
       "events": []
     },
     {
-      "id": "2026-07-06-W81-W82",
+      "id": "2026-07-06-USA-Belgium",
       "date": "2026-07-06",
       "time": "17:00 UTC-7",
       "status": "scheduled",
       "home": {
-        "name": "W81",
+        "name": "USA",
         "score": null
       },
       "away": {
-        "name": "W82",
+        "name": "Belgium",
         "score": null
       },
       "events": []
