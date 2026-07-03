@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T19:57:19.178Z",
+  "lastUpdated": "2026-07-03T21:13:48.504Z",
   "groups": [
     {
       "name": "Group A",
@@ -3520,16 +3520,29 @@
       "id": "2026-07-03-Australia-Egypt",
       "date": "2026-07-03",
       "time": "13:00 UTC-5",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Australia",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Egypt",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "55",
+          "player": "Mohamed Hany",
+          "team": "Australia"
+        },
+        {
+          "type": "goal",
+          "minute": "13",
+          "player": "Emam Ashour",
+          "team": "Egypt"
+        }
+      ]
     },
     {
       "id": "2026-07-04-Paraguay-France",
