@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T12:55:46.842Z",
+  "lastUpdated": "2026-07-03T15:12:27.334Z",
   "groups": [
     {
       "name": "Group A",
@@ -3208,14 +3208,14 @@
         },
         {
           "type": "goal",
-          "minute": "53",
-          "player": "Bradley Barcola",
+          "minute": "74",
+          "player": "Kylian Mbappé",
           "team": "France"
         },
         {
           "type": "goal",
-          "minute": "74",
-          "player": "Kylian Mbappé",
+          "minute": "53",
+          "player": "Bradley Barcola",
           "team": "France"
         }
       ]
@@ -3446,14 +3446,14 @@
         },
         {
           "type": "goal",
-          "minute": "66",
-          "player": "Pedro Porro",
+          "minute": "89",
+          "player": "Mikel Oyarzabal",
           "team": "Spain"
         },
         {
           "type": "goal",
-          "minute": "89",
-          "player": "Mikel Oyarzabal",
+          "minute": "66",
+          "player": "Pedro Porro",
           "team": "Spain"
         }
       ]
@@ -3592,16 +3592,16 @@
       "events": []
     },
     {
-      "id": "2026-07-06-W83-W84",
+      "id": "2026-07-06-Portugal-Spain",
       "date": "2026-07-06",
       "time": "14:00 UTC-5",
       "status": "scheduled",
       "home": {
-        "name": "W83",
+        "name": "Portugal",
         "score": null
       },
       "away": {
-        "name": "W84",
+        "name": "Spain",
         "score": null
       },
       "events": []
@@ -3637,12 +3637,12 @@
       "events": []
     },
     {
-      "id": "2026-07-07-W85-W87",
+      "id": "2026-07-07-Switzerland-W87",
       "date": "2026-07-07",
       "time": "13:00 UTC-7",
       "status": "scheduled",
       "home": {
-        "name": "W85",
+        "name": "Switzerland",
         "score": null
       },
       "away": {
