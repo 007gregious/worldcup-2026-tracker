@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T01:09:52.382Z",
+  "lastUpdated": "2026-07-03T10:34:58.999Z",
   "groups": [
     {
       "name": "Group A",
@@ -3394,16 +3394,35 @@
       "id": "2026-07-02-Portugal-Croatia",
       "date": "2026-07-02",
       "time": "19:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Portugal",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "Croatia",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "68",
+          "player": "Cristiano Ronaldo",
+          "team": "Portugal"
+        },
+        {
+          "type": "goal",
+          "minute": "90+4",
+          "player": "Gonçalo Ramos",
+          "team": "Portugal"
+        },
+        {
+          "type": "goal",
+          "minute": "53",
+          "player": "Ivan Perisic",
+          "team": "Croatia"
+        }
+      ]
     },
     {
       "id": "2026-07-02-Spain-Austria",
@@ -3443,16 +3462,29 @@
       "id": "2026-07-02-Switzerland-Algeria",
       "date": "2026-07-02",
       "time": "20:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Switzerland",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "Algeria",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "10",
+          "player": "Breel Embolo",
+          "team": "Switzerland"
+        },
+        {
+          "type": "goal",
+          "minute": "46",
+          "player": "Dan Ndoye",
+          "team": "Switzerland"
+        }
+      ]
     },
     {
       "id": "2026-07-03-Argentina-Cape Verde",
