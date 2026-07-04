@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T00:03:41.367Z",
+  "lastUpdated": "2026-07-04T10:09:18.184Z",
   "groups": [
     {
       "name": "Group A",
@@ -3490,31 +3490,69 @@
       "id": "2026-07-03-Argentina-Cape Verde",
       "date": "2026-07-03",
       "time": "18:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Argentina",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Cape Verde",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "29",
+          "player": "Lionel Messi",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "92",
+          "player": "Lisandro Martínez",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "111",
+          "player": "Diney Borges",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "59",
+          "player": "Deroy Duarte",
+          "team": "Cape Verde"
+        },
+        {
+          "type": "goal",
+          "minute": "103",
+          "player": "Sidny Lopes Cabral",
+          "team": "Cape Verde"
+        }
+      ]
     },
     {
       "id": "2026-07-03-Colombia-Ghana",
       "date": "2026-07-03",
       "time": "20:30 UTC-5",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Colombia",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Ghana",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "14",
+          "player": "Jhon Arias",
+          "team": "Colombia"
+        }
+      ]
     },
     {
       "id": "2026-07-03-Australia-Egypt",
@@ -3787,11 +3825,11 @@
   ],
   "topScorers": [
     {
-      "name": "Kylian Mbappé",
-      "goals": 6
+      "name": "Lionel Messi",
+      "goals": 7
     },
     {
-      "name": "Lionel Messi",
+      "name": "Kylian Mbappé",
       "goals": 6
     },
     {
