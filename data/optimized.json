@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T17:33:50.695Z",
+  "lastUpdated": "2026-07-04T19:12:18.538Z",
   "groups": [
     {
       "name": "Group A",
@@ -3601,16 +3601,35 @@
       "id": "2026-07-04-Canada-Morocco",
       "date": "2026-07-04",
       "time": "12:00 UTC-5",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Canada",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Morocco",
-        "score": null
+        "score": 3
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "50",
+          "player": "Azzedine Ounahi",
+          "team": "Morocco"
+        },
+        {
+          "type": "goal",
+          "minute": "82",
+          "player": "Azzedine Ounahi",
+          "team": "Morocco"
+        },
+        {
+          "type": "goal",
+          "minute": "90+8",
+          "player": "Soufiane Rahimi",
+          "team": "Morocco"
+        }
+      ]
     },
     {
       "id": "2026-07-05-Brazil-Norway",
