@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T10:09:18.184Z",
+  "lastUpdated": "2026-07-04T11:51:19.095Z",
   "groups": [
     {
       "name": "Group A",
@@ -3673,22 +3673,22 @@
       "events": []
     },
     {
-      "id": "2026-07-07-W86-W88",
+      "id": "2026-07-07-Argentina-Egypt",
       "date": "2026-07-07",
       "time": "12:00 UTC-4",
       "status": "scheduled",
       "home": {
-        "name": "W86",
+        "name": "Argentina",
         "score": null
       },
       "away": {
-        "name": "W88",
+        "name": "Egypt",
         "score": null
       },
       "events": []
     },
     {
-      "id": "2026-07-07-Switzerland-W87",
+      "id": "2026-07-07-Switzerland-Colombia",
       "date": "2026-07-07",
       "time": "13:00 UTC-7",
       "status": "scheduled",
@@ -3697,7 +3697,7 @@
         "score": null
       },
       "away": {
-        "name": "W87",
+        "name": "Colombia",
         "score": null
       },
       "events": []
