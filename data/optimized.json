@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T18:02:16.021Z",
+  "lastUpdated": "2026-07-05T19:50:05.832Z",
   "groups": [
     {
       "name": "Group A",
@@ -3729,16 +3729,16 @@
       "events": []
     },
     {
-      "id": "2026-07-09-W89-W90",
+      "id": "2026-07-09-France-Morocco",
       "date": "2026-07-09",
       "time": "16:00 UTC-4",
       "status": "scheduled",
       "home": {
-        "name": "W89",
+        "name": "France",
         "score": null
       },
       "away": {
-        "name": "W90",
+        "name": "Morocco",
         "score": null
       },
       "events": []
