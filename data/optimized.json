@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T22:08:44.133Z",
+  "lastUpdated": "2026-07-05T23:35:17.792Z",
   "groups": [
     {
       "name": "Group A",
@@ -3642,16 +3642,35 @@
       "id": "2026-07-05-Brazil-Norway",
       "date": "2026-07-05",
       "time": "16:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Brazil",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Norway",
-        "score": null
+        "score": 2
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "90+10",
+          "player": "Neymar",
+          "team": "Brazil"
+        },
+        {
+          "type": "goal",
+          "minute": "79",
+          "player": "Erling Haaland",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "90",
+          "player": "Erling Haaland",
+          "team": "Norway"
+        }
+      ]
     },
     {
       "id": "2026-07-05-Mexico-England",
@@ -3855,12 +3874,12 @@
       "goals": 7
     },
     {
-      "name": "Lionel Messi",
+      "name": "Erling Haaland",
       "goals": 7
     },
     {
-      "name": "Erling Haaland",
-      "goals": 5
+      "name": "Lionel Messi",
+      "goals": 7
     },
     {
       "name": "Harry Kane",
