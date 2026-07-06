@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T23:35:17.792Z",
+  "lastUpdated": "2026-07-06T12:04:26.863Z",
   "groups": [
     {
       "name": "Group A",
@@ -3676,16 +3676,47 @@
       "id": "2026-07-05-Mexico-England",
       "date": "2026-07-05",
       "time": "18:00 UTC-6",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Mexico",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "England",
-        "score": null
+        "score": 3
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "42",
+          "player": "Julián Quiñones",
+          "team": "Mexico"
+        },
+        {
+          "type": "goal",
+          "minute": "69",
+          "player": "Raúl Jiménez",
+          "team": "Mexico"
+        },
+        {
+          "type": "goal",
+          "minute": "36",
+          "player": "Jude Bellingham",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "38",
+          "player": "Jude Bellingham",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "60",
+          "player": "Harry Kane",
+          "team": "England"
+        }
+      ]
     },
     {
       "id": "2026-07-06-Portugal-Spain",
@@ -3883,7 +3914,11 @@
     },
     {
       "name": "Harry Kane",
-      "goals": 5
+      "goals": 6
+    },
+    {
+      "name": "Julián Quiñones",
+      "goals": 4
     },
     {
       "name": "Vinícius Júnior",
@@ -3902,12 +3937,8 @@
       "goals": 4
     },
     {
-      "name": "Julián Quiñones",
-      "goals": 3
-    },
-    {
-      "name": "Johan Manzambi",
-      "goals": 3
+      "name": "Jude Bellingham",
+      "goals": 4
     }
   ],
   "topAssists": [],
