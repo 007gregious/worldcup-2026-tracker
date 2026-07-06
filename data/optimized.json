@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T20:23:46.920Z",
+  "lastUpdated": "2026-07-06T21:54:54.466Z",
   "groups": [
     {
       "name": "Group A",
@@ -3722,16 +3722,23 @@
       "id": "2026-07-06-Portugal-Spain",
       "date": "2026-07-06",
       "time": "14:00 UTC-5",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Portugal",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Spain",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "90+1",
+          "player": "Mikel Merino",
+          "team": "Spain"
+        }
+      ]
     },
     {
       "id": "2026-07-06-USA-Belgium",
