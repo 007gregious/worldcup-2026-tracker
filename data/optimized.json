@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T12:04:26.863Z",
+  "lastUpdated": "2026-07-06T15:59:56.240Z",
   "groups": [
     {
       "name": "Group A",
@@ -3809,16 +3809,16 @@
       "events": []
     },
     {
-      "id": "2026-07-11-W91-W92",
+      "id": "2026-07-11-Norway-England",
       "date": "2026-07-11",
       "time": "17:00 UTC-4",
       "status": "scheduled",
       "home": {
-        "name": "W91",
+        "name": "Norway",
         "score": null
       },
       "away": {
-        "name": "W92",
+        "name": "England",
         "score": null
       },
       "events": []
