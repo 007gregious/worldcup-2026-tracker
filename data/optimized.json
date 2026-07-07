@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T01:16:26.976Z",
+  "lastUpdated": "2026-07-07T10:55:32.095Z",
   "groups": [
     {
       "name": "Group A",
@@ -3744,16 +3744,47 @@
       "id": "2026-07-06-USA-Belgium",
       "date": "2026-07-06",
       "time": "17:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "USA",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Belgium",
-        "score": null
+        "score": 4
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "31",
+          "player": "Malik Tillman",
+          "team": "USA"
+        },
+        {
+          "type": "goal",
+          "minute": "9",
+          "player": "Charles De Ketelaere",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "33",
+          "player": "Charles De Ketelaere",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "57",
+          "player": "Hans Vanaken",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "90+3",
+          "player": "Romelu Lukaku",
+          "team": "Belgium"
+        }
+      ]
     },
     {
       "id": "2026-07-07-Argentina-Egypt",
