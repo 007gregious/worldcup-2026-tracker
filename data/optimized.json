@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T10:55:32.095Z",
+  "lastUpdated": "2026-07-07T13:21:28.168Z",
   "groups": [
     {
       "name": "Group A",
@@ -3832,16 +3832,16 @@
       "events": []
     },
     {
-      "id": "2026-07-10-W93-W94",
+      "id": "2026-07-10-Spain-Belgium",
       "date": "2026-07-10",
       "time": "12:00 UTC-7",
       "status": "scheduled",
       "home": {
-        "name": "W93",
+        "name": "Spain",
         "score": null
       },
       "away": {
-        "name": "W94",
+        "name": "Belgium",
         "score": null
       },
       "events": []
