@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T23:01:20.461Z",
+  "lastUpdated": "2026-07-08T00:59:13.202Z",
   "groups": [
     {
       "name": "Group A",
@@ -3836,14 +3836,14 @@
       "id": "2026-07-07-Switzerland-Colombia",
       "date": "2026-07-07",
       "time": "13:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Switzerland",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Colombia",
-        "score": null
+        "score": 0
       },
       "events": []
     },
