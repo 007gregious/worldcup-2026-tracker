@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T10:17:45.599Z",
+  "lastUpdated": "2026-07-08T12:04:51.054Z",
   "groups": [
     {
       "name": "Group A",
@@ -3893,16 +3893,16 @@
       "events": []
     },
     {
-      "id": "2026-07-11-W95-W96",
+      "id": "2026-07-11-Argentina-Switzerland",
       "date": "2026-07-11",
       "time": "20:00 UTC-5",
       "status": "scheduled",
       "home": {
-        "name": "W95",
+        "name": "Argentina",
         "score": null
       },
       "away": {
-        "name": "W96",
+        "name": "Switzerland",
         "score": null
       },
       "events": []
