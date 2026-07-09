@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T21:57:01.124Z",
+  "lastUpdated": "2026-07-09T23:16:25.165Z",
   "groups": [
     {
       "name": "Group A",
@@ -3851,16 +3851,29 @@
       "id": "2026-07-09-France-Morocco",
       "date": "2026-07-09",
       "time": "16:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "France",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "Morocco",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "60",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "66",
+          "player": "Ousmane Dembélé",
+          "team": "France"
+        }
+      ]
     },
     {
       "id": "2026-07-10-Spain-Belgium",
@@ -3970,12 +3983,12 @@
   ],
   "topScorers": [
     {
-      "name": "Lionel Messi",
+      "name": "Kylian Mbappé",
       "goals": 8
     },
     {
-      "name": "Kylian Mbappé",
-      "goals": 7
+      "name": "Lionel Messi",
+      "goals": 8
     },
     {
       "name": "Erling Haaland",
@@ -3984,6 +3997,10 @@
     {
       "name": "Harry Kane",
       "goals": 6
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "goals": 5
     },
     {
       "name": "Julián Quiñones",
@@ -3995,10 +4012,6 @@
     },
     {
       "name": "Mikel Oyarzabal",
-      "goals": 4
-    },
-    {
-      "name": "Ousmane Dembélé",
       "goals": 4
     },
     {
