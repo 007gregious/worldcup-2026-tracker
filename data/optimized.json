@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T20:49:59.780Z",
+  "lastUpdated": "2026-07-10T22:02:04.797Z",
   "groups": [
     {
       "name": "Group A",
@@ -3879,16 +3879,35 @@
       "id": "2026-07-10-Spain-Belgium",
       "date": "2026-07-10",
       "time": "12:00 UTC-7",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Spain",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "Belgium",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "30",
+          "player": "Fabián Ruiz",
+          "team": "Spain"
+        },
+        {
+          "type": "goal",
+          "minute": "88",
+          "player": "Mikel Merino",
+          "team": "Spain"
+        },
+        {
+          "type": "goal",
+          "minute": "41",
+          "player": "Charles De Ketelaere",
+          "team": "Belgium"
+        }
+      ]
     },
     {
       "id": "2026-07-11-Norway-England",
