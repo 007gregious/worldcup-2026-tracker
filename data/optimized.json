@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T12:13:01.452Z",
+  "lastUpdated": "2026-07-11T14:00:52.215Z",
   "groups": [
     {
       "name": "Group A",
@@ -3940,16 +3940,16 @@
       "events": []
     },
     {
-      "id": "2026-07-14-W97-W98",
+      "id": "2026-07-14-France-Spain",
       "date": "2026-07-14",
       "time": "14:00 UTC-5",
       "status": "scheduled",
       "home": {
-        "name": "W97",
+        "name": "France",
         "score": null
       },
       "away": {
-        "name": "W98",
+        "name": "Spain",
         "score": null
       },
       "events": []
