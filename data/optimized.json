@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T23:26:37.525Z",
+  "lastUpdated": "2026-07-12T01:05:18.696Z",
   "groups": [
     {
       "name": "Group A",
@@ -3913,16 +3913,35 @@
       "id": "2026-07-11-Norway-England",
       "date": "2026-07-11",
       "time": "17:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Norway",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "England",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "36",
+          "player": "Andreas Schjelderup",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "45+2",
+          "player": "Jude Bellingham",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "93",
+          "player": "Jude Bellingham",
+          "team": "England"
+        }
+      ]
     },
     {
       "id": "2026-07-11-Argentina-Switzerland",
@@ -4018,6 +4037,10 @@
       "goals": 6
     },
     {
+      "name": "Jude Bellingham",
+      "goals": 6
+    },
+    {
       "name": "Ousmane Dembélé",
       "goals": 5
     },
@@ -4035,10 +4058,6 @@
     },
     {
       "name": "Ismaïla Sarr",
-      "goals": 4
-    },
-    {
-      "name": "Jude Bellingham",
       "goals": 4
     }
   ],
