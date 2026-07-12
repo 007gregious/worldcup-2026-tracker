@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T01:05:18.696Z",
+  "lastUpdated": "2026-07-12T09:50:18.857Z",
   "groups": [
     {
       "name": "Group A",
@@ -3947,16 +3947,41 @@
       "id": "2026-07-11-Argentina-Switzerland",
       "date": "2026-07-11",
       "time": "20:00 UTC-5",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Argentina",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Switzerland",
-        "score": null
+        "score": 1
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "10",
+          "player": "Alexis Mac Allister",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "112",
+          "player": "Julián Álvarez",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "120+1",
+          "player": "Lautaro Martínez",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "67",
+          "player": "Dan Ndoye",
+          "team": "Switzerland"
+        }
+      ]
     },
     {
       "id": "2026-07-14-France-Spain",
