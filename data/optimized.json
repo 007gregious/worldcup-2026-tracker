@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T14:03:05.843Z",
+  "lastUpdated": "2026-07-12T15:32:48.209Z",
   "groups": [
     {
       "name": "Group A",
@@ -3999,16 +3999,16 @@
       "events": []
     },
     {
-      "id": "2026-07-15-W99-W100",
+      "id": "2026-07-15-England-Argentina",
       "date": "2026-07-15",
       "time": "15:00 UTC-4",
       "status": "scheduled",
       "home": {
-        "name": "W99",
+        "name": "England",
         "score": null
       },
       "away": {
-        "name": "W100",
+        "name": "Argentina",
         "score": null
       },
       "events": []
