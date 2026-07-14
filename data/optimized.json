@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T20:59:21.716Z",
+  "lastUpdated": "2026-07-14T22:06:40.077Z",
   "groups": [
     {
       "name": "Group A",
@@ -3987,16 +3987,29 @@
       "id": "2026-07-14-France-Spain",
       "date": "2026-07-14",
       "time": "14:00 UTC-5",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "France",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Spain",
-        "score": null
+        "score": 2
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "22",
+          "player": "Mikel Oyarzabal",
+          "team": "Spain"
+        },
+        {
+          "type": "goal",
+          "minute": "58",
+          "player": "Pedro Porro",
+          "team": "Spain"
+        }
+      ]
     },
     {
       "id": "2026-07-15-England-Argentina",
@@ -4066,6 +4079,10 @@
       "goals": 6
     },
     {
+      "name": "Mikel Oyarzabal",
+      "goals": 5
+    },
+    {
       "name": "Ousmane Dembélé",
       "goals": 5
     },
@@ -4075,10 +4092,6 @@
     },
     {
       "name": "Vinícius Júnior",
-      "goals": 4
-    },
-    {
-      "name": "Mikel Oyarzabal",
       "goals": 4
     },
     {
