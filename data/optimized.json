@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T20:32:51.576Z",
+  "lastUpdated": "2026-07-15T21:59:52.561Z",
   "groups": [
     {
       "name": "Group A",
@@ -4015,19 +4015,38 @@
       "id": "2026-07-15-England-Argentina",
       "date": "2026-07-15",
       "time": "15:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "England",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Argentina",
-        "score": null
+        "score": 2
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "55",
+          "player": "Anthony Gordon",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "86",
+          "player": "Enzo Fernández",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "92",
+          "player": "Lautaro Martínez",
+          "team": "Argentina"
+        }
+      ]
     },
     {
-      "id": "2026-07-18-France-L102",
+      "id": "2026-07-18-France-England",
       "date": "2026-07-18",
       "time": "17:00 UTC-4",
       "status": "scheduled",
@@ -4036,13 +4055,13 @@
         "score": null
       },
       "away": {
-        "name": "L102",
+        "name": "England",
         "score": null
       },
       "events": []
     },
     {
-      "id": "2026-07-19-Spain-W102",
+      "id": "2026-07-19-Spain-Argentina",
       "date": "2026-07-19",
       "time": "15:00 UTC-4",
       "status": "scheduled",
@@ -4051,7 +4070,7 @@
         "score": null
       },
       "away": {
-        "name": "W102",
+        "name": "Argentina",
         "score": null
       },
       "events": []
