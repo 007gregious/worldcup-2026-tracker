@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T00:13:13.633Z",
+  "lastUpdated": "2026-07-15T10:02:17.670Z",
   "groups": [
     {
       "name": "Group A",
@@ -4027,12 +4027,12 @@
       "events": []
     },
     {
-      "id": "2026-07-18-L101-L102",
+      "id": "2026-07-18-France-L102",
       "date": "2026-07-18",
       "time": "17:00 UTC-4",
       "status": "scheduled",
       "home": {
-        "name": "L101",
+        "name": "France",
         "score": null
       },
       "away": {
@@ -4042,12 +4042,12 @@
       "events": []
     },
     {
-      "id": "2026-07-19-W101-W102",
+      "id": "2026-07-19-Spain-W102",
       "date": "2026-07-19",
       "time": "15:00 UTC-4",
       "status": "scheduled",
       "home": {
-        "name": "W101",
+        "name": "Spain",
         "score": null
       },
       "away": {
