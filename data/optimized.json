@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T22:49:37.349Z",
+  "lastUpdated": "2026-07-18T23:53:20.156Z",
   "groups": [
     {
       "name": "Group A",
@@ -4049,16 +4049,77 @@
       "id": "2026-07-18-France-England",
       "date": "2026-07-18",
       "time": "17:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "France",
-        "score": null
+        "score": 4
       },
       "away": {
         "name": "England",
-        "score": null
+        "score": 6
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "48",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "54",
+          "player": "Bradley Barcola",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "66",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "90+6",
+          "player": "Ousmane Dembélé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "3",
+          "player": "Declan Rice",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "18",
+          "player": "Ezri Konsa",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "37",
+          "player": "Bukayo Saka",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "45+1",
+          "player": "Bukayo Saka",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "87",
+          "player": "Bukayo Saka",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "90+8",
+          "player": "Jude Bellingham",
+          "team": "England"
+        }
+      ]
     },
     {
       "id": "2026-07-19-Spain-Argentina",
@@ -4079,7 +4140,7 @@
   "topScorers": [
     {
       "name": "Kylian Mbappé",
-      "goals": 8
+      "goals": 10
     },
     {
       "name": "Lionel Messi",
@@ -4090,19 +4151,19 @@
       "goals": 7
     },
     {
+      "name": "Jude Bellingham",
+      "goals": 7
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "goals": 6
+    },
+    {
       "name": "Harry Kane",
       "goals": 6
     },
     {
-      "name": "Jude Bellingham",
-      "goals": 6
-    },
-    {
       "name": "Mikel Oyarzabal",
-      "goals": 5
-    },
-    {
-      "name": "Ousmane Dembélé",
       "goals": 5
     },
     {
