@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T10:51:27.572Z",
+  "lastUpdated": "2026-07-20T13:05:12.820Z",
   "groups": [
     {
       "name": "Group A",
@@ -4125,16 +4125,23 @@
       "id": "2026-07-19-Spain-Argentina",
       "date": "2026-07-19",
       "time": "15:00 UTC-4",
-      "status": "scheduled",
+      "status": "finished",
       "home": {
         "name": "Spain",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Argentina",
-        "score": null
+        "score": 0
       },
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "minute": "106",
+          "player": "Ferran Torres",
+          "team": "Spain"
+        }
+      ]
     }
   ],
   "topScorers": [
