@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T09:59:48.027Z",
+  "lastUpdated": "2026-08-11T10:58:37.627Z",
   "groups": [
     {
       "name": "Group A",
@@ -885,14 +885,14 @@
         },
         {
           "type": "goal",
-          "minute": "90",
-          "player": "Johan Manzambi",
+          "minute": "84",
+          "player": "Rubén Vargas",
           "team": "Switzerland"
         },
         {
           "type": "goal",
-          "minute": "84",
-          "player": "Rubén Vargas",
+          "minute": "90",
+          "player": "Johan Manzambi",
           "team": "Switzerland"
         },
         {
@@ -1446,12 +1446,6 @@
         },
         {
           "type": "goal",
-          "minute": "88",
-          "player": "Kai Havertz",
-          "team": "Germany"
-        },
-        {
-          "type": "goal",
           "minute": "47",
           "player": "Jamal Musiala",
           "team": "Germany"
@@ -1466,6 +1460,12 @@
           "type": "goal",
           "minute": "78",
           "player": "Deniz Undav",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "88",
+          "player": "Kai Havertz",
           "team": "Germany"
         },
         {
@@ -1671,12 +1671,6 @@
         },
         {
           "type": "goal",
-          "minute": "90+6",
-          "player": "Yasin Ayari",
-          "team": "Sweden"
-        },
-        {
-          "type": "goal",
           "minute": "30",
           "player": "Alexander Isak",
           "team": "Sweden"
@@ -1691,6 +1685,12 @@
           "type": "goal",
           "minute": "84",
           "player": "Mattias Svanberg",
+          "team": "Sweden"
+        },
+        {
+          "type": "goal",
+          "minute": "90+6",
+          "player": "Yasin Ayari",
           "team": "Sweden"
         },
         {
@@ -1781,14 +1781,14 @@
         },
         {
           "type": "goal",
-          "minute": "83",
-          "player": "Ayase Ueda",
+          "minute": "69",
+          "player": "Junya Ito",
           "team": "Japan"
         },
         {
           "type": "goal",
-          "minute": "69",
-          "player": "Junya Ito",
+          "minute": "83",
+          "player": "Ayase Ueda",
           "team": "Japan"
         }
       ]
@@ -2246,14 +2246,14 @@
         },
         {
           "type": "goal",
-          "minute": "90+6",
-          "player": "Kylian Mbappé",
+          "minute": "82",
+          "player": "Bradley Barcola",
           "team": "France"
         },
         {
           "type": "goal",
-          "minute": "82",
-          "player": "Bradley Barcola",
+          "minute": "90+6",
+          "player": "Kylian Mbappé",
           "team": "France"
         },
         {
@@ -2800,14 +2800,14 @@
         },
         {
           "type": "goal",
-          "minute": "39",
-          "player": "Cristiano Ronaldo",
+          "minute": "17",
+          "player": "Nuno Mendes",
           "team": "Portugal"
         },
         {
           "type": "goal",
-          "minute": "17",
-          "player": "Nuno Mendes",
+          "minute": "39",
+          "player": "Cristiano Ronaldo",
           "team": "Portugal"
         },
         {
@@ -3208,14 +3208,14 @@
         },
         {
           "type": "goal",
-          "minute": "74",
-          "player": "Kylian Mbappé",
+          "minute": "53",
+          "player": "Bradley Barcola",
           "team": "France"
         },
         {
           "type": "goal",
-          "minute": "53",
-          "player": "Bradley Barcola",
+          "minute": "74",
+          "player": "Kylian Mbappé",
           "team": "France"
         }
       ]
@@ -3446,14 +3446,14 @@
         },
         {
           "type": "goal",
-          "minute": "89",
-          "player": "Mikel Oyarzabal",
+          "minute": "66",
+          "player": "Pedro Porro",
           "team": "Spain"
         },
         {
           "type": "goal",
-          "minute": "66",
-          "player": "Pedro Porro",
+          "minute": "89",
+          "player": "Mikel Oyarzabal",
           "team": "Spain"
         }
       ]
