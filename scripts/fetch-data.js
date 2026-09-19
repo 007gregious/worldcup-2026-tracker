@@ -2,7 +2,12 @@ const fs = require('fs');
 const path = require('path');
 
 const LEAGUE_NAME = 'Premier League';
-const SOURCE_BASE_URL = 'https://raw.githubusercontent.com/openfootball/england.json/master';
+// The dataset's default branch is `main`. Keep `master` as a fallback because
+// older snapshots of OpenFootball used that branch name.
+const SOURCE_BASE_URLS = [
+  'https://raw.githubusercontent.com/openfootball/england.json/main',
+  'https://raw.githubusercontent.com/openfootball/england.json/master',
+];
 const MAX_SEASONS_TO_TRY = 5;
 // OpenFootball names league files after their country and division. The former
 // 1-premierleague.json filename is not present in the england.json repository.
@@ -35,26 +40,28 @@ async function fetchLatestAvailableSeason(fetchImpl = fetch, today = new Date())
   const attemptedUrls = [];
 
   for (const season of getSeasonCandidates(today)) {
-    const sourceUrl = `${SOURCE_BASE_URL}/${season}/${SOURCE_FILE_NAME}`;
-    attemptedUrls.push(sourceUrl);
-    let response;
+    for (const sourceBaseUrl of SOURCE_BASE_URLS) {
+      const sourceUrl = `${sourceBaseUrl}/${season}/${SOURCE_FILE_NAME}`;
+      attemptedUrls.push(sourceUrl);
+      let response;
 
-    try {
-      response = await fetchImpl(sourceUrl);
-    } catch (error) {
-      throw new Error(`Unable to fetch ${sourceUrl}: ${error.message}`, { cause: error });
+      try {
+        response = await fetchImpl(sourceUrl);
+      } catch (error) {
+        throw new Error(`Unable to fetch ${sourceUrl}: ${error.message}`, { cause: error });
+      }
+
+      if (response.status === 404) continue;
+      if (!response.ok) throw new Error(`Unable to fetch ${sourceUrl}: HTTP ${response.status}`);
+
+      let raw;
+      try {
+        raw = await response.json();
+      } catch (error) {
+        throw new Error(`Unable to parse JSON from ${sourceUrl}: ${error.message}`, { cause: error });
+      }
+      if (raw.matches?.length) return { season, raw, sourceUrl };
     }
-
-    if (response.status === 404) continue;
-    if (!response.ok) throw new Error(`Unable to fetch ${sourceUrl}: HTTP ${response.status}`);
-
-    let raw;
-    try {
-      raw = await response.json();
-    } catch (error) {
-      throw new Error(`Unable to parse JSON from ${sourceUrl}: ${error.message}`, { cause: error });
-    }
-    if (raw.matches?.length) return { season, raw, sourceUrl };
   }
 
   throw new Error(`Unable to find Premier League fixture data. Tried: ${attemptedUrls.join(', ')}`);
@@ -155,4 +162,5 @@ module.exports = {
   getCurrentSeason,
   getPreviousSeason,
   getSeasonCandidates,
+  SOURCE_BASE_URLS,
 };
