@@ -4,7 +4,7 @@ A lightweight static dashboard for the current Premier League season. It display
 
 ## Features
 
-- **Current-season aware:** the data job automatically selects the Premier League season running from August through May (for example, `2026-27`).
+- **Current-season aware:** the data job automatically selects the Premier League season running from July through June (for example, `2026-27`). If OpenFootball has not published that season's file yet, it uses the newest available prior season instead of failing.
 - **League table:** played, wins, draws, losses, goals for/against, goal difference, and points calculated from completed fixtures.
 - **Fixtures and results:** clearly labeled upcoming matches and final scores, grouped by match date.
 - **Low-data delivery:** the browser loads only static HTML, CSS, JavaScript, and `data/optimized.json`, with a five-minute local cache and a manual refresh option.
@@ -13,6 +13,8 @@ A lightweight static dashboard for the current Premier League season. It display
 ## How it works
 
 `scripts/fetch-data.js` downloads the current Premier League fixture data from the [OpenFootball England dataset](https://github.com/openfootball/england.json), calculates the table from completed matches, and writes `data/optimized.json`. The browser app in `js/app.js` renders the table and fixtures from that optimized file.
+
+The fetch job tries the current season first, then up to four earlier seasons when a source file returns HTTP 404. This keeps scheduled data refreshes working during the gap between a new season beginning and the upstream fixture file being published.
 
 ## Getting started
 

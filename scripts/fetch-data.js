@@ -3,11 +3,47 @@ const path = require('path');
 
 const LEAGUE_NAME = 'Premier League';
 const SOURCE_BASE_URL = 'https://raw.githubusercontent.com/openfootball/england.json/master';
+const MAX_SEASONS_TO_TRY = 5;
 
 function getCurrentSeason(today = new Date()) {
   const year = today.getUTCFullYear();
   const startYear = today.getUTCMonth() >= 6 ? year : year - 1;
   return `${startYear}-${String(startYear + 1).slice(-2)}`;
+}
+
+function getPreviousSeason(season) {
+  const startYear = Number(season.slice(0, 4)) - 1;
+  return `${startYear}-${String(startYear + 1).slice(-2)}`;
+}
+
+function getSeasonCandidates(today = new Date(), count = MAX_SEASONS_TO_TRY) {
+  const seasons = [];
+  let season = getCurrentSeason(today);
+
+  for (let index = 0; index < count; index += 1) {
+    seasons.push(season);
+    season = getPreviousSeason(season);
+  }
+
+  return seasons;
+}
+
+async function fetchLatestAvailableSeason(fetchImpl = fetch, today = new Date()) {
+  const attemptedUrls = [];
+
+  for (const season of getSeasonCandidates(today)) {
+    const sourceUrl = `${SOURCE_BASE_URL}/${season}/1-premierleague.json`;
+    attemptedUrls.push(sourceUrl);
+    const response = await fetchImpl(sourceUrl);
+
+    if (response.status === 404) continue;
+    if (!response.ok) throw new Error(`Unable to fetch ${sourceUrl}: HTTP ${response.status}`);
+
+    const raw = await response.json();
+    if (raw.matches?.length) return { season, raw, sourceUrl };
+  }
+
+  throw new Error(`Unable to find Premier League fixture data. Tried: ${attemptedUrls.join(', ')}`);
 }
 
 function calculateTable(matches) {
@@ -68,12 +104,12 @@ function formatMatches(rawMatches) {
 }
 
 async function main() {
-  const season = getCurrentSeason();
-  const sourceUrl = `${SOURCE_BASE_URL}/${season}/1-premierleague.json`;
-  console.log(`Fetching ${LEAGUE_NAME} ${season} data...`);
-  const response = await fetch(sourceUrl);
-  if (!response.ok) throw new Error(`Unable to fetch ${sourceUrl}: HTTP ${response.status}`);
-  const raw = await response.json();
+  const requestedSeason = getCurrentSeason();
+  console.log(`Fetching ${LEAGUE_NAME} ${requestedSeason} data...`);
+  const { season, raw } = await fetchLatestAvailableSeason();
+  if (season !== requestedSeason) {
+    console.warn(`⚠️ ${requestedSeason} data is not available yet; using ${season} instead.`);
+  }
   const matches = formatMatches(raw.matches || []);
   if (!matches.length) throw new Error(`The ${season} source contains no Premier League matches.`);
 
@@ -98,4 +134,11 @@ if (require.main === module) {
   });
 }
 
-module.exports = { calculateTable, formatMatches, getCurrentSeason };
+module.exports = {
+  calculateTable,
+  fetchLatestAvailableSeason,
+  formatMatches,
+  getCurrentSeason,
+  getPreviousSeason,
+  getSeasonCandidates,
+};
