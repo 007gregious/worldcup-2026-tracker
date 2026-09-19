@@ -4,6 +4,9 @@ const path = require('path');
 const LEAGUE_NAME = 'Premier League';
 const SOURCE_BASE_URL = 'https://raw.githubusercontent.com/openfootball/england.json/master';
 const MAX_SEASONS_TO_TRY = 5;
+// OpenFootball names league files after their country and division. The former
+// 1-premierleague.json filename is not present in the england.json repository.
+const SOURCE_FILE_NAME = 'eng.1.json';
 
 function getCurrentSeason(today = new Date()) {
   const year = today.getUTCFullYear();
@@ -32,14 +35,25 @@ async function fetchLatestAvailableSeason(fetchImpl = fetch, today = new Date())
   const attemptedUrls = [];
 
   for (const season of getSeasonCandidates(today)) {
-    const sourceUrl = `${SOURCE_BASE_URL}/${season}/1-premierleague.json`;
+    const sourceUrl = `${SOURCE_BASE_URL}/${season}/${SOURCE_FILE_NAME}`;
     attemptedUrls.push(sourceUrl);
-    const response = await fetchImpl(sourceUrl);
+    let response;
+
+    try {
+      response = await fetchImpl(sourceUrl);
+    } catch (error) {
+      throw new Error(`Unable to fetch ${sourceUrl}: ${error.message}`, { cause: error });
+    }
 
     if (response.status === 404) continue;
     if (!response.ok) throw new Error(`Unable to fetch ${sourceUrl}: HTTP ${response.status}`);
 
-    const raw = await response.json();
+    let raw;
+    try {
+      raw = await response.json();
+    } catch (error) {
+      throw new Error(`Unable to parse JSON from ${sourceUrl}: ${error.message}`, { cause: error });
+    }
     if (raw.matches?.length) return { season, raw, sourceUrl };
   }
 
