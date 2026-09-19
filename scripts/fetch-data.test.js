@@ -23,7 +23,7 @@ test('fetchLatestAvailableSeason falls back when the current season file is not 
   const requestedUrls = [];
   const fetchImpl = async (url) => {
     requestedUrls.push(url);
-    if (url.includes('/2026-27/')) return { ok: false, status: 404 };
+    if (url.includes('/2026-27/') || url.includes('/main/')) return { ok: false, status: 404 };
     return {
       ok: true,
       status: 200,
@@ -35,10 +35,10 @@ test('fetchLatestAvailableSeason falls back when the current season file is not 
 
   assert.equal(result.season, '2025-26');
   assert.match(result.sourceUrl, /2025-26\/eng\.1\.json$/);
-  assert.equal(requestedUrls.length, 2);
+  assert.equal(requestedUrls.length, 4);
 });
 
-test('fetchLatestAvailableSeason requests OpenFootball’s country-and-division filename', async () => {
+test('fetchLatestAvailableSeason prefers OpenFootball’s main branch and country-and-division filename', async () => {
   const requestedUrls = [];
   const fetchImpl = async (url) => {
     requestedUrls.push(url);
@@ -52,8 +52,26 @@ test('fetchLatestAvailableSeason requests OpenFootball’s country-and-division 
   await fetchLatestAvailableSeason(fetchImpl, new Date('2026-09-19T00:00:00Z'));
 
   assert.deepEqual(requestedUrls, [
-    'https://raw.githubusercontent.com/openfootball/england.json/master/2026-27/eng.1.json',
+    'https://raw.githubusercontent.com/openfootball/england.json/main/2026-27/eng.1.json',
   ]);
+});
+
+test('fetchLatestAvailableSeason retries master when main does not contain the data', async () => {
+  const requestedUrls = [];
+  const fetchImpl = async (url) => {
+    requestedUrls.push(url);
+    if (url.includes('/main/')) return { ok: false, status: 404 };
+    return {
+      ok: true,
+      status: 200,
+      json: async () => ({ matches: [{ team1: 'Arsenal', team2: 'Chelsea' }] }),
+    };
+  };
+
+  const result = await fetchLatestAvailableSeason(fetchImpl, new Date('2026-09-19T00:00:00Z'));
+
+  assert.match(result.sourceUrl, /master\/2026-27\/eng\.1\.json$/);
+  assert.equal(requestedUrls.length, 2);
 });
 
 test('fetchLatestAvailableSeason reports an upstream error without masking it as missing data', async () => {
