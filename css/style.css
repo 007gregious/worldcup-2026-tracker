@@ -4,12 +4,15 @@
   border-color: #15803d; /* green-700 */
   color: #15803d;
 }
-.group-table th, .group-table td {
-  @apply px-2 py-1 text-left text-sm;
+.league-table th, .league-table td {
+  padding: 0.5rem;
+  text-align: left;
+  font-size: 0.875rem;
 }
 @media (max-width: 640px) {
-  .group-table th, .group-table td {
-    @apply px-1 py-0.5 text-xs;
+  .league-table th, .league-table td {
+    padding: 0.25rem;
+    font-size: 0.75rem;
   }
 }
 .match-card {

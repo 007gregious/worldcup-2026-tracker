@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>FIFA World Cup 2026 Tracker</title>
+  <title>Premier League Tracker</title>
   <!-- Favicon as data URI (no extra HTTP request) -->
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50' y='85' font-size='80' text-anchor='middle' fill='%2315803d'%3E⚽%3C/text%3E%3C/svg%3E">
   <script src="https://cdn.tailwindcss.com"></script>
@@ -22,8 +22,8 @@
 
 <div class="max-w-7xl mx-auto px-4 py-6">
   <header class="text-center mb-8">
-    <h1 class="text-3xl md:text-4xl font-bold text-green-700">⚽ FIFA World Cup 2026</h1>
-    <p class="text-gray-600 text-sm mt-1">Live standings, matches & player stats — low‑data mode</p>
+    <h1 id="season-label" class="text-3xl md:text-4xl font-bold text-green-700">⚽ Premier League</h1>
+    <p class="text-gray-600 text-sm mt-1">Live table, fixtures & results — low-data mode</p>
     <div class="flex justify-between items-center mt-3 text-xs text-gray-500">
       <span id="last-updated">Loading...</span>
       <button id="refresh-btn" class="bg-green-600 text-white px-3 py-1 rounded-full hover:bg-green-700">↻ Refresh</button>
@@ -32,15 +32,19 @@
 
   <!-- Tab navigation -->
   <div class="flex flex-wrap gap-2 border-b border-gray-300 mb-6">
-    <button data-tab="standings" class="tab-btn py-2 px-4 font-semibold text-green-700 border-b-2 border-green-700">🏆 Standings</button>
-    <button data-tab="matches" class="tab-btn py-2 px-4 font-semibold text-gray-600 hover:text-green-600">📅 Matches</button>
-    <button data-tab="stats" class="tab-btn py-2 px-4 font-semibold text-gray-600 hover:text-green-600">⭐ Player Stats</button>
+    <button data-tab="standings" class="tab-btn py-2 px-4 font-semibold text-green-700 border-b-2 border-green-700">🏆 Table</button>
+    <button data-tab="matches" class="tab-btn py-2 px-4 font-semibold text-gray-600 hover:text-green-600">📅 Fixtures & Results</button>
   </div>
 
   <!-- Standings view -->
   <div id="standings-view" class="tab-content">
-    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-      <!-- groups injected here -->
+    <div class="bg-white rounded-lg shadow overflow-x-auto">
+      <table class="league-table w-full text-sm">
+        <thead class="bg-green-100 text-green-900">
+          <tr><th>#</th><th>Club</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th></tr>
+        </thead>
+        <tbody id="standings-body"></tbody>
+      </table>
     </div>
   </div>
 
@@ -51,14 +55,6 @@
     </div>
   </div>
 
-  <!-- Stats view -->
-  <div id="stats-view" class="tab-content hidden">
-    <div class="grid md:grid-cols-3 gap-6">
-      <div><h2 class="text-xl font-bold mb-3">⚽ Top Scorers</h2><ul id="top-scorers" class="space-y-2"></ul></div>
-      <div><h2 class="text-xl font-bold mb-3">🎯 Top Assists</h2><ul id="top-assists" class="space-y-2"></ul></div>
-      <div><h2 class="text-xl font-bold mb-3">🟨 Most Cards</h2><ul id="most-cards" class="space-y-2"></ul></div>
-    </div>
-  </div>
 </div>
 
 <script src="js/app.js"></script>
