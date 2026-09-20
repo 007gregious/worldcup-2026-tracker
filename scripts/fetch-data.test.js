@@ -1,10 +1,14 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const os = require('node:os');
+const path = require('node:path');
 
 const {
   fetchLatestAvailableSeason,
   getCurrentSeason,
   getSeasonCandidates,
+  main,
 } = require('./fetch-data');
 
 test('getCurrentSeason uses the season that starts in July', () => {
@@ -17,6 +21,13 @@ test('getSeasonCandidates starts with the requested season and works backwards',
     getSeasonCandidates(new Date('2026-09-19T00:00:00Z'), 3),
     ['2026-27', '2025-26', '2024-25'],
   );
+});
+
+test('getSeasonCandidates searches ten seasons by default', () => {
+  const seasons = getSeasonCandidates(new Date('2026-09-19T00:00:00Z'));
+
+  assert.equal(seasons.length, 10);
+  assert.equal(seasons.at(-1), '2017-18');
 });
 
 test('fetchLatestAvailableSeason falls back when the current season file is not published', async () => {
@@ -82,4 +93,27 @@ test('fetchLatestAvailableSeason reports an upstream error without masking it as
     ),
     /HTTP 500/,
   );
+});
+
+test('main preserves existing data when no published season contains matches', async () => {
+  const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'fetch-data-'));
+  const outPath = path.join(directory, 'optimized.json');
+  const existingData = '{"season":"2025-26"}\n';
+  fs.writeFileSync(outPath, existingData);
+
+  try {
+    await main({
+      fetchImpl: async () => ({
+        ok: true,
+        status: 200,
+        json: async () => ({ matches: [] }),
+      }),
+      today: new Date('2026-09-19T00:00:00Z'),
+      outPath,
+    });
+
+    assert.equal(fs.readFileSync(outPath, 'utf8'), existingData);
+  } finally {
+    fs.rmSync(directory, { recursive: true, force: true });
+  }
 });
