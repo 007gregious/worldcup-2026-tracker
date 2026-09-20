@@ -1,7 +1,4192 @@
 {
-  "league": "Premier League",
-  "season": "2026-27",
-  "lastUpdated": "2026-09-19T00:00:00.000Z",
-  "standings": [],
-  "matches": []
+  "lastUpdated": "2026-09-19T18:33:13.251Z",
+  "groups": [
+    {
+      "name": "Group A",
+      "teams": [
+        {
+          "name": "Mexico",
+          "played": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "gf": 6,
+          "ga": 0,
+          "points": 9,
+          "gd": 6,
+          "rank": 1
+        },
+        {
+          "name": "South Africa",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "gf": 2,
+          "ga": 3,
+          "points": 4,
+          "gd": -1,
+          "rank": 2
+        },
+        {
+          "name": "South Korea",
+          "played": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "gf": 2,
+          "ga": 3,
+          "points": 3,
+          "gd": -1,
+          "rank": 3
+        },
+        {
+          "name": "Czech Republic",
+          "played": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "gf": 2,
+          "ga": 6,
+          "points": 1,
+          "gd": -4,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group B",
+      "teams": [
+        {
+          "name": "Switzerland",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "gf": 7,
+          "ga": 3,
+          "points": 7,
+          "gd": 4,
+          "rank": 1
+        },
+        {
+          "name": "Canada",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "gf": 8,
+          "ga": 3,
+          "points": 4,
+          "gd": 5,
+          "rank": 2
+        },
+        {
+          "name": "Bosnia & Herzegovina",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "gf": 5,
+          "ga": 6,
+          "points": 4,
+          "gd": -1,
+          "rank": 3
+        },
+        {
+          "name": "Qatar",
+          "played": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "gf": 2,
+          "ga": 10,
+          "points": 1,
+          "gd": -8,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group C",
+      "teams": [
+        {
+          "name": "Brazil",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "gf": 7,
+          "ga": 1,
+          "points": 7,
+          "gd": 6,
+          "rank": 1
+        },
+        {
+          "name": "Morocco",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "gf": 6,
+          "ga": 3,
+          "points": 7,
+          "gd": 3,
+          "rank": 2
+        },
+        {
+          "name": "Scotland",
+          "played": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "gf": 1,
+          "ga": 4,
+          "points": 3,
+          "gd": -3,
+          "rank": 3
+        },
+        {
+          "name": "Haiti",
+          "played": 3,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "gf": 2,
+          "ga": 8,
+          "points": 0,
+          "gd": -6,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group D",
+      "teams": [
+        {
+          "name": "USA",
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "gf": 8,
+          "ga": 4,
+          "points": 6,
+          "gd": 4,
+          "rank": 1
+        },
+        {
+          "name": "Australia",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "gf": 2,
+          "ga": 2,
+          "points": 4,
+          "gd": 0,
+          "rank": 2
+        },
+        {
+          "name": "Paraguay",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "gf": 2,
+          "ga": 4,
+          "points": 4,
+          "gd": -2,
+          "rank": 3
+        },
+        {
+          "name": "Turkey",
+          "played": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "gf": 3,
+          "ga": 5,
+          "points": 3,
+          "gd": -2,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group E",
+      "teams": [
+        {
+          "name": "Germany",
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "gf": 10,
+          "ga": 4,
+          "points": 6,
+          "gd": 6,
+          "rank": 1
+        },
+        {
+          "name": "Ivory Coast",
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "gf": 4,
+          "ga": 2,
+          "points": 6,
+          "gd": 2,
+          "rank": 2
+        },
+        {
+          "name": "Ecuador",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "gf": 2,
+          "ga": 2,
+          "points": 4,
+          "gd": 0,
+          "rank": 3
+        },
+        {
+          "name": "Curaçao",
+          "played": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "gf": 1,
+          "ga": 9,
+          "points": 1,
+          "gd": -8,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group F",
+      "teams": [
+        {
+          "name": "Netherlands",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "gf": 10,
+          "ga": 4,
+          "points": 7,
+          "gd": 6,
+          "rank": 1
+        },
+        {
+          "name": "Japan",
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "gf": 7,
+          "ga": 3,
+          "points": 5,
+          "gd": 4,
+          "rank": 2
+        },
+        {
+          "name": "Sweden",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "gf": 7,
+          "ga": 7,
+          "points": 4,
+          "gd": 0,
+          "rank": 3
+        },
+        {
+          "name": "Tunisia",
+          "played": 3,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "gf": 2,
+          "ga": 12,
+          "points": 0,
+          "gd": -10,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group G",
+      "teams": [
+        {
+          "name": "Belgium",
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "gf": 6,
+          "ga": 2,
+          "points": 5,
+          "gd": 4,
+          "rank": 1
+        },
+        {
+          "name": "Egypt",
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "gf": 5,
+          "ga": 3,
+          "points": 5,
+          "gd": 2,
+          "rank": 2
+        },
+        {
+          "name": "Iran",
+          "played": 3,
+          "wins": 0,
+          "draws": 3,
+          "losses": 0,
+          "gf": 3,
+          "ga": 3,
+          "points": 3,
+          "gd": 0,
+          "rank": 3
+        },
+        {
+          "name": "New Zealand",
+          "played": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "gf": 4,
+          "ga": 10,
+          "points": 1,
+          "gd": -6,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group H",
+      "teams": [
+        {
+          "name": "Spain",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "gf": 5,
+          "ga": 0,
+          "points": 7,
+          "gd": 5,
+          "rank": 1
+        },
+        {
+          "name": "Cape Verde",
+          "played": 3,
+          "wins": 0,
+          "draws": 3,
+          "losses": 0,
+          "gf": 2,
+          "ga": 2,
+          "points": 3,
+          "gd": 0,
+          "rank": 2
+        },
+        {
+          "name": "Uruguay",
+          "played": 3,
+          "wins": 0,
+          "draws": 2,
+          "losses": 1,
+          "gf": 3,
+          "ga": 4,
+          "points": 2,
+          "gd": -1,
+          "rank": 3
+        },
+        {
+          "name": "Saudi Arabia",
+          "played": 3,
+          "wins": 0,
+          "draws": 2,
+          "losses": 1,
+          "gf": 1,
+          "ga": 5,
+          "points": 2,
+          "gd": -4,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group I",
+      "teams": [
+        {
+          "name": "France",
+          "played": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "gf": 10,
+          "ga": 2,
+          "points": 9,
+          "gd": 8,
+          "rank": 1
+        },
+        {
+          "name": "Norway",
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "gf": 8,
+          "ga": 7,
+          "points": 6,
+          "gd": 1,
+          "rank": 2
+        },
+        {
+          "name": "Senegal",
+          "played": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "gf": 8,
+          "ga": 6,
+          "points": 3,
+          "gd": 2,
+          "rank": 3
+        },
+        {
+          "name": "Iraq",
+          "played": 3,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "gf": 1,
+          "ga": 12,
+          "points": 0,
+          "gd": -11,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group J",
+      "teams": [
+        {
+          "name": "Argentina",
+          "played": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "gf": 8,
+          "ga": 1,
+          "points": 9,
+          "gd": 7,
+          "rank": 1
+        },
+        {
+          "name": "Austria",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "gf": 6,
+          "ga": 6,
+          "points": 4,
+          "gd": 0,
+          "rank": 2
+        },
+        {
+          "name": "Algeria",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "gf": 5,
+          "ga": 7,
+          "points": 4,
+          "gd": -2,
+          "rank": 3
+        },
+        {
+          "name": "Jordan",
+          "played": 3,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "gf": 3,
+          "ga": 8,
+          "points": 0,
+          "gd": -5,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group K",
+      "teams": [
+        {
+          "name": "Colombia",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "gf": 4,
+          "ga": 1,
+          "points": 7,
+          "gd": 3,
+          "rank": 1
+        },
+        {
+          "name": "Portugal",
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "gf": 6,
+          "ga": 1,
+          "points": 5,
+          "gd": 5,
+          "rank": 2
+        },
+        {
+          "name": "DR Congo",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "gf": 4,
+          "ga": 3,
+          "points": 4,
+          "gd": 1,
+          "rank": 3
+        },
+        {
+          "name": "Uzbekistan",
+          "played": 3,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "gf": 2,
+          "ga": 11,
+          "points": 0,
+          "gd": -9,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Group L",
+      "teams": [
+        {
+          "name": "England",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "gf": 6,
+          "ga": 2,
+          "points": 7,
+          "gd": 4,
+          "rank": 1
+        },
+        {
+          "name": "Croatia",
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "gf": 5,
+          "ga": 5,
+          "points": 6,
+          "gd": 0,
+          "rank": 2
+        },
+        {
+          "name": "Ghana",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "gf": 2,
+          "ga": 2,
+          "points": 4,
+          "gd": 0,
+          "rank": 3
+        },
+        {
+          "name": "Panama",
+          "played": 3,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "gf": 0,
+          "ga": 4,
+          "points": 0,
+          "gd": -4,
+          "rank": 4
+        }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "id": "2026-06-11-Mexico-South Africa",
+      "date": "2026-06-11",
+      "time": "13:00 UTC-6",
+      "status": "finished",
+      "home": {
+        "name": "Mexico",
+        "score": 2
+      },
+      "away": {
+        "name": "South Africa",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "9",
+          "player": "Julián Quiñones",
+          "team": "Mexico"
+        },
+        {
+          "type": "goal",
+          "minute": "67",
+          "player": "Raúl Jiménez",
+          "team": "Mexico"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-11-South Korea-Czech Republic",
+      "date": "2026-06-11",
+      "time": "20:00 UTC-6",
+      "status": "finished",
+      "home": {
+        "name": "South Korea",
+        "score": 2
+      },
+      "away": {
+        "name": "Czech Republic",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "67",
+          "player": "Hwang In-Beom",
+          "team": "South Korea"
+        },
+        {
+          "type": "goal",
+          "minute": "80",
+          "player": "Oh Hyeon-Gyu",
+          "team": "South Korea"
+        },
+        {
+          "type": "goal",
+          "minute": "59",
+          "player": "Ladislav Krejcí",
+          "team": "Czech Republic"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-18-Czech Republic-South Africa",
+      "date": "2026-06-18",
+      "time": "12:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Czech Republic",
+        "score": 1
+      },
+      "away": {
+        "name": "South Africa",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "6",
+          "player": "Michal Sadílek",
+          "team": "Czech Republic"
+        },
+        {
+          "type": "goal",
+          "minute": "83",
+          "player": "Teboho Mokoena",
+          "team": "South Africa"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-18-Mexico-South Korea",
+      "date": "2026-06-18",
+      "time": "19:00 UTC-6",
+      "status": "finished",
+      "home": {
+        "name": "Mexico",
+        "score": 1
+      },
+      "away": {
+        "name": "South Korea",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "50",
+          "player": "Luis Romo",
+          "team": "Mexico"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-24-Czech Republic-Mexico",
+      "date": "2026-06-24",
+      "time": "19:00 UTC-6",
+      "status": "finished",
+      "home": {
+        "name": "Czech Republic",
+        "score": 0
+      },
+      "away": {
+        "name": "Mexico",
+        "score": 3
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "55",
+          "player": "Mateo Chávez",
+          "team": "Mexico"
+        },
+        {
+          "type": "goal",
+          "minute": "61",
+          "player": "Julián Quiñones",
+          "team": "Mexico"
+        },
+        {
+          "type": "goal",
+          "minute": "90+4",
+          "player": "Álvaro Fidalgo",
+          "team": "Mexico"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-24-South Africa-South Korea",
+      "date": "2026-06-24",
+      "time": "19:00 UTC-6",
+      "status": "finished",
+      "home": {
+        "name": "South Africa",
+        "score": 1
+      },
+      "away": {
+        "name": "South Korea",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "63",
+          "player": "Thapelo Maseko",
+          "team": "South Africa"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-12-Canada-Bosnia & Herzegovina",
+      "date": "2026-06-12",
+      "time": "15:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Canada",
+        "score": 1
+      },
+      "away": {
+        "name": "Bosnia & Herzegovina",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "78",
+          "player": "Cyle Larin",
+          "team": "Canada"
+        },
+        {
+          "type": "goal",
+          "minute": "21",
+          "player": "Jovo Lukić",
+          "team": "Bosnia & Herzegovina"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-13-Qatar-Switzerland",
+      "date": "2026-06-13",
+      "time": "12:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Qatar",
+        "score": 1
+      },
+      "away": {
+        "name": "Switzerland",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "90+4",
+          "player": "Miro Muheim",
+          "team": "Qatar"
+        },
+        {
+          "type": "goal",
+          "minute": "17",
+          "player": "Breel Embolo",
+          "team": "Switzerland"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-18-Switzerland-Bosnia & Herzegovina",
+      "date": "2026-06-18",
+      "time": "12:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Switzerland",
+        "score": 4
+      },
+      "away": {
+        "name": "Bosnia & Herzegovina",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "74",
+          "player": "Johan Manzambi",
+          "team": "Switzerland"
+        },
+        {
+          "type": "goal",
+          "minute": "84",
+          "player": "Rubén Vargas",
+          "team": "Switzerland"
+        },
+        {
+          "type": "goal",
+          "minute": "90",
+          "player": "Johan Manzambi",
+          "team": "Switzerland"
+        },
+        {
+          "type": "goal",
+          "minute": "90+7",
+          "player": "Granit Xhaka",
+          "team": "Switzerland"
+        },
+        {
+          "type": "goal",
+          "minute": "90+3",
+          "player": "Ermin Mahmic",
+          "team": "Bosnia & Herzegovina"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-18-Canada-Qatar",
+      "date": "2026-06-18",
+      "time": "15:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Canada",
+        "score": 6
+      },
+      "away": {
+        "name": "Qatar",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "16",
+          "player": "Cyle Larin",
+          "team": "Canada"
+        },
+        {
+          "type": "goal",
+          "minute": "29",
+          "player": "Jonathan David",
+          "team": "Canada"
+        },
+        {
+          "type": "goal",
+          "minute": "45+3",
+          "player": "Jonathan David",
+          "team": "Canada"
+        },
+        {
+          "type": "goal",
+          "minute": "64",
+          "player": "Nathan Saliba",
+          "team": "Canada"
+        },
+        {
+          "type": "goal",
+          "minute": "75",
+          "player": "Mohamed Manai",
+          "team": "Canada"
+        },
+        {
+          "type": "goal",
+          "minute": "90+2",
+          "player": "Jonathan David",
+          "team": "Canada"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-24-Switzerland-Canada",
+      "date": "2026-06-24",
+      "time": "12:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Switzerland",
+        "score": 2
+      },
+      "away": {
+        "name": "Canada",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "46",
+          "player": "Rubén Vargas",
+          "team": "Switzerland"
+        },
+        {
+          "type": "goal",
+          "minute": "57",
+          "player": "Johan Manzambi",
+          "team": "Switzerland"
+        },
+        {
+          "type": "goal",
+          "minute": "76",
+          "player": "Promise David",
+          "team": "Canada"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-24-Bosnia & Herzegovina-Qatar",
+      "date": "2026-06-24",
+      "time": "12:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Bosnia & Herzegovina",
+        "score": 3
+      },
+      "away": {
+        "name": "Qatar",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "29",
+          "player": "Kerim Alajbegovic",
+          "team": "Bosnia & Herzegovina"
+        },
+        {
+          "type": "goal",
+          "minute": "34",
+          "player": "Mahmoud Abunada",
+          "team": "Bosnia & Herzegovina"
+        },
+        {
+          "type": "goal",
+          "minute": "80",
+          "player": "Ermin Mahmic",
+          "team": "Bosnia & Herzegovina"
+        },
+        {
+          "type": "goal",
+          "minute": "42",
+          "player": "Hassan Al-Haydos",
+          "team": "Qatar"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-13-Brazil-Morocco",
+      "date": "2026-06-13",
+      "time": "18:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Brazil",
+        "score": 1
+      },
+      "away": {
+        "name": "Morocco",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "32",
+          "player": "Vinícius Júnior",
+          "team": "Brazil"
+        },
+        {
+          "type": "goal",
+          "minute": "21",
+          "player": "Ismael Saibari",
+          "team": "Morocco"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-13-Haiti-Scotland",
+      "date": "2026-06-13",
+      "time": "21:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Haiti",
+        "score": 0
+      },
+      "away": {
+        "name": "Scotland",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "28",
+          "player": "John McGinn",
+          "team": "Scotland"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-19-Scotland-Morocco",
+      "date": "2026-06-19",
+      "time": "18:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Scotland",
+        "score": 0
+      },
+      "away": {
+        "name": "Morocco",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "2",
+          "player": "Ismael Saibari",
+          "team": "Morocco"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-19-Brazil-Haiti",
+      "date": "2026-06-19",
+      "time": "20:30 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Brazil",
+        "score": 3
+      },
+      "away": {
+        "name": "Haiti",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "23",
+          "player": "Matheus Cunha",
+          "team": "Brazil"
+        },
+        {
+          "type": "goal",
+          "minute": "36",
+          "player": "Matheus Cunha",
+          "team": "Brazil"
+        },
+        {
+          "type": "goal",
+          "minute": "45+3",
+          "player": "Vinícius Júnior",
+          "team": "Brazil"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-24-Scotland-Brazil",
+      "date": "2026-06-24",
+      "time": "18:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Scotland",
+        "score": 0
+      },
+      "away": {
+        "name": "Brazil",
+        "score": 3
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "7",
+          "player": "Vinícius Júnior",
+          "team": "Brazil"
+        },
+        {
+          "type": "goal",
+          "minute": "45+3",
+          "player": "Vinícius Júnior",
+          "team": "Brazil"
+        },
+        {
+          "type": "goal",
+          "minute": "60",
+          "player": "Matheus Cunha",
+          "team": "Brazil"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-24-Morocco-Haiti",
+      "date": "2026-06-24",
+      "time": "18:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Morocco",
+        "score": 4
+      },
+      "away": {
+        "name": "Haiti",
+        "score": 2
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "39",
+          "player": "Achraf Hakimi",
+          "team": "Morocco"
+        },
+        {
+          "type": "goal",
+          "minute": "45+1",
+          "player": "Ismael Saibari",
+          "team": "Morocco"
+        },
+        {
+          "type": "goal",
+          "minute": "78",
+          "player": "Soufiane Rahimi",
+          "team": "Morocco"
+        },
+        {
+          "type": "goal",
+          "minute": "89",
+          "player": "Gessime Yassine",
+          "team": "Morocco"
+        },
+        {
+          "type": "goal",
+          "minute": "10",
+          "player": "Yassine Bounou",
+          "team": "Haiti"
+        },
+        {
+          "type": "goal",
+          "minute": "43",
+          "player": "Wilson Isidor",
+          "team": "Haiti"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-12-USA-Paraguay",
+      "date": "2026-06-12",
+      "time": "18:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "USA",
+        "score": 4
+      },
+      "away": {
+        "name": "Paraguay",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "7",
+          "player": "Damian Bobadilla",
+          "team": "USA"
+        },
+        {
+          "type": "goal",
+          "minute": "31",
+          "player": "Folarin Balogun",
+          "team": "USA"
+        },
+        {
+          "type": "goal",
+          "minute": "45+5",
+          "player": "Folarin Balogun",
+          "team": "USA"
+        },
+        {
+          "type": "goal",
+          "minute": "90+8",
+          "player": "Giovanni Reyna",
+          "team": "USA"
+        },
+        {
+          "type": "goal",
+          "minute": "73",
+          "player": "Mauricio",
+          "team": "Paraguay"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-13-Australia-Turkey",
+      "date": "2026-06-13",
+      "time": "21:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Australia",
+        "score": 2
+      },
+      "away": {
+        "name": "Turkey",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "27",
+          "player": "Nestory Irankunda",
+          "team": "Australia"
+        },
+        {
+          "type": "goal",
+          "minute": "75",
+          "player": "Connor Metcalfe",
+          "team": "Australia"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-19-USA-Australia",
+      "date": "2026-06-19",
+      "time": "12:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "USA",
+        "score": 2
+      },
+      "away": {
+        "name": "Australia",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "11",
+          "player": "Cameron Burgess",
+          "team": "USA"
+        },
+        {
+          "type": "goal",
+          "minute": "43",
+          "player": "Alex Freeman",
+          "team": "USA"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-19-Turkey-Paraguay",
+      "date": "2026-06-19",
+      "time": "20:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Turkey",
+        "score": 0
+      },
+      "away": {
+        "name": "Paraguay",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "2",
+          "player": "Matías Galarza",
+          "team": "Paraguay"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-25-Turkey-USA",
+      "date": "2026-06-25",
+      "time": "19:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Turkey",
+        "score": 3
+      },
+      "away": {
+        "name": "USA",
+        "score": 2
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "10",
+          "player": "Arda Güler",
+          "team": "Turkey"
+        },
+        {
+          "type": "goal",
+          "minute": "31",
+          "player": "Baris Alper Yilmaz",
+          "team": "Turkey"
+        },
+        {
+          "type": "goal",
+          "minute": "90+8",
+          "player": "Kaan Ayhan",
+          "team": "Turkey"
+        },
+        {
+          "type": "goal",
+          "minute": "3",
+          "player": "Auston Trusty",
+          "team": "USA"
+        },
+        {
+          "type": "goal",
+          "minute": "49",
+          "player": "Sebastian Berhalter",
+          "team": "USA"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-25-Paraguay-Australia",
+      "date": "2026-06-25",
+      "time": "19:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Paraguay",
+        "score": 0
+      },
+      "away": {
+        "name": "Australia",
+        "score": 0
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-14-Germany-Curaçao",
+      "date": "2026-06-14",
+      "time": "12:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Germany",
+        "score": 7
+      },
+      "away": {
+        "name": "Curaçao",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "6",
+          "player": "Felix Nmecha",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "38",
+          "player": "Nico Schlotterbeck",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "45+5",
+          "player": "Kai Havertz",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "47",
+          "player": "Jamal Musiala",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "68",
+          "player": "Nathaniel Brown",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "78",
+          "player": "Deniz Undav",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "88",
+          "player": "Kai Havertz",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "21",
+          "player": "Livano Comenencia",
+          "team": "Curaçao"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-14-Ivory Coast-Ecuador",
+      "date": "2026-06-14",
+      "time": "19:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Ivory Coast",
+        "score": 1
+      },
+      "away": {
+        "name": "Ecuador",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "90",
+          "player": "Amad Diallo",
+          "team": "Ivory Coast"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-20-Germany-Ivory Coast",
+      "date": "2026-06-20",
+      "time": "16:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Germany",
+        "score": 2
+      },
+      "away": {
+        "name": "Ivory Coast",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "68",
+          "player": "Deniz Undav",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "90+4",
+          "player": "Deniz Undav",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "30",
+          "player": "Franck Kessié",
+          "team": "Ivory Coast"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-20-Ecuador-Curaçao",
+      "date": "2026-06-20",
+      "time": "19:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Ecuador",
+        "score": 0
+      },
+      "away": {
+        "name": "Curaçao",
+        "score": 0
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-25-Curaçao-Ivory Coast",
+      "date": "2026-06-25",
+      "time": "16:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Curaçao",
+        "score": 0
+      },
+      "away": {
+        "name": "Ivory Coast",
+        "score": 2
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "7",
+          "player": "Nicolas Pépé",
+          "team": "Ivory Coast"
+        },
+        {
+          "type": "goal",
+          "minute": "64",
+          "player": "Nicolas Pépé",
+          "team": "Ivory Coast"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-25-Ecuador-Germany",
+      "date": "2026-06-25",
+      "time": "16:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Ecuador",
+        "score": 2
+      },
+      "away": {
+        "name": "Germany",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "9",
+          "player": "Nilson Angulo",
+          "team": "Ecuador"
+        },
+        {
+          "type": "goal",
+          "minute": "77",
+          "player": "Gonzalo Plata",
+          "team": "Ecuador"
+        },
+        {
+          "type": "goal",
+          "minute": "2",
+          "player": "Leroy Sané",
+          "team": "Germany"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-14-Netherlands-Japan",
+      "date": "2026-06-14",
+      "time": "15:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Netherlands",
+        "score": 2
+      },
+      "away": {
+        "name": "Japan",
+        "score": 2
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "51",
+          "player": "Virgil van Dijk",
+          "team": "Netherlands"
+        },
+        {
+          "type": "goal",
+          "minute": "64",
+          "player": "Crysencio Summerville",
+          "team": "Netherlands"
+        },
+        {
+          "type": "goal",
+          "minute": "57",
+          "player": "Keito Nakamura",
+          "team": "Japan"
+        },
+        {
+          "type": "goal",
+          "minute": "88",
+          "player": "Daichi Kamada",
+          "team": "Japan"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-14-Sweden-Tunisia",
+      "date": "2026-06-14",
+      "time": "20:00 UTC-6",
+      "status": "finished",
+      "home": {
+        "name": "Sweden",
+        "score": 5
+      },
+      "away": {
+        "name": "Tunisia",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "7",
+          "player": "Yasin Ayari",
+          "team": "Sweden"
+        },
+        {
+          "type": "goal",
+          "minute": "30",
+          "player": "Alexander Isak",
+          "team": "Sweden"
+        },
+        {
+          "type": "goal",
+          "minute": "59",
+          "player": "Viktor Gyökeres",
+          "team": "Sweden"
+        },
+        {
+          "type": "goal",
+          "minute": "84",
+          "player": "Mattias Svanberg",
+          "team": "Sweden"
+        },
+        {
+          "type": "goal",
+          "minute": "90+6",
+          "player": "Yasin Ayari",
+          "team": "Sweden"
+        },
+        {
+          "type": "goal",
+          "minute": "43",
+          "player": "Omar Rekik",
+          "team": "Tunisia"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-20-Netherlands-Sweden",
+      "date": "2026-06-20",
+      "time": "12:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Netherlands",
+        "score": 5
+      },
+      "away": {
+        "name": "Sweden",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "5",
+          "player": "Brian Brobbey",
+          "team": "Netherlands"
+        },
+        {
+          "type": "goal",
+          "minute": "17",
+          "player": "Brian Brobbey",
+          "team": "Netherlands"
+        },
+        {
+          "type": "goal",
+          "minute": "47",
+          "player": "Cody Gakpo",
+          "team": "Netherlands"
+        },
+        {
+          "type": "goal",
+          "minute": "54",
+          "player": "Cody Gakpo",
+          "team": "Netherlands"
+        },
+        {
+          "type": "goal",
+          "minute": "89",
+          "player": "Crysencio Summerville",
+          "team": "Netherlands"
+        },
+        {
+          "type": "goal",
+          "minute": "59",
+          "player": "Anthony Elanga",
+          "team": "Sweden"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-20-Tunisia-Japan",
+      "date": "2026-06-20",
+      "time": "22:00 UTC-6",
+      "status": "finished",
+      "home": {
+        "name": "Tunisia",
+        "score": 0
+      },
+      "away": {
+        "name": "Japan",
+        "score": 4
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "4",
+          "player": "Daichi Kamada",
+          "team": "Japan"
+        },
+        {
+          "type": "goal",
+          "minute": "31",
+          "player": "Ayase Ueda",
+          "team": "Japan"
+        },
+        {
+          "type": "goal",
+          "minute": "69",
+          "player": "Junya Ito",
+          "team": "Japan"
+        },
+        {
+          "type": "goal",
+          "minute": "83",
+          "player": "Ayase Ueda",
+          "team": "Japan"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-25-Japan-Sweden",
+      "date": "2026-06-25",
+      "time": "18:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Japan",
+        "score": 1
+      },
+      "away": {
+        "name": "Sweden",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "56",
+          "player": "Daizen Maeda",
+          "team": "Japan"
+        },
+        {
+          "type": "goal",
+          "minute": "62",
+          "player": "Anthony Elanga",
+          "team": "Sweden"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-25-Tunisia-Netherlands",
+      "date": "2026-06-25",
+      "time": "18:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Tunisia",
+        "score": 1
+      },
+      "away": {
+        "name": "Netherlands",
+        "score": 3
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "54",
+          "player": "Hazem Mastouri",
+          "team": "Tunisia"
+        },
+        {
+          "type": "goal",
+          "minute": "3",
+          "player": "Ellyes Skhiri",
+          "team": "Netherlands"
+        },
+        {
+          "type": "goal",
+          "minute": "7",
+          "player": "Brian Brobbey",
+          "team": "Netherlands"
+        },
+        {
+          "type": "goal",
+          "minute": "62",
+          "player": "Jan Paul van Hecke",
+          "team": "Netherlands"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-15-Belgium-Egypt",
+      "date": "2026-06-15",
+      "time": "12:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Belgium",
+        "score": 1
+      },
+      "away": {
+        "name": "Egypt",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "66",
+          "player": "Mohamed Hany",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "19",
+          "player": "Emam Ashour",
+          "team": "Egypt"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-15-Iran-New Zealand",
+      "date": "2026-06-15",
+      "time": "18:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Iran",
+        "score": 2
+      },
+      "away": {
+        "name": "New Zealand",
+        "score": 2
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "32",
+          "player": "Ramin Rezaeian",
+          "team": "Iran"
+        },
+        {
+          "type": "goal",
+          "minute": "64",
+          "player": "Mohammad Mohebbi",
+          "team": "Iran"
+        },
+        {
+          "type": "goal",
+          "minute": "7",
+          "player": "Elijah Just",
+          "team": "New Zealand"
+        },
+        {
+          "type": "goal",
+          "minute": "54",
+          "player": "Elijah Just",
+          "team": "New Zealand"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-21-Belgium-Iran",
+      "date": "2026-06-21",
+      "time": "12:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Belgium",
+        "score": 0
+      },
+      "away": {
+        "name": "Iran",
+        "score": 0
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-21-New Zealand-Egypt",
+      "date": "2026-06-21",
+      "time": "18:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "New Zealand",
+        "score": 1
+      },
+      "away": {
+        "name": "Egypt",
+        "score": 3
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "15",
+          "player": "Finn Surman",
+          "team": "New Zealand"
+        },
+        {
+          "type": "goal",
+          "minute": "58",
+          "player": "Mostafa Zico",
+          "team": "Egypt"
+        },
+        {
+          "type": "goal",
+          "minute": "67",
+          "player": "Mohamed Salah",
+          "team": "Egypt"
+        },
+        {
+          "type": "goal",
+          "minute": "82",
+          "player": "Trézéguet",
+          "team": "Egypt"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-26-Egypt-Iran",
+      "date": "2026-06-26",
+      "time": "20:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Egypt",
+        "score": 1
+      },
+      "away": {
+        "name": "Iran",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "5",
+          "player": "Mahmoud Saber",
+          "team": "Egypt"
+        },
+        {
+          "type": "goal",
+          "minute": "14",
+          "player": "Ramin Rezaeian",
+          "team": "Iran"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-26-New Zealand-Belgium",
+      "date": "2026-06-26",
+      "time": "20:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "New Zealand",
+        "score": 1
+      },
+      "away": {
+        "name": "Belgium",
+        "score": 5
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "84",
+          "player": "Elijah Just",
+          "team": "New Zealand"
+        },
+        {
+          "type": "goal",
+          "minute": "28",
+          "player": "Leandro Trossard",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "50",
+          "player": "Leandro Trossard",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "66",
+          "player": "Kevin De Bruyne",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "86",
+          "player": "Romelu Lukaku",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "90+4",
+          "player": "Alexis Saelemaekers",
+          "team": "Belgium"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-15-Spain-Cape Verde",
+      "date": "2026-06-15",
+      "time": "12:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Spain",
+        "score": 0
+      },
+      "away": {
+        "name": "Cape Verde",
+        "score": 0
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-15-Saudi Arabia-Uruguay",
+      "date": "2026-06-15",
+      "time": "18:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Saudi Arabia",
+        "score": 1
+      },
+      "away": {
+        "name": "Uruguay",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "41",
+          "player": "Abdulelah Al-Amri",
+          "team": "Saudi Arabia"
+        },
+        {
+          "type": "goal",
+          "minute": "80",
+          "player": "Maxi Araújo",
+          "team": "Uruguay"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-21-Spain-Saudi Arabia",
+      "date": "2026-06-21",
+      "time": "12:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Spain",
+        "score": 4
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "10",
+          "player": "Lamine Yamal",
+          "team": "Spain"
+        },
+        {
+          "type": "goal",
+          "minute": "21",
+          "player": "Mikel Oyarzabal",
+          "team": "Spain"
+        },
+        {
+          "type": "goal",
+          "minute": "24",
+          "player": "Mikel Oyarzabal",
+          "team": "Spain"
+        },
+        {
+          "type": "goal",
+          "minute": "49",
+          "player": "Hassan Al-Tambakti",
+          "team": "Spain"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-21-Uruguay-Cape Verde",
+      "date": "2026-06-21",
+      "time": "18:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Uruguay",
+        "score": 2
+      },
+      "away": {
+        "name": "Cape Verde",
+        "score": 2
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "44",
+          "player": "Maxi Araújo",
+          "team": "Uruguay"
+        },
+        {
+          "type": "goal",
+          "minute": "45+6",
+          "player": "Agustín Cano",
+          "team": "Uruguay"
+        },
+        {
+          "type": "goal",
+          "minute": "21",
+          "player": "Kevin Pina",
+          "team": "Cape Verde"
+        },
+        {
+          "type": "goal",
+          "minute": "61",
+          "player": "Hélio Varela",
+          "team": "Cape Verde"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-26-Cape Verde-Saudi Arabia",
+      "date": "2026-06-26",
+      "time": "19:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Cape Verde",
+        "score": 0
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "score": 0
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-26-Uruguay-Spain",
+      "date": "2026-06-26",
+      "time": "18:00 UTC-6",
+      "status": "finished",
+      "home": {
+        "name": "Uruguay",
+        "score": 0
+      },
+      "away": {
+        "name": "Spain",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "42",
+          "player": "Álex Baena",
+          "team": "Spain"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-16-France-Senegal",
+      "date": "2026-06-16",
+      "time": "15:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "France",
+        "score": 3
+      },
+      "away": {
+        "name": "Senegal",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "66",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "82",
+          "player": "Bradley Barcola",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "90+6",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "90+5",
+          "player": "Ibrahim Mbaye",
+          "team": "Senegal"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-16-Iraq-Norway",
+      "date": "2026-06-16",
+      "time": "18:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Iraq",
+        "score": 1
+      },
+      "away": {
+        "name": "Norway",
+        "score": 4
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "39",
+          "player": "Aymen Hussein",
+          "team": "Iraq"
+        },
+        {
+          "type": "goal",
+          "minute": "29",
+          "player": "Erling Haaland",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "43",
+          "player": "Erling Haaland",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "76",
+          "player": "Leo Østigard",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "90+6",
+          "player": "Aymen Hussein",
+          "team": "Norway"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-22-France-Iraq",
+      "date": "2026-06-22",
+      "time": "17:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "France",
+        "score": 3
+      },
+      "away": {
+        "name": "Iraq",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "14",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "54",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "66",
+          "player": "Ousmane Dembélé",
+          "team": "France"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-22-Norway-Senegal",
+      "date": "2026-06-22",
+      "time": "20:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Norway",
+        "score": 3
+      },
+      "away": {
+        "name": "Senegal",
+        "score": 2
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "43",
+          "player": "Marcus Holmgren Pedersen",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "48",
+          "player": "Erling Haaland",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "58",
+          "player": "Erling Haaland",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "53",
+          "player": "Ismaïla Sarr",
+          "team": "Senegal"
+        },
+        {
+          "type": "goal",
+          "minute": "90+3",
+          "player": "Ismaïla Sarr",
+          "team": "Senegal"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-26-Norway-France",
+      "date": "2026-06-26",
+      "time": "15:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Norway",
+        "score": 1
+      },
+      "away": {
+        "name": "France",
+        "score": 4
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "21",
+          "player": "Thelo Aasgaard",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "7",
+          "player": "Ousmane Dembélé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "20",
+          "player": "Ousmane Dembélé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "32",
+          "player": "Ousmane Dembélé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "90+4",
+          "player": "Désiré Doué",
+          "team": "France"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-26-Senegal-Iraq",
+      "date": "2026-06-26",
+      "time": "15:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Senegal",
+        "score": 5
+      },
+      "away": {
+        "name": "Iraq",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "4",
+          "player": "Habib Diarra",
+          "team": "Senegal"
+        },
+        {
+          "type": "goal",
+          "minute": "56",
+          "player": "Ismaïla Sarr",
+          "team": "Senegal"
+        },
+        {
+          "type": "goal",
+          "minute": "59",
+          "player": "Pape Gueye",
+          "team": "Senegal"
+        },
+        {
+          "type": "goal",
+          "minute": "71",
+          "player": "Pape Gueye",
+          "team": "Senegal"
+        },
+        {
+          "type": "goal",
+          "minute": "82",
+          "player": "Iliman Ndiaye",
+          "team": "Senegal"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-16-Argentina-Algeria",
+      "date": "2026-06-16",
+      "time": "20:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Argentina",
+        "score": 3
+      },
+      "away": {
+        "name": "Algeria",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "17",
+          "player": "Lionel Messi",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "60",
+          "player": "Lionel Messi",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "76",
+          "player": "Lionel Messi",
+          "team": "Argentina"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-16-Austria-Jordan",
+      "date": "2026-06-16",
+      "time": "21:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Austria",
+        "score": 3
+      },
+      "away": {
+        "name": "Jordan",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "21",
+          "player": "Romano Schmid",
+          "team": "Austria"
+        },
+        {
+          "type": "goal",
+          "minute": "76",
+          "player": "Yazan Al-Arab",
+          "team": "Austria"
+        },
+        {
+          "type": "goal",
+          "minute": "90+12",
+          "player": "Marko Arnautovic",
+          "team": "Austria"
+        },
+        {
+          "type": "goal",
+          "minute": "50",
+          "player": "Ali Olwan",
+          "team": "Jordan"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-22-Argentina-Austria",
+      "date": "2026-06-22",
+      "time": "12:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Argentina",
+        "score": 2
+      },
+      "away": {
+        "name": "Austria",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "38",
+          "player": "Lionel Messi",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "90+5",
+          "player": "Lionel Messi",
+          "team": "Argentina"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-22-Jordan-Algeria",
+      "date": "2026-06-22",
+      "time": "20:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Jordan",
+        "score": 1
+      },
+      "away": {
+        "name": "Algeria",
+        "score": 2
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "36",
+          "player": "Nizar Al-Rashdan",
+          "team": "Jordan"
+        },
+        {
+          "type": "goal",
+          "minute": "69",
+          "player": "Nadhir Benbouali",
+          "team": "Algeria"
+        },
+        {
+          "type": "goal",
+          "minute": "82",
+          "player": "Amine Gouiri",
+          "team": "Algeria"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-27-Algeria-Austria",
+      "date": "2026-06-27",
+      "time": "21:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Algeria",
+        "score": 3
+      },
+      "away": {
+        "name": "Austria",
+        "score": 3
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "45",
+          "player": "Rafik Belghali",
+          "team": "Algeria"
+        },
+        {
+          "type": "goal",
+          "minute": "60",
+          "player": "Riyad Mahrez",
+          "team": "Algeria"
+        },
+        {
+          "type": "goal",
+          "minute": "90+3",
+          "player": "Riyad Mahrez",
+          "team": "Algeria"
+        },
+        {
+          "type": "goal",
+          "minute": "28",
+          "player": "Marko Arnautovic",
+          "team": "Austria"
+        },
+        {
+          "type": "goal",
+          "minute": "55",
+          "player": "Marcel Sabitzer",
+          "team": "Austria"
+        },
+        {
+          "type": "goal",
+          "minute": "90+6",
+          "player": "Sasa Kalajdzic",
+          "team": "Austria"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-27-Jordan-Argentina",
+      "date": "2026-06-27",
+      "time": "21:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Jordan",
+        "score": 1
+      },
+      "away": {
+        "name": "Argentina",
+        "score": 3
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "55",
+          "player": "Mousa Al-Tamari",
+          "team": "Jordan"
+        },
+        {
+          "type": "goal",
+          "minute": "19",
+          "player": "Giovani Lo Celso",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "31",
+          "player": "Lautaro Martínez",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "80",
+          "player": "Lionel Messi",
+          "team": "Argentina"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-17-Portugal-DR Congo",
+      "date": "2026-06-17",
+      "time": "12:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Portugal",
+        "score": 1
+      },
+      "away": {
+        "name": "DR Congo",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "6",
+          "player": "João Neves",
+          "team": "Portugal"
+        },
+        {
+          "type": "goal",
+          "minute": "45+5",
+          "player": "Yoane Wissa",
+          "team": "DR Congo"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-17-Uzbekistan-Colombia",
+      "date": "2026-06-17",
+      "time": "20:00 UTC-6",
+      "status": "finished",
+      "home": {
+        "name": "Uzbekistan",
+        "score": 1
+      },
+      "away": {
+        "name": "Colombia",
+        "score": 3
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "60",
+          "player": "Abbosbek Fayzullaev",
+          "team": "Uzbekistan"
+        },
+        {
+          "type": "goal",
+          "minute": "40",
+          "player": "Daniel Muñoz",
+          "team": "Colombia"
+        },
+        {
+          "type": "goal",
+          "minute": "65",
+          "player": "Luis Díaz",
+          "team": "Colombia"
+        },
+        {
+          "type": "goal",
+          "minute": "90+9",
+          "player": "Jáminton Campaz",
+          "team": "Colombia"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-23-Portugal-Uzbekistan",
+      "date": "2026-06-23",
+      "time": "12:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Portugal",
+        "score": 5
+      },
+      "away": {
+        "name": "Uzbekistan",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "6",
+          "player": "Cristiano Ronaldo",
+          "team": "Portugal"
+        },
+        {
+          "type": "goal",
+          "minute": "17",
+          "player": "Nuno Mendes",
+          "team": "Portugal"
+        },
+        {
+          "type": "goal",
+          "minute": "39",
+          "player": "Cristiano Ronaldo",
+          "team": "Portugal"
+        },
+        {
+          "type": "goal",
+          "minute": "60",
+          "player": "Abduvohid Nematov",
+          "team": "Portugal"
+        },
+        {
+          "type": "goal",
+          "minute": "87",
+          "player": "Rafael Leão",
+          "team": "Portugal"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-23-Colombia-DR Congo",
+      "date": "2026-06-23",
+      "time": "20:00 UTC-6",
+      "status": "finished",
+      "home": {
+        "name": "Colombia",
+        "score": 1
+      },
+      "away": {
+        "name": "DR Congo",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "76",
+          "player": "Daniel Muñoz",
+          "team": "Colombia"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-27-Colombia-Portugal",
+      "date": "2026-06-27",
+      "time": "19:30 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Colombia",
+        "score": 0
+      },
+      "away": {
+        "name": "Portugal",
+        "score": 0
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-27-DR Congo-Uzbekistan",
+      "date": "2026-06-27",
+      "time": "19:30 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "DR Congo",
+        "score": 3
+      },
+      "away": {
+        "name": "Uzbekistan",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "68",
+          "player": "Yoane Wissa",
+          "team": "DR Congo"
+        },
+        {
+          "type": "goal",
+          "minute": "78",
+          "player": "Fiston Mayele",
+          "team": "DR Congo"
+        },
+        {
+          "type": "goal",
+          "minute": "90+1",
+          "player": "Yoane Wissa",
+          "team": "DR Congo"
+        },
+        {
+          "type": "goal",
+          "minute": "10",
+          "player": "Eldor Shomurodov",
+          "team": "Uzbekistan"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-17-England-Croatia",
+      "date": "2026-06-17",
+      "time": "15:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "England",
+        "score": 4
+      },
+      "away": {
+        "name": "Croatia",
+        "score": 2
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "12",
+          "player": "Harry Kane",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "42",
+          "player": "Harry Kane",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "47",
+          "player": "Jude Bellingham",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "85",
+          "player": "Marcus Rashford",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "36",
+          "player": "Martin Baturina",
+          "team": "Croatia"
+        },
+        {
+          "type": "goal",
+          "minute": "45+5",
+          "player": "Petar Musa",
+          "team": "Croatia"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-17-Ghana-Panama",
+      "date": "2026-06-17",
+      "time": "19:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Ghana",
+        "score": 1
+      },
+      "away": {
+        "name": "Panama",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "90+5",
+          "player": "Caleb Yirenkyi",
+          "team": "Ghana"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-23-England-Ghana",
+      "date": "2026-06-23",
+      "time": "16:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "England",
+        "score": 0
+      },
+      "away": {
+        "name": "Ghana",
+        "score": 0
+      },
+      "events": []
+    },
+    {
+      "id": "2026-06-23-Panama-Croatia",
+      "date": "2026-06-23",
+      "time": "19:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Panama",
+        "score": 0
+      },
+      "away": {
+        "name": "Croatia",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "54",
+          "player": "Ante Budimir",
+          "team": "Croatia"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-27-Panama-England",
+      "date": "2026-06-27",
+      "time": "17:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Panama",
+        "score": 0
+      },
+      "away": {
+        "name": "England",
+        "score": 2
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "62",
+          "player": "Jude Bellingham",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "67",
+          "player": "Harry Kane",
+          "team": "England"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-27-Croatia-Ghana",
+      "date": "2026-06-27",
+      "time": "17:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Croatia",
+        "score": 2
+      },
+      "away": {
+        "name": "Ghana",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "31",
+          "player": "Petar Sucic",
+          "team": "Croatia"
+        },
+        {
+          "type": "goal",
+          "minute": "83",
+          "player": "Nikola Vlasic",
+          "team": "Croatia"
+        },
+        {
+          "type": "goal",
+          "minute": "73",
+          "player": "Derrick Luckassen",
+          "team": "Ghana"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-28-South Africa-Canada",
+      "date": "2026-06-28",
+      "time": "12:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "South Africa",
+        "score": 0
+      },
+      "away": {
+        "name": "Canada",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "90+2",
+          "player": "Stephan Eustáquio",
+          "team": "Canada"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-29-Germany-Paraguay",
+      "date": "2026-06-29",
+      "time": "16:30 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Germany",
+        "score": 1
+      },
+      "away": {
+        "name": "Paraguay",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "54",
+          "player": "Kai Havertz",
+          "team": "Germany"
+        },
+        {
+          "type": "goal",
+          "minute": "42",
+          "player": "Julio Enciso",
+          "team": "Paraguay"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-29-Netherlands-Morocco",
+      "date": "2026-06-29",
+      "time": "19:00 UTC-6",
+      "status": "finished",
+      "home": {
+        "name": "Netherlands",
+        "score": 1
+      },
+      "away": {
+        "name": "Morocco",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "72",
+          "player": "Cody Gakpo",
+          "team": "Netherlands"
+        },
+        {
+          "type": "goal",
+          "minute": "90+1",
+          "player": "Issa Diop",
+          "team": "Morocco"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-29-Brazil-Japan",
+      "date": "2026-06-29",
+      "time": "12:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Brazil",
+        "score": 2
+      },
+      "away": {
+        "name": "Japan",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "56",
+          "player": "Casemiro",
+          "team": "Brazil"
+        },
+        {
+          "type": "goal",
+          "minute": "90+5",
+          "player": "Gabriel Martinelli",
+          "team": "Brazil"
+        },
+        {
+          "type": "goal",
+          "minute": "29",
+          "player": "Kaishu Sano",
+          "team": "Japan"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-30-France-Sweden",
+      "date": "2026-06-30",
+      "time": "17:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "France",
+        "score": 3
+      },
+      "away": {
+        "name": "Sweden",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "45",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "53",
+          "player": "Bradley Barcola",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "74",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-30-Ivory Coast-Norway",
+      "date": "2026-06-30",
+      "time": "12:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Ivory Coast",
+        "score": 1
+      },
+      "away": {
+        "name": "Norway",
+        "score": 2
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "74",
+          "player": "Amad Diallo",
+          "team": "Ivory Coast"
+        },
+        {
+          "type": "goal",
+          "minute": "39",
+          "player": "Antonio Nusa",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "86",
+          "player": "Erling Haaland",
+          "team": "Norway"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-30-Mexico-Ecuador",
+      "date": "2026-06-30",
+      "time": "19:00 UTC-6",
+      "status": "finished",
+      "home": {
+        "name": "Mexico",
+        "score": 2
+      },
+      "away": {
+        "name": "Ecuador",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "31",
+          "player": "Julián Quiñones",
+          "team": "Mexico"
+        },
+        {
+          "type": "goal",
+          "minute": "45+1",
+          "player": "Raúl Jiménez",
+          "team": "Mexico"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-01-England-DR Congo",
+      "date": "2026-07-01",
+      "time": "12:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "England",
+        "score": 2
+      },
+      "away": {
+        "name": "DR Congo",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "75",
+          "player": "Harry Kane",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "86",
+          "player": "Harry Kane",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "7",
+          "player": "Brian Cipenga",
+          "team": "DR Congo"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-01-USA-Bosnia & Herzegovina",
+      "date": "2026-07-01",
+      "time": "17:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "USA",
+        "score": 2
+      },
+      "away": {
+        "name": "Bosnia & Herzegovina",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "45",
+          "player": "Folarin Balogun",
+          "team": "USA"
+        },
+        {
+          "type": "goal",
+          "minute": "82",
+          "player": "Malik Tillman",
+          "team": "USA"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-01-Belgium-Senegal",
+      "date": "2026-07-01",
+      "time": "13:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Belgium",
+        "score": 2
+      },
+      "away": {
+        "name": "Senegal",
+        "score": 2
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "86",
+          "player": "Romelu Lukaku",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "89",
+          "player": "Youri Tielemans",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "120+5",
+          "player": "Youri Tielemans",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "25",
+          "player": "Habib Diarra",
+          "team": "Senegal"
+        },
+        {
+          "type": "goal",
+          "minute": "51",
+          "player": "Ismaïla Sarr",
+          "team": "Senegal"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-02-Portugal-Croatia",
+      "date": "2026-07-02",
+      "time": "19:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Portugal",
+        "score": 2
+      },
+      "away": {
+        "name": "Croatia",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "68",
+          "player": "Cristiano Ronaldo",
+          "team": "Portugal"
+        },
+        {
+          "type": "goal",
+          "minute": "90+4",
+          "player": "Gonçalo Ramos",
+          "team": "Portugal"
+        },
+        {
+          "type": "goal",
+          "minute": "53",
+          "player": "Ivan Perisic",
+          "team": "Croatia"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-02-Spain-Austria",
+      "date": "2026-07-02",
+      "time": "12:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Spain",
+        "score": 3
+      },
+      "away": {
+        "name": "Austria",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "36",
+          "player": "Mikel Oyarzabal",
+          "team": "Spain"
+        },
+        {
+          "type": "goal",
+          "minute": "66",
+          "player": "Pedro Porro",
+          "team": "Spain"
+        },
+        {
+          "type": "goal",
+          "minute": "89",
+          "player": "Mikel Oyarzabal",
+          "team": "Spain"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-02-Switzerland-Algeria",
+      "date": "2026-07-02",
+      "time": "20:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Switzerland",
+        "score": 2
+      },
+      "away": {
+        "name": "Algeria",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "10",
+          "player": "Breel Embolo",
+          "team": "Switzerland"
+        },
+        {
+          "type": "goal",
+          "minute": "46",
+          "player": "Dan Ndoye",
+          "team": "Switzerland"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-03-Argentina-Cape Verde",
+      "date": "2026-07-03",
+      "time": "18:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Argentina",
+        "score": 1
+      },
+      "away": {
+        "name": "Cape Verde",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "29",
+          "player": "Lionel Messi",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "92",
+          "player": "Lisandro Martínez",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "111",
+          "player": "Diney Borges",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "59",
+          "player": "Deroy Duarte",
+          "team": "Cape Verde"
+        },
+        {
+          "type": "goal",
+          "minute": "103",
+          "player": "Sidny Lopes Cabral",
+          "team": "Cape Verde"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-03-Colombia-Ghana",
+      "date": "2026-07-03",
+      "time": "20:30 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Colombia",
+        "score": 1
+      },
+      "away": {
+        "name": "Ghana",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "14",
+          "player": "Jhon Arias",
+          "team": "Colombia"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-03-Australia-Egypt",
+      "date": "2026-07-03",
+      "time": "13:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Australia",
+        "score": 1
+      },
+      "away": {
+        "name": "Egypt",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "55",
+          "player": "Mohamed Hany",
+          "team": "Australia"
+        },
+        {
+          "type": "goal",
+          "minute": "13",
+          "player": "Emam Ashour",
+          "team": "Egypt"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-04-Paraguay-France",
+      "date": "2026-07-04",
+      "time": "17:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Paraguay",
+        "score": 0
+      },
+      "away": {
+        "name": "France",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "70",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-04-Canada-Morocco",
+      "date": "2026-07-04",
+      "time": "12:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Canada",
+        "score": 0
+      },
+      "away": {
+        "name": "Morocco",
+        "score": 3
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "50",
+          "player": "Azzedine Ounahi",
+          "team": "Morocco"
+        },
+        {
+          "type": "goal",
+          "minute": "82",
+          "player": "Azzedine Ounahi",
+          "team": "Morocco"
+        },
+        {
+          "type": "goal",
+          "minute": "90+8",
+          "player": "Soufiane Rahimi",
+          "team": "Morocco"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-05-Brazil-Norway",
+      "date": "2026-07-05",
+      "time": "16:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Brazil",
+        "score": 1
+      },
+      "away": {
+        "name": "Norway",
+        "score": 2
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "90+10",
+          "player": "Neymar",
+          "team": "Brazil"
+        },
+        {
+          "type": "goal",
+          "minute": "79",
+          "player": "Erling Haaland",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "90",
+          "player": "Erling Haaland",
+          "team": "Norway"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-05-Mexico-England",
+      "date": "2026-07-05",
+      "time": "18:00 UTC-6",
+      "status": "finished",
+      "home": {
+        "name": "Mexico",
+        "score": 2
+      },
+      "away": {
+        "name": "England",
+        "score": 3
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "42",
+          "player": "Julián Quiñones",
+          "team": "Mexico"
+        },
+        {
+          "type": "goal",
+          "minute": "69",
+          "player": "Raúl Jiménez",
+          "team": "Mexico"
+        },
+        {
+          "type": "goal",
+          "minute": "36",
+          "player": "Jude Bellingham",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "38",
+          "player": "Jude Bellingham",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "60",
+          "player": "Harry Kane",
+          "team": "England"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-06-Portugal-Spain",
+      "date": "2026-07-06",
+      "time": "14:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Portugal",
+        "score": 0
+      },
+      "away": {
+        "name": "Spain",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "90+1",
+          "player": "Mikel Merino",
+          "team": "Spain"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-06-USA-Belgium",
+      "date": "2026-07-06",
+      "time": "17:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "USA",
+        "score": 1
+      },
+      "away": {
+        "name": "Belgium",
+        "score": 4
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "31",
+          "player": "Malik Tillman",
+          "team": "USA"
+        },
+        {
+          "type": "goal",
+          "minute": "9",
+          "player": "Charles De Ketelaere",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "33",
+          "player": "Charles De Ketelaere",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "57",
+          "player": "Hans Vanaken",
+          "team": "Belgium"
+        },
+        {
+          "type": "goal",
+          "minute": "90+3",
+          "player": "Romelu Lukaku",
+          "team": "Belgium"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-07-Argentina-Egypt",
+      "date": "2026-07-07",
+      "time": "12:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Argentina",
+        "score": 3
+      },
+      "away": {
+        "name": "Egypt",
+        "score": 2
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "79",
+          "player": "Cristian Romero",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "83",
+          "player": "Lionel Messi",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "90+2",
+          "player": "Enzo Fernández",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "15",
+          "player": "Yasser Ibrahim",
+          "team": "Egypt"
+        },
+        {
+          "type": "goal",
+          "minute": "67",
+          "player": "Mostafa Zico",
+          "team": "Egypt"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-07-Switzerland-Colombia",
+      "date": "2026-07-07",
+      "time": "13:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Switzerland",
+        "score": 0
+      },
+      "away": {
+        "name": "Colombia",
+        "score": 0
+      },
+      "events": []
+    },
+    {
+      "id": "2026-07-09-France-Morocco",
+      "date": "2026-07-09",
+      "time": "16:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "France",
+        "score": 2
+      },
+      "away": {
+        "name": "Morocco",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "60",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "66",
+          "player": "Ousmane Dembélé",
+          "team": "France"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-10-Spain-Belgium",
+      "date": "2026-07-10",
+      "time": "12:00 UTC-7",
+      "status": "finished",
+      "home": {
+        "name": "Spain",
+        "score": 2
+      },
+      "away": {
+        "name": "Belgium",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "30",
+          "player": "Fabián Ruiz",
+          "team": "Spain"
+        },
+        {
+          "type": "goal",
+          "minute": "88",
+          "player": "Mikel Merino",
+          "team": "Spain"
+        },
+        {
+          "type": "goal",
+          "minute": "41",
+          "player": "Charles De Ketelaere",
+          "team": "Belgium"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-11-Norway-England",
+      "date": "2026-07-11",
+      "time": "17:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Norway",
+        "score": 1
+      },
+      "away": {
+        "name": "England",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "36",
+          "player": "Andreas Schjelderup",
+          "team": "Norway"
+        },
+        {
+          "type": "goal",
+          "minute": "45+2",
+          "player": "Jude Bellingham",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "93",
+          "player": "Jude Bellingham",
+          "team": "England"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-11-Argentina-Switzerland",
+      "date": "2026-07-11",
+      "time": "20:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "Argentina",
+        "score": 1
+      },
+      "away": {
+        "name": "Switzerland",
+        "score": 1
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "10",
+          "player": "Alexis Mac Allister",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "112",
+          "player": "Julián Álvarez",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "120+1",
+          "player": "Lautaro Martínez",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "67",
+          "player": "Dan Ndoye",
+          "team": "Switzerland"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-14-France-Spain",
+      "date": "2026-07-14",
+      "time": "14:00 UTC-5",
+      "status": "finished",
+      "home": {
+        "name": "France",
+        "score": 0
+      },
+      "away": {
+        "name": "Spain",
+        "score": 2
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "22",
+          "player": "Mikel Oyarzabal",
+          "team": "Spain"
+        },
+        {
+          "type": "goal",
+          "minute": "58",
+          "player": "Pedro Porro",
+          "team": "Spain"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-15-England-Argentina",
+      "date": "2026-07-15",
+      "time": "15:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "England",
+        "score": 1
+      },
+      "away": {
+        "name": "Argentina",
+        "score": 2
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "55",
+          "player": "Anthony Gordon",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "86",
+          "player": "Enzo Fernández",
+          "team": "Argentina"
+        },
+        {
+          "type": "goal",
+          "minute": "92",
+          "player": "Lautaro Martínez",
+          "team": "Argentina"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-18-France-England",
+      "date": "2026-07-18",
+      "time": "17:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "France",
+        "score": 4
+      },
+      "away": {
+        "name": "England",
+        "score": 6
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "48",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "54",
+          "player": "Bradley Barcola",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "66",
+          "player": "Kylian Mbappé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "90+6",
+          "player": "Ousmane Dembélé",
+          "team": "France"
+        },
+        {
+          "type": "goal",
+          "minute": "3",
+          "player": "Declan Rice",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "18",
+          "player": "Ezri Konsa",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "37",
+          "player": "Bukayo Saka",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "45+1",
+          "player": "Bukayo Saka",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "87",
+          "player": "Bukayo Saka",
+          "team": "England"
+        },
+        {
+          "type": "goal",
+          "minute": "90+8",
+          "player": "Jude Bellingham",
+          "team": "England"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-19-Spain-Argentina",
+      "date": "2026-07-19",
+      "time": "15:00 UTC-4",
+      "status": "finished",
+      "home": {
+        "name": "Spain",
+        "score": 0
+      },
+      "away": {
+        "name": "Argentina",
+        "score": 0
+      },
+      "events": [
+        {
+          "type": "goal",
+          "minute": "106",
+          "player": "Ferran Torres",
+          "team": "Spain"
+        }
+      ]
+    }
+  ],
+  "topScorers": [
+    {
+      "name": "Kylian Mbappé",
+      "goals": 10
+    },
+    {
+      "name": "Lionel Messi",
+      "goals": 8
+    },
+    {
+      "name": "Erling Haaland",
+      "goals": 7
+    },
+    {
+      "name": "Jude Bellingham",
+      "goals": 7
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "goals": 6
+    },
+    {
+      "name": "Harry Kane",
+      "goals": 6
+    },
+    {
+      "name": "Mikel Oyarzabal",
+      "goals": 5
+    },
+    {
+      "name": "Julián Quiñones",
+      "goals": 4
+    },
+    {
+      "name": "Vinícius Júnior",
+      "goals": 4
+    },
+    {
+      "name": "Ismaïla Sarr",
+      "goals": 4
+    }
+  ],
+  "topAssists": [],
+  "mostCards": [],
+  "tournament": "FIFA World Cup 2026"
 }
