@@ -1,5 +1,6 @@
 {
-  "lastUpdated": "2026-09-19T18:33:13.251Z",
+  "tournament": "FIFA World Cup 2026",
+  "lastUpdated": "2026-09-20T08:03:40.817Z",
   "groups": [
     {
       "name": "Group A",
@@ -643,6 +644,8 @@
       "id": "2026-06-11-Mexico-South Africa",
       "date": "2026-06-11",
       "time": "13:00 UTC-6",
+      "group": "Group A",
+      "round": "Matchday 1",
       "status": "finished",
       "home": {
         "name": "Mexico",
@@ -671,6 +674,8 @@
       "id": "2026-06-11-South Korea-Czech Republic",
       "date": "2026-06-11",
       "time": "20:00 UTC-6",
+      "group": "Group A",
+      "round": "Matchday 1",
       "status": "finished",
       "home": {
         "name": "South Korea",
@@ -705,6 +710,8 @@
       "id": "2026-06-18-Czech Republic-South Africa",
       "date": "2026-06-18",
       "time": "12:00 UTC-4",
+      "group": "Group A",
+      "round": "Matchday 8",
       "status": "finished",
       "home": {
         "name": "Czech Republic",
@@ -733,6 +740,8 @@
       "id": "2026-06-18-Mexico-South Korea",
       "date": "2026-06-18",
       "time": "19:00 UTC-6",
+      "group": "Group A",
+      "round": "Matchday 8",
       "status": "finished",
       "home": {
         "name": "Mexico",
@@ -755,6 +764,8 @@
       "id": "2026-06-24-Czech Republic-Mexico",
       "date": "2026-06-24",
       "time": "19:00 UTC-6",
+      "group": "Group A",
+      "round": "Matchday 14",
       "status": "finished",
       "home": {
         "name": "Czech Republic",
@@ -789,6 +800,8 @@
       "id": "2026-06-24-South Africa-South Korea",
       "date": "2026-06-24",
       "time": "19:00 UTC-6",
+      "group": "Group A",
+      "round": "Matchday 14",
       "status": "finished",
       "home": {
         "name": "South Africa",
@@ -811,6 +824,8 @@
       "id": "2026-06-12-Canada-Bosnia & Herzegovina",
       "date": "2026-06-12",
       "time": "15:00 UTC-4",
+      "group": "Group B",
+      "round": "Matchday 2",
       "status": "finished",
       "home": {
         "name": "Canada",
@@ -839,6 +854,8 @@
       "id": "2026-06-13-Qatar-Switzerland",
       "date": "2026-06-13",
       "time": "12:00 UTC-7",
+      "group": "Group B",
+      "round": "Matchday 3",
       "status": "finished",
       "home": {
         "name": "Qatar",
@@ -867,6 +884,8 @@
       "id": "2026-06-18-Switzerland-Bosnia & Herzegovina",
       "date": "2026-06-18",
       "time": "12:00 UTC-7",
+      "group": "Group B",
+      "round": "Matchday 8",
       "status": "finished",
       "home": {
         "name": "Switzerland",
@@ -913,6 +932,8 @@
       "id": "2026-06-18-Canada-Qatar",
       "date": "2026-06-18",
       "time": "15:00 UTC-7",
+      "group": "Group B",
+      "round": "Matchday 8",
       "status": "finished",
       "home": {
         "name": "Canada",
@@ -965,6 +986,8 @@
       "id": "2026-06-24-Switzerland-Canada",
       "date": "2026-06-24",
       "time": "12:00 UTC-7",
+      "group": "Group B",
+      "round": "Matchday 14",
       "status": "finished",
       "home": {
         "name": "Switzerland",
@@ -999,6 +1022,8 @@
       "id": "2026-06-24-Bosnia & Herzegovina-Qatar",
       "date": "2026-06-24",
       "time": "12:00 UTC-7",
+      "group": "Group B",
+      "round": "Matchday 14",
       "status": "finished",
       "home": {
         "name": "Bosnia & Herzegovina",
@@ -1039,6 +1064,8 @@
       "id": "2026-06-13-Brazil-Morocco",
       "date": "2026-06-13",
       "time": "18:00 UTC-4",
+      "group": "Group C",
+      "round": "Matchday 3",
       "status": "finished",
       "home": {
         "name": "Brazil",
@@ -1067,6 +1094,8 @@
       "id": "2026-06-13-Haiti-Scotland",
       "date": "2026-06-13",
       "time": "21:00 UTC-4",
+      "group": "Group C",
+      "round": "Matchday 3",
       "status": "finished",
       "home": {
         "name": "Haiti",
@@ -1089,6 +1118,8 @@
       "id": "2026-06-19-Scotland-Morocco",
       "date": "2026-06-19",
       "time": "18:00 UTC-4",
+      "group": "Group C",
+      "round": "Matchday 9",
       "status": "finished",
       "home": {
         "name": "Scotland",
@@ -1111,6 +1142,8 @@
       "id": "2026-06-19-Brazil-Haiti",
       "date": "2026-06-19",
       "time": "20:30 UTC-4",
+      "group": "Group C",
+      "round": "Matchday 9",
       "status": "finished",
       "home": {
         "name": "Brazil",
@@ -1145,6 +1178,8 @@
       "id": "2026-06-24-Scotland-Brazil",
       "date": "2026-06-24",
       "time": "18:00 UTC-4",
+      "group": "Group C",
+      "round": "Matchday 14",
       "status": "finished",
       "home": {
         "name": "Scotland",
@@ -1179,6 +1214,8 @@
       "id": "2026-06-24-Morocco-Haiti",
       "date": "2026-06-24",
       "time": "18:00 UTC-4",
+      "group": "Group C",
+      "round": "Matchday 14",
       "status": "finished",
       "home": {
         "name": "Morocco",
@@ -1231,6 +1268,8 @@
       "id": "2026-06-12-USA-Paraguay",
       "date": "2026-06-12",
       "time": "18:00 UTC-7",
+      "group": "Group D",
+      "round": "Matchday 2",
       "status": "finished",
       "home": {
         "name": "USA",
@@ -1277,6 +1316,8 @@
       "id": "2026-06-13-Australia-Turkey",
       "date": "2026-06-13",
       "time": "21:00 UTC-7",
+      "group": "Group D",
+      "round": "Matchday 3",
       "status": "finished",
       "home": {
         "name": "Australia",
@@ -1305,6 +1346,8 @@
       "id": "2026-06-19-USA-Australia",
       "date": "2026-06-19",
       "time": "12:00 UTC-7",
+      "group": "Group D",
+      "round": "Matchday 9",
       "status": "finished",
       "home": {
         "name": "USA",
@@ -1333,6 +1376,8 @@
       "id": "2026-06-19-Turkey-Paraguay",
       "date": "2026-06-19",
       "time": "20:00 UTC-7",
+      "group": "Group D",
+      "round": "Matchday 9",
       "status": "finished",
       "home": {
         "name": "Turkey",
@@ -1355,6 +1400,8 @@
       "id": "2026-06-25-Turkey-USA",
       "date": "2026-06-25",
       "time": "19:00 UTC-7",
+      "group": "Group D",
+      "round": "Matchday 15",
       "status": "finished",
       "home": {
         "name": "Turkey",
@@ -1401,6 +1448,8 @@
       "id": "2026-06-25-Paraguay-Australia",
       "date": "2026-06-25",
       "time": "19:00 UTC-7",
+      "group": "Group D",
+      "round": "Matchday 15",
       "status": "finished",
       "home": {
         "name": "Paraguay",
@@ -1416,6 +1465,8 @@
       "id": "2026-06-14-Germany-Curaçao",
       "date": "2026-06-14",
       "time": "12:00 UTC-5",
+      "group": "Group E",
+      "round": "Matchday 4",
       "status": "finished",
       "home": {
         "name": "Germany",
@@ -1480,6 +1531,8 @@
       "id": "2026-06-14-Ivory Coast-Ecuador",
       "date": "2026-06-14",
       "time": "19:00 UTC-4",
+      "group": "Group E",
+      "round": "Matchday 4",
       "status": "finished",
       "home": {
         "name": "Ivory Coast",
@@ -1502,6 +1555,8 @@
       "id": "2026-06-20-Germany-Ivory Coast",
       "date": "2026-06-20",
       "time": "16:00 UTC-4",
+      "group": "Group E",
+      "round": "Matchday 10",
       "status": "finished",
       "home": {
         "name": "Germany",
@@ -1536,6 +1591,8 @@
       "id": "2026-06-20-Ecuador-Curaçao",
       "date": "2026-06-20",
       "time": "19:00 UTC-5",
+      "group": "Group E",
+      "round": "Matchday 10",
       "status": "finished",
       "home": {
         "name": "Ecuador",
@@ -1551,6 +1608,8 @@
       "id": "2026-06-25-Curaçao-Ivory Coast",
       "date": "2026-06-25",
       "time": "16:00 UTC-4",
+      "group": "Group E",
+      "round": "Matchday 15",
       "status": "finished",
       "home": {
         "name": "Curaçao",
@@ -1579,6 +1638,8 @@
       "id": "2026-06-25-Ecuador-Germany",
       "date": "2026-06-25",
       "time": "16:00 UTC-4",
+      "group": "Group E",
+      "round": "Matchday 15",
       "status": "finished",
       "home": {
         "name": "Ecuador",
@@ -1613,6 +1674,8 @@
       "id": "2026-06-14-Netherlands-Japan",
       "date": "2026-06-14",
       "time": "15:00 UTC-5",
+      "group": "Group F",
+      "round": "Matchday 4",
       "status": "finished",
       "home": {
         "name": "Netherlands",
@@ -1653,6 +1716,8 @@
       "id": "2026-06-14-Sweden-Tunisia",
       "date": "2026-06-14",
       "time": "20:00 UTC-6",
+      "group": "Group F",
+      "round": "Matchday 4",
       "status": "finished",
       "home": {
         "name": "Sweden",
@@ -1705,6 +1770,8 @@
       "id": "2026-06-20-Netherlands-Sweden",
       "date": "2026-06-20",
       "time": "12:00 UTC-5",
+      "group": "Group F",
+      "round": "Matchday 10",
       "status": "finished",
       "home": {
         "name": "Netherlands",
@@ -1757,6 +1824,8 @@
       "id": "2026-06-20-Tunisia-Japan",
       "date": "2026-06-20",
       "time": "22:00 UTC-6",
+      "group": "Group F",
+      "round": "Matchday 10",
       "status": "finished",
       "home": {
         "name": "Tunisia",
@@ -1797,6 +1866,8 @@
       "id": "2026-06-25-Japan-Sweden",
       "date": "2026-06-25",
       "time": "18:00 UTC-5",
+      "group": "Group F",
+      "round": "Matchday 15",
       "status": "finished",
       "home": {
         "name": "Japan",
@@ -1825,6 +1896,8 @@
       "id": "2026-06-25-Tunisia-Netherlands",
       "date": "2026-06-25",
       "time": "18:00 UTC-5",
+      "group": "Group F",
+      "round": "Matchday 15",
       "status": "finished",
       "home": {
         "name": "Tunisia",
@@ -1865,6 +1938,8 @@
       "id": "2026-06-15-Belgium-Egypt",
       "date": "2026-06-15",
       "time": "12:00 UTC-7",
+      "group": "Group G",
+      "round": "Matchday 5",
       "status": "finished",
       "home": {
         "name": "Belgium",
@@ -1893,6 +1968,8 @@
       "id": "2026-06-15-Iran-New Zealand",
       "date": "2026-06-15",
       "time": "18:00 UTC-7",
+      "group": "Group G",
+      "round": "Matchday 5",
       "status": "finished",
       "home": {
         "name": "Iran",
@@ -1933,6 +2010,8 @@
       "id": "2026-06-21-Belgium-Iran",
       "date": "2026-06-21",
       "time": "12:00 UTC-7",
+      "group": "Group G",
+      "round": "Matchday 11",
       "status": "finished",
       "home": {
         "name": "Belgium",
@@ -1948,6 +2027,8 @@
       "id": "2026-06-21-New Zealand-Egypt",
       "date": "2026-06-21",
       "time": "18:00 UTC-7",
+      "group": "Group G",
+      "round": "Matchday 11",
       "status": "finished",
       "home": {
         "name": "New Zealand",
@@ -1988,6 +2069,8 @@
       "id": "2026-06-26-Egypt-Iran",
       "date": "2026-06-26",
       "time": "20:00 UTC-7",
+      "group": "Group G",
+      "round": "Matchday 16",
       "status": "finished",
       "home": {
         "name": "Egypt",
@@ -2016,6 +2099,8 @@
       "id": "2026-06-26-New Zealand-Belgium",
       "date": "2026-06-26",
       "time": "20:00 UTC-7",
+      "group": "Group G",
+      "round": "Matchday 16",
       "status": "finished",
       "home": {
         "name": "New Zealand",
@@ -2068,6 +2153,8 @@
       "id": "2026-06-15-Spain-Cape Verde",
       "date": "2026-06-15",
       "time": "12:00 UTC-4",
+      "group": "Group H",
+      "round": "Matchday 5",
       "status": "finished",
       "home": {
         "name": "Spain",
@@ -2083,6 +2170,8 @@
       "id": "2026-06-15-Saudi Arabia-Uruguay",
       "date": "2026-06-15",
       "time": "18:00 UTC-4",
+      "group": "Group H",
+      "round": "Matchday 5",
       "status": "finished",
       "home": {
         "name": "Saudi Arabia",
@@ -2111,6 +2200,8 @@
       "id": "2026-06-21-Spain-Saudi Arabia",
       "date": "2026-06-21",
       "time": "12:00 UTC-4",
+      "group": "Group H",
+      "round": "Matchday 11",
       "status": "finished",
       "home": {
         "name": "Spain",
@@ -2151,6 +2242,8 @@
       "id": "2026-06-21-Uruguay-Cape Verde",
       "date": "2026-06-21",
       "time": "18:00 UTC-4",
+      "group": "Group H",
+      "round": "Matchday 11",
       "status": "finished",
       "home": {
         "name": "Uruguay",
@@ -2191,6 +2284,8 @@
       "id": "2026-06-26-Cape Verde-Saudi Arabia",
       "date": "2026-06-26",
       "time": "19:00 UTC-5",
+      "group": "Group H",
+      "round": "Matchday 16",
       "status": "finished",
       "home": {
         "name": "Cape Verde",
@@ -2206,6 +2301,8 @@
       "id": "2026-06-26-Uruguay-Spain",
       "date": "2026-06-26",
       "time": "18:00 UTC-6",
+      "group": "Group H",
+      "round": "Matchday 16",
       "status": "finished",
       "home": {
         "name": "Uruguay",
@@ -2228,6 +2325,8 @@
       "id": "2026-06-16-France-Senegal",
       "date": "2026-06-16",
       "time": "15:00 UTC-4",
+      "group": "Group I",
+      "round": "Matchday 6",
       "status": "finished",
       "home": {
         "name": "France",
@@ -2268,6 +2367,8 @@
       "id": "2026-06-16-Iraq-Norway",
       "date": "2026-06-16",
       "time": "18:00 UTC-4",
+      "group": "Group I",
+      "round": "Matchday 6",
       "status": "finished",
       "home": {
         "name": "Iraq",
@@ -2314,6 +2415,8 @@
       "id": "2026-06-22-France-Iraq",
       "date": "2026-06-22",
       "time": "17:00 UTC-4",
+      "group": "Group I",
+      "round": "Matchday 12",
       "status": "finished",
       "home": {
         "name": "France",
@@ -2348,6 +2451,8 @@
       "id": "2026-06-22-Norway-Senegal",
       "date": "2026-06-22",
       "time": "20:00 UTC-4",
+      "group": "Group I",
+      "round": "Matchday 12",
       "status": "finished",
       "home": {
         "name": "Norway",
@@ -2394,6 +2499,8 @@
       "id": "2026-06-26-Norway-France",
       "date": "2026-06-26",
       "time": "15:00 UTC-4",
+      "group": "Group I",
+      "round": "Matchday 16",
       "status": "finished",
       "home": {
         "name": "Norway",
@@ -2440,6 +2547,8 @@
       "id": "2026-06-26-Senegal-Iraq",
       "date": "2026-06-26",
       "time": "15:00 UTC-4",
+      "group": "Group I",
+      "round": "Matchday 16",
       "status": "finished",
       "home": {
         "name": "Senegal",
@@ -2486,6 +2595,8 @@
       "id": "2026-06-16-Argentina-Algeria",
       "date": "2026-06-16",
       "time": "20:00 UTC-5",
+      "group": "Group J",
+      "round": "Matchday 6",
       "status": "finished",
       "home": {
         "name": "Argentina",
@@ -2520,6 +2631,8 @@
       "id": "2026-06-16-Austria-Jordan",
       "date": "2026-06-16",
       "time": "21:00 UTC-7",
+      "group": "Group J",
+      "round": "Matchday 6",
       "status": "finished",
       "home": {
         "name": "Austria",
@@ -2560,6 +2673,8 @@
       "id": "2026-06-22-Argentina-Austria",
       "date": "2026-06-22",
       "time": "12:00 UTC-5",
+      "group": "Group J",
+      "round": "Matchday 12",
       "status": "finished",
       "home": {
         "name": "Argentina",
@@ -2588,6 +2703,8 @@
       "id": "2026-06-22-Jordan-Algeria",
       "date": "2026-06-22",
       "time": "20:00 UTC-7",
+      "group": "Group J",
+      "round": "Matchday 12",
       "status": "finished",
       "home": {
         "name": "Jordan",
@@ -2622,6 +2739,8 @@
       "id": "2026-06-27-Algeria-Austria",
       "date": "2026-06-27",
       "time": "21:00 UTC-5",
+      "group": "Group J",
+      "round": "Matchday 17",
       "status": "finished",
       "home": {
         "name": "Algeria",
@@ -2674,6 +2793,8 @@
       "id": "2026-06-27-Jordan-Argentina",
       "date": "2026-06-27",
       "time": "21:00 UTC-5",
+      "group": "Group J",
+      "round": "Matchday 17",
       "status": "finished",
       "home": {
         "name": "Jordan",
@@ -2714,6 +2835,8 @@
       "id": "2026-06-17-Portugal-DR Congo",
       "date": "2026-06-17",
       "time": "12:00 UTC-5",
+      "group": "Group K",
+      "round": "Matchday 7",
       "status": "finished",
       "home": {
         "name": "Portugal",
@@ -2742,6 +2865,8 @@
       "id": "2026-06-17-Uzbekistan-Colombia",
       "date": "2026-06-17",
       "time": "20:00 UTC-6",
+      "group": "Group K",
+      "round": "Matchday 7",
       "status": "finished",
       "home": {
         "name": "Uzbekistan",
@@ -2782,6 +2907,8 @@
       "id": "2026-06-23-Portugal-Uzbekistan",
       "date": "2026-06-23",
       "time": "12:00 UTC-5",
+      "group": "Group K",
+      "round": "Matchday 13",
       "status": "finished",
       "home": {
         "name": "Portugal",
@@ -2828,6 +2955,8 @@
       "id": "2026-06-23-Colombia-DR Congo",
       "date": "2026-06-23",
       "time": "20:00 UTC-6",
+      "group": "Group K",
+      "round": "Matchday 13",
       "status": "finished",
       "home": {
         "name": "Colombia",
@@ -2850,6 +2979,8 @@
       "id": "2026-06-27-Colombia-Portugal",
       "date": "2026-06-27",
       "time": "19:30 UTC-4",
+      "group": "Group K",
+      "round": "Matchday 17",
       "status": "finished",
       "home": {
         "name": "Colombia",
@@ -2865,6 +2996,8 @@
       "id": "2026-06-27-DR Congo-Uzbekistan",
       "date": "2026-06-27",
       "time": "19:30 UTC-4",
+      "group": "Group K",
+      "round": "Matchday 17",
       "status": "finished",
       "home": {
         "name": "DR Congo",
@@ -2905,6 +3038,8 @@
       "id": "2026-06-17-England-Croatia",
       "date": "2026-06-17",
       "time": "15:00 UTC-5",
+      "group": "Group L",
+      "round": "Matchday 7",
       "status": "finished",
       "home": {
         "name": "England",
@@ -2957,6 +3092,8 @@
       "id": "2026-06-17-Ghana-Panama",
       "date": "2026-06-17",
       "time": "19:00 UTC-4",
+      "group": "Group L",
+      "round": "Matchday 7",
       "status": "finished",
       "home": {
         "name": "Ghana",
@@ -2979,6 +3116,8 @@
       "id": "2026-06-23-England-Ghana",
       "date": "2026-06-23",
       "time": "16:00 UTC-4",
+      "group": "Group L",
+      "round": "Matchday 13",
       "status": "finished",
       "home": {
         "name": "England",
@@ -2994,6 +3133,8 @@
       "id": "2026-06-23-Panama-Croatia",
       "date": "2026-06-23",
       "time": "19:00 UTC-4",
+      "group": "Group L",
+      "round": "Matchday 13",
       "status": "finished",
       "home": {
         "name": "Panama",
@@ -3016,6 +3157,8 @@
       "id": "2026-06-27-Panama-England",
       "date": "2026-06-27",
       "time": "17:00 UTC-4",
+      "group": "Group L",
+      "round": "Matchday 17",
       "status": "finished",
       "home": {
         "name": "Panama",
@@ -3044,6 +3187,8 @@
       "id": "2026-06-27-Croatia-Ghana",
       "date": "2026-06-27",
       "time": "17:00 UTC-4",
+      "group": "Group L",
+      "round": "Matchday 17",
       "status": "finished",
       "home": {
         "name": "Croatia",
@@ -3078,6 +3223,8 @@
       "id": "2026-06-28-South Africa-Canada",
       "date": "2026-06-28",
       "time": "12:00 UTC-7",
+      "group": null,
+      "round": "Round of 32",
       "status": "finished",
       "home": {
         "name": "South Africa",
@@ -3100,6 +3247,8 @@
       "id": "2026-06-29-Germany-Paraguay",
       "date": "2026-06-29",
       "time": "16:30 UTC-4",
+      "group": null,
+      "round": "Round of 32",
       "status": "finished",
       "home": {
         "name": "Germany",
@@ -3128,6 +3277,8 @@
       "id": "2026-06-29-Netherlands-Morocco",
       "date": "2026-06-29",
       "time": "19:00 UTC-6",
+      "group": null,
+      "round": "Round of 32",
       "status": "finished",
       "home": {
         "name": "Netherlands",
@@ -3156,6 +3307,8 @@
       "id": "2026-06-29-Brazil-Japan",
       "date": "2026-06-29",
       "time": "12:00 UTC-5",
+      "group": null,
+      "round": "Round of 32",
       "status": "finished",
       "home": {
         "name": "Brazil",
@@ -3190,6 +3343,8 @@
       "id": "2026-06-30-France-Sweden",
       "date": "2026-06-30",
       "time": "17:00 UTC-4",
+      "group": null,
+      "round": "Round of 32",
       "status": "finished",
       "home": {
         "name": "France",
@@ -3224,6 +3379,8 @@
       "id": "2026-06-30-Ivory Coast-Norway",
       "date": "2026-06-30",
       "time": "12:00 UTC-5",
+      "group": null,
+      "round": "Round of 32",
       "status": "finished",
       "home": {
         "name": "Ivory Coast",
@@ -3258,6 +3415,8 @@
       "id": "2026-06-30-Mexico-Ecuador",
       "date": "2026-06-30",
       "time": "19:00 UTC-6",
+      "group": null,
+      "round": "Round of 32",
       "status": "finished",
       "home": {
         "name": "Mexico",
@@ -3286,6 +3445,8 @@
       "id": "2026-07-01-England-DR Congo",
       "date": "2026-07-01",
       "time": "12:00 UTC-4",
+      "group": null,
+      "round": "Round of 32",
       "status": "finished",
       "home": {
         "name": "England",
@@ -3320,6 +3481,8 @@
       "id": "2026-07-01-USA-Bosnia & Herzegovina",
       "date": "2026-07-01",
       "time": "17:00 UTC-7",
+      "group": null,
+      "round": "Round of 32",
       "status": "finished",
       "home": {
         "name": "USA",
@@ -3348,6 +3511,8 @@
       "id": "2026-07-01-Belgium-Senegal",
       "date": "2026-07-01",
       "time": "13:00 UTC-7",
+      "group": null,
+      "round": "Round of 32",
       "status": "finished",
       "home": {
         "name": "Belgium",
@@ -3394,6 +3559,8 @@
       "id": "2026-07-02-Portugal-Croatia",
       "date": "2026-07-02",
       "time": "19:00 UTC-4",
+      "group": null,
+      "round": "Round of 32",
       "status": "finished",
       "home": {
         "name": "Portugal",
@@ -3428,6 +3595,8 @@
       "id": "2026-07-02-Spain-Austria",
       "date": "2026-07-02",
       "time": "12:00 UTC-7",
+      "group": null,
+      "round": "Round of 32",
       "status": "finished",
       "home": {
         "name": "Spain",
@@ -3462,6 +3631,8 @@
       "id": "2026-07-02-Switzerland-Algeria",
       "date": "2026-07-02",
       "time": "20:00 UTC-7",
+      "group": null,
+      "round": "Round of 32",
       "status": "finished",
       "home": {
         "name": "Switzerland",
@@ -3490,6 +3661,8 @@
       "id": "2026-07-03-Argentina-Cape Verde",
       "date": "2026-07-03",
       "time": "18:00 UTC-4",
+      "group": null,
+      "round": "Round of 32",
       "status": "finished",
       "home": {
         "name": "Argentina",
@@ -3536,6 +3709,8 @@
       "id": "2026-07-03-Colombia-Ghana",
       "date": "2026-07-03",
       "time": "20:30 UTC-5",
+      "group": null,
+      "round": "Round of 32",
       "status": "finished",
       "home": {
         "name": "Colombia",
@@ -3558,6 +3733,8 @@
       "id": "2026-07-03-Australia-Egypt",
       "date": "2026-07-03",
       "time": "13:00 UTC-5",
+      "group": null,
+      "round": "Round of 32",
       "status": "finished",
       "home": {
         "name": "Australia",
@@ -3586,6 +3763,8 @@
       "id": "2026-07-04-Paraguay-France",
       "date": "2026-07-04",
       "time": "17:00 UTC-4",
+      "group": null,
+      "round": "Round of 16",
       "status": "finished",
       "home": {
         "name": "Paraguay",
@@ -3608,6 +3787,8 @@
       "id": "2026-07-04-Canada-Morocco",
       "date": "2026-07-04",
       "time": "12:00 UTC-5",
+      "group": null,
+      "round": "Round of 16",
       "status": "finished",
       "home": {
         "name": "Canada",
@@ -3642,6 +3823,8 @@
       "id": "2026-07-05-Brazil-Norway",
       "date": "2026-07-05",
       "time": "16:00 UTC-4",
+      "group": null,
+      "round": "Round of 16",
       "status": "finished",
       "home": {
         "name": "Brazil",
@@ -3676,6 +3859,8 @@
       "id": "2026-07-05-Mexico-England",
       "date": "2026-07-05",
       "time": "18:00 UTC-6",
+      "group": null,
+      "round": "Round of 16",
       "status": "finished",
       "home": {
         "name": "Mexico",
@@ -3722,6 +3907,8 @@
       "id": "2026-07-06-Portugal-Spain",
       "date": "2026-07-06",
       "time": "14:00 UTC-5",
+      "group": null,
+      "round": "Round of 16",
       "status": "finished",
       "home": {
         "name": "Portugal",
@@ -3744,6 +3931,8 @@
       "id": "2026-07-06-USA-Belgium",
       "date": "2026-07-06",
       "time": "17:00 UTC-7",
+      "group": null,
+      "round": "Round of 16",
       "status": "finished",
       "home": {
         "name": "USA",
@@ -3790,6 +3979,8 @@
       "id": "2026-07-07-Argentina-Egypt",
       "date": "2026-07-07",
       "time": "12:00 UTC-4",
+      "group": null,
+      "round": "Round of 16",
       "status": "finished",
       "home": {
         "name": "Argentina",
@@ -3836,6 +4027,8 @@
       "id": "2026-07-07-Switzerland-Colombia",
       "date": "2026-07-07",
       "time": "13:00 UTC-7",
+      "group": null,
+      "round": "Round of 16",
       "status": "finished",
       "home": {
         "name": "Switzerland",
@@ -3851,6 +4044,8 @@
       "id": "2026-07-09-France-Morocco",
       "date": "2026-07-09",
       "time": "16:00 UTC-4",
+      "group": null,
+      "round": "Quarter-final",
       "status": "finished",
       "home": {
         "name": "France",
@@ -3879,6 +4074,8 @@
       "id": "2026-07-10-Spain-Belgium",
       "date": "2026-07-10",
       "time": "12:00 UTC-7",
+      "group": null,
+      "round": "Quarter-final",
       "status": "finished",
       "home": {
         "name": "Spain",
@@ -3913,6 +4110,8 @@
       "id": "2026-07-11-Norway-England",
       "date": "2026-07-11",
       "time": "17:00 UTC-4",
+      "group": null,
+      "round": "Quarter-final",
       "status": "finished",
       "home": {
         "name": "Norway",
@@ -3947,6 +4146,8 @@
       "id": "2026-07-11-Argentina-Switzerland",
       "date": "2026-07-11",
       "time": "20:00 UTC-5",
+      "group": null,
+      "round": "Quarter-final",
       "status": "finished",
       "home": {
         "name": "Argentina",
@@ -3987,6 +4188,8 @@
       "id": "2026-07-14-France-Spain",
       "date": "2026-07-14",
       "time": "14:00 UTC-5",
+      "group": null,
+      "round": "Semi-final",
       "status": "finished",
       "home": {
         "name": "France",
@@ -4015,6 +4218,8 @@
       "id": "2026-07-15-England-Argentina",
       "date": "2026-07-15",
       "time": "15:00 UTC-4",
+      "group": null,
+      "round": "Semi-final",
       "status": "finished",
       "home": {
         "name": "England",
@@ -4049,6 +4254,8 @@
       "id": "2026-07-18-France-England",
       "date": "2026-07-18",
       "time": "17:00 UTC-4",
+      "group": null,
+      "round": "Match for third place",
       "status": "finished",
       "home": {
         "name": "France",
@@ -4125,6 +4332,8 @@
       "id": "2026-07-19-Spain-Argentina",
       "date": "2026-07-19",
       "time": "15:00 UTC-4",
+      "group": null,
+      "round": "Final",
       "status": "finished",
       "home": {
         "name": "Spain",
@@ -4162,16 +4371,20 @@
       "goals": 7
     },
     {
-      "name": "Ousmane Dembélé",
+      "name": "Harry Kane",
       "goals": 6
     },
     {
-      "name": "Harry Kane",
+      "name": "Ousmane Dembélé",
       "goals": 6
     },
     {
       "name": "Mikel Oyarzabal",
       "goals": 5
+    },
+    {
+      "name": "Ismaïla Sarr",
+      "goals": 4
     },
     {
       "name": "Julián Quiñones",
@@ -4180,13 +4393,6 @@
     {
       "name": "Vinícius Júnior",
       "goals": 4
-    },
-    {
-      "name": "Ismaïla Sarr",
-      "goals": 4
     }
-  ],
-  "topAssists": [],
-  "mostCards": [],
-  "tournament": "FIFA World Cup 2026"
+  ]
 }
