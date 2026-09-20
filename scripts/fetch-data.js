@@ -8,7 +8,7 @@ const SOURCE_BASE_URLS = [
   'https://raw.githubusercontent.com/openfootball/england.json/main',
   'https://raw.githubusercontent.com/openfootball/england.json/master',
 ];
-const MAX_SEASONS_TO_TRY = 5;
+const MAX_SEASONS_TO_TRY = 10;
 // OpenFootball names league files after their country and division. The former
 // 1-premierleague.json filename is not present in the england.json repository.
 const SOURCE_FILE_NAME = 'eng.1.json';
@@ -124,10 +124,28 @@ function formatMatches(rawMatches) {
   });
 }
 
-async function main() {
-  const requestedSeason = getCurrentSeason();
+async function main({ fetchImpl = fetch, today = new Date(), outPath } = {}) {
+  const requestedSeason = getCurrentSeason(today);
+  const outputPath = outPath || path.join(__dirname, '..', 'data', 'optimized.json');
   console.log(`Fetching ${LEAGUE_NAME} ${requestedSeason} data...`);
-  const { season, raw } = await fetchLatestAvailableSeason();
+  let source;
+
+  try {
+    source = await fetchLatestAvailableSeason(fetchImpl, today);
+  } catch (error) {
+    const isMissingSeason = error.message.startsWith('Unable to find Premier League fixture data.');
+
+    if (isMissingSeason && fs.existsSync(outputPath)) {
+      console.warn(
+        `⚠️ No published OpenFootball season is available yet. Keeping the existing data in ${outputPath}.`,
+      );
+      return;
+    }
+
+    throw error;
+  }
+
+  const { season, raw } = source;
   if (season !== requestedSeason) {
     console.warn(`⚠️ ${requestedSeason} data is not available yet; using ${season} instead.`);
   }
@@ -141,10 +159,9 @@ async function main() {
     standings: calculateTable(matches),
     matches,
   };
-  const outPath = path.join(__dirname, '..', 'data', 'optimized.json');
-  fs.mkdirSync(path.dirname(outPath), { recursive: true });
-  fs.writeFileSync(outPath, `${JSON.stringify(optimized, null, 2)}\n`);
-  console.log(`✅ Data written to ${outPath}`);
+  fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+  fs.writeFileSync(outputPath, `${JSON.stringify(optimized, null, 2)}\n`);
+  console.log(`✅ Data written to ${outputPath}`);
   console.log(`   Teams: ${optimized.standings.length}, Matches: ${matches.length}`);
 }
 
@@ -162,5 +179,6 @@ module.exports = {
   getCurrentSeason,
   getPreviousSeason,
   getSeasonCandidates,
+  main,
   SOURCE_BASE_URLS,
 };
