@@ -4,114 +4,52 @@ const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
 
-const {
-  fetchLatestAvailableSeason,
-  getCurrentSeason,
-  getSeasonCandidates,
-  main,
-} = require('./fetch-data');
+const { calculateGroups, fetchTournament, formatMatches, main } = require('./fetch-data');
 
-test('getCurrentSeason uses the season that starts in July', () => {
-  assert.equal(getCurrentSeason(new Date('2026-06-30T12:00:00Z')), '2025-26');
-  assert.equal(getCurrentSeason(new Date('2026-07-01T00:00:00Z')), '2026-27');
+const rawMatches = [{
+  date: '2026-06-11', time: '13:00 UTC-6', group: 'Group A', team1: 'Mexico', team2: 'South Africa',
+  score: { ft: [2, 0] }, goals1: [{ name: 'Player One', minute: 10 }], cards2: [{ name: 'Player Two', minute: 20 }],
+}, {
+  date: '2026-06-12', group: 'Group A', team1: 'South Africa', team2: 'Korea Republic',
+}];
+
+test('formatMatches preserves World Cup metadata and distinguishes scheduled matches', () => {
+  const [finished, scheduled] = formatMatches(rawMatches);
+  assert.equal(finished.group, 'Group A');
+  assert.equal(finished.status, 'finished');
+  assert.deepEqual(finished.home, { name: 'Mexico', score: 2 });
+  assert.equal(finished.events.length, 2);
+  assert.equal(scheduled.status, 'scheduled');
+  assert.equal(scheduled.home.score, null);
 });
 
-test('getSeasonCandidates starts with the requested season and works backwards', () => {
-  assert.deepEqual(
-    getSeasonCandidates(new Date('2026-09-19T00:00:00Z'), 3),
-    ['2026-27', '2025-26', '2024-25'],
-  );
-});
-
-test('getSeasonCandidates searches ten seasons by default', () => {
-  const seasons = getSeasonCandidates(new Date('2026-09-19T00:00:00Z'));
-
-  assert.equal(seasons.length, 10);
-  assert.equal(seasons.at(-1), '2017-18');
-});
-
-test('fetchLatestAvailableSeason falls back when the current season file is not published', async () => {
-  const requestedUrls = [];
-  const fetchImpl = async (url) => {
-    requestedUrls.push(url);
-    if (url.includes('/2026-27/') || url.includes('/main/')) return { ok: false, status: 404 };
-    return {
-      ok: true,
-      status: 200,
-      json: async () => ({ matches: [{ team1: 'Arsenal', team2: 'Chelsea' }] }),
-    };
-  };
-
-  const result = await fetchLatestAvailableSeason(fetchImpl, new Date('2026-09-19T00:00:00Z'));
-
-  assert.equal(result.season, '2025-26');
-  assert.match(result.sourceUrl, /2025-26\/eng\.1\.json$/);
-  assert.equal(requestedUrls.length, 4);
-});
-
-test('fetchLatestAvailableSeason prefers OpenFootball’s main branch and country-and-division filename', async () => {
-  const requestedUrls = [];
-  const fetchImpl = async (url) => {
-    requestedUrls.push(url);
-    return {
-      ok: true,
-      status: 200,
-      json: async () => ({ matches: [{ team1: 'Arsenal', team2: 'Chelsea' }] }),
-    };
-  };
-
-  await fetchLatestAvailableSeason(fetchImpl, new Date('2026-09-19T00:00:00Z'));
-
-  assert.deepEqual(requestedUrls, [
-    'https://raw.githubusercontent.com/openfootball/england.json/main/2026-27/eng.1.json',
+test('calculateGroups includes scheduled teams without awarding them points', () => {
+  const [group] = calculateGroups(formatMatches(rawMatches));
+  assert.equal(group.name, 'Group A');
+  assert.deepEqual(group.teams.map(({ name, points, played }) => ({ name, points, played })), [
+    { name: 'Mexico', points: 3, played: 1 },
+    { name: 'Korea Republic', points: 0, played: 0 },
+    { name: 'South Africa', points: 0, played: 1 },
   ]);
 });
 
-test('fetchLatestAvailableSeason retries master when main does not contain the data', async () => {
-  const requestedUrls = [];
-  const fetchImpl = async (url) => {
-    requestedUrls.push(url);
-    if (url.includes('/main/')) return { ok: false, status: 404 };
-    return {
-      ok: true,
-      status: 200,
-      json: async () => ({ matches: [{ team1: 'Arsenal', team2: 'Chelsea' }] }),
-    };
-  };
-
-  const result = await fetchLatestAvailableSeason(fetchImpl, new Date('2026-09-19T00:00:00Z'));
-
-  assert.match(result.sourceUrl, /master\/2026-27\/eng\.1\.json$/);
-  assert.equal(requestedUrls.length, 2);
+test('fetchTournament falls back to the legacy branch when main is unavailable', async () => {
+  const urls = [];
+  const result = await fetchTournament(async (url) => {
+    urls.push(url);
+    return url.includes('/main/') ? { ok: false } : { ok: true, json: async () => ({ matches: rawMatches }) };
+  });
+  assert.match(result.sourceUrl, /master\/2026\/worldcup\.json$/);
+  assert.equal(urls.length, 2);
 });
 
-test('fetchLatestAvailableSeason reports an upstream error without masking it as missing data', async () => {
-  await assert.rejects(
-    fetchLatestAvailableSeason(
-      async () => ({ ok: false, status: 500 }),
-      new Date('2026-09-19T00:00:00Z'),
-    ),
-    /HTTP 500/,
-  );
-});
-
-test('main preserves existing data when no published season contains matches', async () => {
+test('main keeps the last good dataset when both providers fail', async () => {
   const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'fetch-data-'));
   const outPath = path.join(directory, 'optimized.json');
-  const existingData = '{"season":"2025-26"}\n';
+  const existingData = '{"matches":["last-good"]}\n';
   fs.writeFileSync(outPath, existingData);
-
   try {
-    await main({
-      fetchImpl: async () => ({
-        ok: true,
-        status: 200,
-        json: async () => ({ matches: [] }),
-      }),
-      today: new Date('2026-09-19T00:00:00Z'),
-      outPath,
-    });
-
+    await main({ fetchImpl: async () => ({ ok: false }), outPath });
     assert.equal(fs.readFileSync(outPath, 'utf8'), existingData);
   } finally {
     fs.rmSync(directory, { recursive: true, force: true });

@@ -1,20 +1,20 @@
-# Premier League Tracker
+# FIFA World Cup 2026 Tracker
 
-A lightweight static dashboard for the current Premier League season. It displays a live league table plus fixtures and results from a compact, preprocessed JSON file.
+A lightweight static dashboard for the FIFA World Cup 2026. It displays live group standings plus fixtures and results from a compact, preprocessed JSON file.
 
 ## Features
 
-- **Current-season aware:** the data job automatically selects the Premier League season running from July through June (for example, `2026-27`). If OpenFootball has not published that season's file yet, it uses the newest available prior season instead of failing.
-- **League table:** played, wins, draws, losses, goals for/against, goal difference, and points calculated from completed fixtures.
+- **World Cup data:** the data job downloads the 2026 tournament schedule and results from the OpenFootball World Cup dataset.
+- **Group standings:** played, wins, draws, losses, goals for/against, goal difference, and points calculated from completed group matches.
 - **Fixtures and results:** clearly labeled upcoming matches and final scores, grouped by match date.
 - **Low-data delivery:** the browser loads only static HTML, CSS, JavaScript, and `data/optimized.json`, with a five-minute local cache and a manual refresh option.
 - **Automated updates:** GitHub Actions refreshes the data every 30 minutes between 08:00 and 23:59 UTC.
 
 ## How it works
 
-`scripts/fetch-data.js` downloads the current Premier League fixture data from the [OpenFootball England dataset](https://github.com/openfootball/england.json), calculates the table from completed matches, and writes `data/optimized.json`. The browser app in `js/app.js` renders the table and fixtures from that optimized file.
+`scripts/fetch-data.js` downloads World Cup 2026 data from the [OpenFootball World Cup dataset](https://github.com/openfootball/worldcup.json), calculates group standings from completed matches, and writes `data/optimized.json`. The browser app in `js/app.js` renders the standings and fixtures from that optimized file.
 
-The fetch job reads OpenFootball's `eng.1.json` Premier League files from its current `main` branch, with `master` retained as a compatibility fallback. It tries the current season first, then up to nine earlier seasons when a source file is missing or contains no fixtures. If OpenFootball has not published any usable season and `data/optimized.json` already exists, the scheduled job keeps that dataset and exits successfully.
+The fetch job reads OpenFootball's `2026/worldcup.json` file from its current `main` branch, with `master` retained as a compatibility fallback. If neither source is available, the scheduled job preserves the last successfully generated `data/optimized.json` instead of replacing it with an empty dataset.
 
 ## Getting started
 
@@ -29,7 +29,7 @@ Then open <http://localhost:8000>. Use a web server rather than opening `index.h
 
 ## Data model
 
-`data/optimized.json` contains `league`, `season`, `lastUpdated`, `standings`, and `matches`. The fetch command updates all fields from the upstream season data.
+`data/optimized.json` contains `tournament`, `lastUpdated`, `groups`, `matches`, and `topScorers`. The fetch command updates all fields from the upstream tournament data.
 
 ## Deployment
 
